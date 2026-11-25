@@ -1,6 +1,6 @@
 {
  "updated": "2026-11-25",
- "count": 1320,
+ "count": 1242,
  "companies": [
   {
    "id": "Q131723",
@@ -441,6 +441,40 @@
    ]
   },
   {
+   "id": "Q58024",
+   "name": "eBay",
+   "name_ru": null,
+   "aliases": [
+    "EBAY",
+    "ebay.com"
+   ],
+   "country": "США",
+   "region": "Северная Америка",
+   "sector": "Электронная торговля",
+   "industries": [
+    "retail",
+    "e-commerce"
+   ],
+   "founded": 1995,
+   "exchange": "NASDAQ",
+   "ticker": "EBAY",
+   "founders": [
+    "Пьер Омидьяр"
+   ],
+   "ceo": [
+    "Jamie Iannone"
+   ],
+   "hq": [
+    "Сан-Хосе"
+   ],
+   "popularity": 91,
+   "level": "лёгкий",
+   "source": "https://www.wikidata.org/wiki/Q58024",
+   "problems": [
+    "странное название: eBay"
+   ]
+  },
+  {
    "id": "Q4548",
    "name": "Turkish Airlines",
    "name_ru": "Turkish Airlines",
@@ -815,43 +849,6 @@
    ]
   },
   {
-   "id": "Q55931",
-   "name": "Hyundai Motor",
-   "name_ru": "Hyundai Motor",
-   "aliases": [
-    "005380",
-    "HYMTF",
-    "HYUD",
-    "Hyundai Motor Company",
-    "Хундай",
-    "Хёндэ"
-   ],
-   "country": "Германия",
-   "region": "Европа",
-   "sector": "Автомобили",
-   "industries": [
-    "automotive industry"
-   ],
-   "founded": 1967,
-   "exchange": "NASDAQ",
-   "ticker": "HYMTF",
-   "founders": [
-    "Чон Чжу-ён"
-   ],
-   "ceo": [
-    "Chung Eui-sun"
-   ],
-   "hq": [
-    "Сеул"
-   ],
-   "popularity": 76,
-   "level": "средний",
-   "source": "https://www.wikidata.org/wiki/Q55931",
-   "problems": [
-    "несколько стран: Германия, Республика Корея"
-   ]
-  },
-  {
    "id": "Q170614",
    "name": "Ryanair",
    "name_ru": "Ryanair",
@@ -990,43 +987,6 @@
    "source": "https://www.wikidata.org/wiki/Q215392",
    "problems": [
     "сектор не определён: Q112165870"
-   ]
-  },
-  {
-   "id": "Q780442",
-   "name": "Uber",
-   "name_ru": null,
-   "aliases": [
-    "UBER",
-    "Uber Technologies, Inc. (San Francisco, CA)",
-    "Uber Technology",
-    "UberCab"
-   ],
-   "country": "США",
-   "region": "Северная Америка",
-   "sector": "Технологии",
-   "industries": [
-    "information technology",
-    "passenger transport"
-   ],
-   "founded": 2009,
-   "exchange": "NYSE",
-   "ticker": "UBER",
-   "founders": [
-    "Гаррет Камп",
-    "Трэвис Каланик"
-   ],
-   "ceo": [
-    "Дара Хосровшахи"
-   ],
-   "hq": [
-    "Сан-Франциско"
-   ],
-   "popularity": 73,
-   "level": "средний",
-   "source": "https://www.wikidata.org/wiki/Q780442",
-   "problems": [
-    "несколько стран: США, Нидерланды"
    ]
   },
   {
@@ -1504,94 +1464,6 @@
    ]
   },
   {
-   "id": "Q334800",
-   "name": "PepsiCo",
-   "name_ru": null,
-   "aliases": [
-    "PEP",
-    "Pepsi",
-    "PepsiCo Inc.",
-    "PepsiCo, Inc. (Purchase, NY)",
-    "bebsi",
-    "Пепси",
-    "ПепсиКо"
-   ],
-   "country": "США",
-   "region": "Северная Америка",
-   "sector": "Напитки и продукты",
-   "industries": [
-    "food industry",
-    "fast-moving consumer goods",
-    "beverage industry"
-   ],
-   "founded": 1961,
-   "exchange": "NYSE",
-   "ticker": "PEP",
-   "founders": [
-    "Калеб Брэдхем"
-   ],
-   "ceo": [
-    "Ramon Laguarta"
-   ],
-   "hq": [
-    "Перчейз"
-   ],
-   "popularity": 66,
-   "level": "средний",
-   "source": "https://www.wikidata.org/wiki/Q334800",
-   "problems": [
-    "несколько стран: США, Бельгия"
-   ]
-  },
-  {
-   "id": "Q157062",
-   "name": "Unilever",
-   "name_ru": "Unilever",
-   "aliases": [
-    "UL",
-    "ULVR",
-    "UNA",
-    "UNVR",
-    "Юнилевер",
-    "Юниливер"
-   ],
-   "country": "Великобритания",
-   "region": "Европа",
-   "sector": "Энергетика",
-   "industries": [
-    "food industry",
-    "fast-moving consumer goods",
-    "perfumery",
-    "personal care product",
-    "dairy industry",
-    "manufacture of vegetable and animal oils and fats",
-    "manufacture of grain mill products, starches and starch products",
-    "manufacture of bakery and farinaceous products",
-    "manufacture of soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations"
-   ],
-   "founded": 1929,
-   "exchange": "NYSE",
-   "ticker": "UL",
-   "founders": [
-    "Сэмюэл ван ден Берг",
-    "Уильям Ливер, 1-й виконт Ливерхьюм",
-    "Джеймс Дарси Левер"
-   ],
-   "ceo": [
-    "Фернандес, Фернандо"
-   ],
-   "hq": [
-    "Лондон",
-    "Роттердам"
-   ],
-   "popularity": 65,
-   "level": "средний",
-   "source": "https://www.wikidata.org/wiki/Q157062",
-   "problems": [
-    "несколько стран: Великобритания, Королевство Нидерландов"
-   ]
-  },
-  {
    "id": "Q38903",
    "name": "Universal Music",
    "name_ru": "Universal Music Group",
@@ -1627,7 +1499,6 @@
    "level": "средний",
    "source": "https://www.wikidata.org/wiki/Q38903",
    "problems": [
-    "несколько стран: США, Нидерланды",
     "незнакомая биржа: Amsterdam Stock Exchange"
    ]
   },
@@ -1801,7 +1672,8 @@
    "level": "средний",
    "source": "https://www.wikidata.org/wiki/Q191551",
    "problems": [
-    "сектор не определён: отрасль не указана"
+    "сектор не определён: отрасль не указана",
+    "странное название: easyJet"
    ]
   },
   {
@@ -2298,74 +2170,6 @@
    ]
   },
   {
-   "id": "Q407448",
-   "name": "Air Liquide",
-   "name_ru": "Air Liquide",
-   "aliases": [
-    "AI",
-    "Air Liquide S.A."
-   ],
-   "country": "Канада",
-   "region": "Северная Америка",
-   "sector": "Промышленность",
-   "industries": [
-    "manufacture of industrial gases",
-    "engineering, technical studies"
-   ],
-   "founded": 1902,
-   "exchange": "Париж",
-   "ticker": "AI",
-   "founders": [
-    "Жорж Клод",
-    "Paul Delorme"
-   ],
-   "ceo": [
-    "François Jackow"
-   ],
-   "hq": [
-    "Набережная Орсе"
-   ],
-   "popularity": 55,
-   "level": "средний",
-   "source": "https://www.wikidata.org/wiki/Q407448",
-   "problems": [
-    "несколько стран: Канада, Франция"
-   ]
-  },
-  {
-   "id": "Q731938",
-   "name": "AstraZeneca",
-   "name_ru": null,
-   "aliases": [
-    "AZ",
-    "AZN",
-    "AstraZeneca plc."
-   ],
-   "country": "Швеция",
-   "region": "Европа",
-   "sector": "Фармацевтика и здоровье",
-   "industries": [
-    "pharmaceutical industry"
-   ],
-   "founded": 1913,
-   "exchange": "NYSE",
-   "ticker": "AZN",
-   "founders": [],
-   "ceo": [
-    "Pascal Soriot"
-   ],
-   "hq": [
-    "Кембридж",
-    "Cambridge Biomedical Campus"
-   ],
-   "popularity": 55,
-   "level": "средний",
-   "source": "https://www.wikidata.org/wiki/Q731938",
-   "problems": [
-    "несколько стран: Швеция, Великобритания"
-   ]
-  },
-  {
    "id": "Q113215",
    "name": "Carlsberg",
    "name_ru": "Carlsberg",
@@ -2466,39 +2270,6 @@
    "source": "https://www.wikidata.org/wiki/Q466496",
    "problems": [
     "сектор не определён: отрасль не указана"
-   ]
-  },
-  {
-   "id": "Q106158",
-   "name": "S&P Global Ratings",
-   "name_ru": "S&P Global Ratings",
-   "aliases": [
-    "Standard & Poor’s",
-    "Индекс \"Стэндард энд пурз\"",
-    "Стандард энд Пурс"
-   ],
-   "country": null,
-   "region": null,
-   "sector": "Финансы",
-   "industries": [
-    "financial services"
-   ],
-   "founded": 1941,
-   "exchange": "NYSE",
-   "ticker": null,
-   "founders": [
-    "Генри Варнум Пур",
-    "Генри Уильям Пур"
-   ],
-   "ceo": [],
-   "hq": [
-    "Нью-Йорк"
-   ],
-   "popularity": 53,
-   "level": "средний",
-   "source": "https://www.wikidata.org/wiki/Q106158",
-   "problems": [
-    "нет страны"
    ]
   },
   {
@@ -2668,45 +2439,6 @@
    ]
   },
   {
-   "id": "Q333718",
-   "name": "Johnson & Johnson",
-   "name_ru": "Johnson & Johnson",
-   "aliases": [
-    "J&J",
-    "JNJ",
-    "Johnson and Johnson",
-    "Джонсон & Джонсон",
-    "Джонсон и Джонсон"
-   ],
-   "country": "США",
-   "region": "Северная Америка",
-   "sector": "Фармацевтика и здоровье",
-   "industries": [
-    "pharmaceutical industry",
-    "medical technology industry"
-   ],
-   "founded": 1886,
-   "exchange": "NYSE",
-   "ticker": "JNJ",
-   "founders": [
-    "Эдуард Мид Джонсон",
-    "Джеймс Вуд Джонсон",
-    "Роберт Вуд Джонсон"
-   ],
-   "ceo": [
-    "Joaquin Duato"
-   ],
-   "hq": [
-    "Нью-Брансуик"
-   ],
-   "popularity": 52,
-   "level": "средний",
-   "source": "https://www.wikidata.org/wiki/Q333718",
-   "problems": [
-    "несколько стран: США, Великобритания"
-   ]
-  },
-  {
    "id": "Q412826",
    "name": "Ajinomoto",
    "name_ru": "Ajinomoto",
@@ -2735,7 +2467,6 @@
    "level": "средний",
    "source": "https://www.wikidata.org/wiki/Q412826",
    "problems": [
-    "несколько стран: Япония, Франция",
     "разные годы основания: 1917, 1925"
    ]
   },
@@ -3354,46 +3085,6 @@
    ]
   },
   {
-   "id": "Q2311",
-   "name": "Airbus",
-   "name_ru": "Airbus Group",
-   "aliases": [
-    "AIR",
-    "Airbus Group",
-    "Airbus Group NV",
-    "Airbus Group SE",
-    "Airbus SE",
-    "EADS",
-    "European Aeronautic Defence and Space Company",
-    "Эрбас груп"
-   ],
-   "country": "Нидерланды",
-   "region": "Европа",
-   "sector": "Промышленность",
-   "industries": [
-    "spaceflight",
-    "arms industry",
-    "aviation",
-    "aircraft construction"
-   ],
-   "founded": 1998,
-   "exchange": "Франкфурт",
-   "ticker": "AIR",
-   "founders": [],
-   "ceo": [
-    "Guillaume Faury"
-   ],
-   "hq": [
-    "Лейден"
-   ],
-   "popularity": 49,
-   "level": "средний",
-   "source": "https://www.wikidata.org/wiki/Q2311",
-   "problems": [
-    "несколько стран: Нидерланды, Франция"
-   ]
-  },
-  {
    "id": "Q334204",
    "name": "Morgan Stanley",
    "name_ru": "Morgan Stanley",
@@ -3429,7 +3120,6 @@
    "level": "средний",
    "source": "https://www.wikidata.org/wiki/Q334204",
    "problems": [
-    "несколько стран: США, Великобритания",
     "разные годы основания: 1924, 1931, 1935, 2008"
    ]
   },
@@ -3463,42 +3153,6 @@
    "problems": [
     "сектор не определён: отрасль не указана",
     "незнакомая биржа: Bursa Malaysia"
-   ]
-  },
-  {
-   "id": "Q459477",
-   "name": "FedEx",
-   "name_ru": "FedEx",
-   "aliases": [
-    "FDX",
-    "FEDEX CORPORATE SERVICES, INC. (Collierville, TN)",
-    "FedEx Corporation",
-    "ФедЭкс"
-   ],
-   "country": "Канада",
-   "region": "Северная Америка",
-   "sector": "Транспорт",
-   "industries": [
-    "logistics",
-    "transport industry"
-   ],
-   "founded": 1971,
-   "exchange": "NYSE",
-   "ticker": "FDX",
-   "founders": [
-    "Фредерик Уоллас Смит"
-   ],
-   "ceo": [
-    "Raj Subramaniam"
-   ],
-   "hq": [
-    "Мемфис"
-   ],
-   "popularity": 49,
-   "level": "средний",
-   "source": "https://www.wikidata.org/wiki/Q459477",
-   "problems": [
-    "несколько стран: Канада, США"
    ]
   },
   {
@@ -3635,44 +3289,6 @@
    "source": "https://www.wikidata.org/wiki/Q1057110",
    "problems": [
     "сектор не определён: отрасль не указана"
-   ]
-  },
-  {
-   "id": "Q27893",
-   "name": "ArcelorMittal",
-   "name_ru": "ArcelorMittal",
-   "aliases": [
-    "Arcelor Mittal",
-    "ArcelorMittal S.A.",
-    "ArcelorMittal SA",
-    "ArcelorMittal, S.A.",
-    "MT",
-    "MTS"
-   ],
-   "country": "Испания",
-   "region": "Европа",
-   "sector": "Металлы и добыча",
-   "industries": [
-    "mining industry",
-    "iron and steel industry"
-   ],
-   "founded": 2006,
-   "exchange": "NYSE",
-   "ticker": "MT",
-   "founders": [
-    "Лакшми Миттал"
-   ],
-   "ceo": [
-    "Адитья Миттал"
-   ],
-   "hq": [
-    "Люксембург"
-   ],
-   "popularity": 48,
-   "level": "средний",
-   "source": "https://www.wikidata.org/wiki/Q27893",
-   "problems": [
-    "несколько стран: Испания, Люксембург"
    ]
   },
   {
@@ -3949,7 +3565,7 @@
    ],
    "country": "Бельгия",
    "region": "Европа",
-   "sector": "Электронная торговля",
+   "sector": "Ритейл",
    "industries": [
     "retail",
     "mass-market retailing",
@@ -4106,49 +3722,6 @@
    ]
   },
   {
-   "id": "Q842108",
-   "name": "Euronext",
-   "name_ru": "Euronext",
-   "aliases": [
-    "ENX",
-    "ENXP",
-    "EURONEXT",
-    "EUXTF",
-    "Euronext N V",
-    "Euronext N. V.",
-    "Euronext N.V.",
-    "Euronext NV",
-    "Euronext nv"
-   ],
-   "country": "Норвегия",
-   "region": "Европа",
-   "sector": "Финансы",
-   "industries": [
-    "financial services"
-   ],
-   "founded": 2000,
-   "exchange": "Париж",
-   "ticker": "ENX",
-   "founders": [
-    "Euronext Amsterdam",
-    "Euronext",
-    "Euronext Brussels",
-    "Euronext Paris"
-   ],
-   "ceo": [
-    "Stéphane Boujnah"
-   ],
-   "hq": [
-    "place des Reflets"
-   ],
-   "popularity": 47,
-   "level": "средний",
-   "source": "https://www.wikidata.org/wiki/Q842108",
-   "problems": [
-    "несколько стран: Норвегия, Ирландия, Бельгия, Дания, Италия, Греция, Португалия, Нидерланды, Франция"
-   ]
-  },
-  {
    "id": "Q17081612",
    "name": "Moderna",
    "name_ru": "Moderna",
@@ -4221,7 +3794,7 @@
   },
   {
    "id": "Q496302",
-   "name": "Deere &",
+   "name": "Deere",
    "name_ru": "Deere & Company",
    "aliases": [
     "DE",
@@ -4465,6 +4038,41 @@
    ]
   },
   {
+   "id": "Q137910",
+   "name": "thyssenkrupp",
+   "name_ru": "ThyssenKrupp",
+   "aliases": [
+    "0O1C",
+    "TKA",
+    "ThyssenKrupp",
+    "ThyssenKrupp AG",
+    "thyssenkrupp AG"
+   ],
+   "country": "Германия",
+   "region": "Европа",
+   "sector": "Металлы и добыча",
+   "industries": [
+    "arms industry",
+    "iron and steel industry"
+   ],
+   "founded": 1999,
+   "exchange": "Лондон",
+   "ticker": "0O1C",
+   "founders": [],
+   "ceo": [
+    "Miguel Ángel López Borrego"
+   ],
+   "hq": [
+    "Эссен"
+   ],
+   "popularity": 44,
+   "level": "средний",
+   "source": "https://www.wikidata.org/wiki/Q137910",
+   "problems": [
+    "странное название: thyssenkrupp"
+   ]
+  },
+  {
    "id": "Q161086",
    "name": "JetBlue Airways",
    "name_ru": "JetBlue Airways",
@@ -4544,38 +4152,6 @@
    "source": "https://www.wikidata.org/wiki/Q26989",
    "problems": [
     "сектор не определён: IT service management"
-   ]
-  },
-  {
-   "id": "Q327247",
-   "name": "ASICS",
-   "name_ru": "ASICS",
-   "aliases": [
-    "7936",
-    "ASICS Corporation",
-    "Асикс"
-   ],
-   "country": "Япония",
-   "region": "Азия",
-   "sector": "Одежда и роскошь",
-   "industries": [
-    "textile industry"
-   ],
-   "founded": 1949,
-   "exchange": "Токио",
-   "ticker": "7936",
-   "founders": [],
-   "ceo": [
-    "Motoi Oyama"
-   ],
-   "hq": [
-    "Кобе"
-   ],
-   "popularity": 44,
-   "level": "средний",
-   "source": "https://www.wikidata.org/wiki/Q327247",
-   "problems": [
-    "несколько стран: Япония, США, Германия"
    ]
   },
   {
@@ -4715,6 +4291,41 @@
    ]
   },
   {
+   "id": "Q677085",
+   "name": "gital",
+   "name_ru": "gital",
+   "aliases": [
+    "GEN",
+    "NortonLifeLock",
+    "Symantec"
+   ],
+   "country": "США",
+   "region": "Северная Америка",
+   "sector": "Технологии",
+   "industries": [
+    "software industry",
+    "computer security"
+   ],
+   "founded": 1982,
+   "exchange": "NASDAQ",
+   "ticker": "GEN",
+   "founders": [
+    "Гари Хендрикс"
+   ],
+   "ceo": [
+    "Vincent Pilette"
+   ],
+   "hq": [
+    "Темпе"
+   ],
+   "popularity": 44,
+   "level": "средний",
+   "source": "https://www.wikidata.org/wiki/Q677085",
+   "problems": [
+    "странное название: gital"
+   ]
+  },
+  {
    "id": "Q715113",
    "name": "EVA Air",
    "name_ru": "EVA Air",
@@ -4743,44 +4354,6 @@
    "source": "https://www.wikidata.org/wiki/Q715113",
    "problems": [
     "сектор не определён: отрасль не указана"
-   ]
-  },
-  {
-   "id": "Q921159",
-   "name": "RTL",
-   "name_ru": "RTL Group",
-   "aliases": [
-    "CLR",
-    "CLT",
-    "CLT-UFA",
-    "Compagnie Luxembourgeoise de Radiodiffusion",
-    "Compagnie Luxembourgeoise de Télédiffusion",
-    "RRTL",
-    "RTL Group",
-    "RTL Group S.A."
-   ],
-   "country": "Люксембург",
-   "region": "Европа",
-   "sector": "Медиа и развлечения",
-   "industries": [
-    "mass media"
-   ],
-   "founded": 2000,
-   "exchange": "Франкфурт",
-   "ticker": "RRTL",
-   "founders": [],
-   "ceo": [
-    "Thomas Rabe"
-   ],
-   "hq": [
-    "Люксембург",
-    "Кирхберг"
-   ],
-   "popularity": 44,
-   "level": "средний",
-   "source": "https://www.wikidata.org/wiki/Q921159",
-   "problems": [
-    "несколько стран: Люксембург, Германия"
    ]
   },
   {
@@ -5439,42 +5012,6 @@
    ]
   },
   {
-   "id": "Q420822",
-   "name": "Gap",
-   "name_ru": "Gap",
-   "aliases": [
-    "GAP",
-    "Gap Inc.",
-    "The Gap, Inc."
-   ],
-   "country": "Канада",
-   "region": "Северная Америка",
-   "sector": "Одежда и роскошь",
-   "industries": [
-    "retail",
-    "fast fashion"
-   ],
-   "founded": 1969,
-   "exchange": "NYSE",
-   "ticker": "GAP",
-   "founders": [
-    "Donald Fisher",
-    "Doris F. Fisher"
-   ],
-   "ceo": [
-    "Art Peck"
-   ],
-   "hq": [
-    "Сан-Франциско"
-   ],
-   "popularity": 40,
-   "level": "средний",
-   "source": "https://www.wikidata.org/wiki/Q420822",
-   "problems": [
-    "несколько стран: Канада, США, Франция"
-   ]
-  },
-  {
    "id": "Q476215",
    "name": "Oricon",
    "name_ru": "Oricon",
@@ -5518,8 +5055,8 @@
     "Fila Inc",
     "Fila, Inc."
    ],
-   "country": "Италия",
-   "region": "Европа",
+   "country": "Республика Корея",
+   "region": "Азия",
    "sector": "Одежда и роскошь",
    "industries": [
     "sportswear"
@@ -5536,7 +5073,6 @@
    "level": "средний",
    "source": "https://www.wikidata.org/wiki/Q482539",
    "problems": [
-    "несколько стран: Италия, Республика Корея",
     "незнакомая биржа: Korean Stock Exchange"
    ]
   },
@@ -5840,8 +5376,8 @@
    "aliases": [
     "ETOR"
    ],
-   "country": "Великобритания",
-   "region": "Европа",
+   "country": "Израиль",
+   "region": "Азия",
    "sector": "Технологии",
    "industries": [
     "information technology",
@@ -5863,7 +5399,7 @@
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q5324516",
    "problems": [
-    "несколько стран: Великобритания, Кипр, Израиль"
+    "странное название: eToro"
    ]
   },
   {
@@ -5905,7 +5441,7 @@
   },
   {
    "id": "Q632240",
-   "name": "Eli Lilly and",
+   "name": "Eli Lilly",
    "name_ru": "Eli Lilly and Company",
    "aliases": [
     "Eli Lilly and Company",
@@ -6067,46 +5603,6 @@
    "source": "https://www.wikidata.org/wiki/Q1136226",
    "problems": [
     "сектор не определён: aviation, aircraft industry"
-   ]
-  },
-  {
-   "id": "Q1172038",
-   "name": "Dassault Systèmes",
-   "name_ru": "Dassault Systemes SE",
-   "aliases": [
-    "3DS",
-    "DASTY",
-    "DSY",
-    "Dassault Systemes SE",
-    "Dassault Systèmes SE"
-   ],
-   "country": "Франция",
-   "region": "Европа",
-   "sector": "Медиа и развлечения",
-   "industries": [
-    "digital distribution",
-    "software industry",
-    "information industry",
-    "electronics industry",
-    "publishing of application software"
-   ],
-   "founded": 1981,
-   "exchange": "NASDAQ",
-   "ticker": "DASTY",
-   "founders": [
-    "Марсель Дассо"
-   ],
-   "ceo": [
-    "Pascal Daloz"
-   ],
-   "hq": [
-    "Велизи-Виллакубле"
-   ],
-   "popularity": 38,
-   "level": "сложный",
-   "source": "https://www.wikidata.org/wiki/Q1172038",
-   "problems": [
-    "несколько стран: Франция, Австралия"
    ]
   },
   {
@@ -6418,88 +5914,6 @@
    ]
   },
   {
-   "id": "Q661845",
-   "name": "STMicroelectronics",
-   "name_ru": "STMicroelectronics",
-   "aliases": [
-    "SGS-Thomson",
-    "SGS–Thomson",
-    "ST",
-    "ST Micro",
-    "STM",
-    "STMMI",
-    "STMPA",
-    "STMicro",
-    "STMicroelectronics N.V.",
-    "STmicro"
-   ],
-   "country": "Швейцария",
-   "region": "Европа",
-   "sector": "Полупроводники",
-   "industries": [
-    "semiconductor industry"
-   ],
-   "founded": 1987,
-   "exchange": "NYSE",
-   "ticker": "STM",
-   "founders": [
-    "SGS Microelettronica"
-   ],
-   "ceo": [
-    "Jean-Marc Chéry"
-   ],
-   "hq": [
-    "План-лез-Уат"
-   ],
-   "popularity": 37,
-   "level": "сложный",
-   "source": "https://www.wikidata.org/wiki/Q661845",
-   "problems": [
-    "несколько стран: Швейцария, Нидерланды"
-   ]
-  },
-  {
-   "id": "Q856897",
-   "name": "Kellogg's",
-   "name_ru": "Kellogg",
-   "aliases": [
-    "K",
-    "Kelanova",
-    "Kellogg",
-    "Kellogg Company"
-   ],
-   "country": "Ирландия",
-   "region": "Европа",
-   "sector": "Напитки и продукты",
-   "industries": [
-    "food industry",
-    "fast-moving consumer goods"
-   ],
-   "founded": 1906,
-   "exchange": "NYSE",
-   "ticker": "K",
-   "founders": [
-    "Уильям Кейт Келлог"
-   ],
-   "ceo": [
-    "Карлос Мигель Гутьеррес",
-    "David Mackay",
-    "John Bryant",
-    "Steven A. Cahillane",
-    "Arnold G. Langbo",
-    "Q142124207"
-   ],
-   "hq": [
-    "Батл-Крик"
-   ],
-   "popularity": 37,
-   "level": "сложный",
-   "source": "https://www.wikidata.org/wiki/Q856897",
-   "problems": [
-    "несколько стран: Ирландия, США"
-   ]
-  },
-  {
    "id": "Q283790",
    "name": "Flybe",
    "name_ru": "Flybe",
@@ -6798,41 +6212,6 @@
    ]
   },
   {
-   "id": "Q19681433",
-   "name": "Kraft Heinz",
-   "name_ru": "Kraft Heinz Company",
-   "aliases": [
-    "KHC",
-    "Kraft Heinz Company",
-    "The Kraft Heinz Company",
-    "Крафт Хайнц",
-    "Крафт Хайнц Компани"
-   ],
-   "country": "США",
-   "region": "Северная Америка",
-   "sector": "Напитки и продукты",
-   "industries": [
-    "food industry",
-    "fast-moving consumer goods"
-   ],
-   "founded": 2015,
-   "exchange": "NASDAQ",
-   "ticker": "KHC",
-   "founders": [],
-   "ceo": [
-    "Bernardo Hees"
-   ],
-   "hq": [
-    "Питтсбург"
-   ],
-   "popularity": 35,
-   "level": "сложный",
-   "source": "https://www.wikidata.org/wiki/Q19681433",
-   "problems": [
-    "несколько стран: США, Великобритания"
-   ]
-  },
-  {
    "id": "Q212599",
    "name": "Accor",
    "name_ru": "Accor",
@@ -6916,7 +6295,7 @@
    ],
    "country": "Швеция",
    "region": "Европа",
-   "sector": "Медиа и развлечения",
+   "sector": "Телеком",
    "industries": [
     "telecommunications",
     "cable television",
@@ -7381,7 +6760,6 @@
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q1129117",
    "problems": [
-    "несколько стран: США, Малайзия",
     "сектор не определён: direct selling"
    ]
   },
@@ -7433,8 +6811,8 @@
     "WLYB",
     "wiley.com"
    ],
-   "country": "Япония",
-   "region": "Азия",
+   "country": "США",
+   "region": "Северная Америка",
    "sector": null,
    "industries": [],
    "founded": 1807,
@@ -7451,7 +6829,6 @@
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q1479654",
    "problems": [
-    "несколько стран: Япония, США, Италия, Нидерланды, Великобритания, Китай, Германия, Австралия",
     "сектор не определён: отрасль не указана"
    ]
   },
@@ -8311,43 +7688,6 @@
    ]
   },
   {
-   "id": "Q880942",
-   "name": "Blackstone",
-   "name_ru": "Blackstone Group",
-   "aliases": [
-    "BX",
-    "Blackstone Group",
-    "Blackstone Inc.",
-    "The Blackstone Group",
-    "The Blackstone Group L.P."
-   ],
-   "country": "США",
-   "region": "Северная Америка",
-   "sector": "Финансы",
-   "industries": [
-    "financial services"
-   ],
-   "founded": 1985,
-   "exchange": "NYSE",
-   "ticker": "BX",
-   "founders": [
-    "Питер Петерсон",
-    "Стивен Шварцман"
-   ],
-   "ceo": [
-    "Стивен Шварцман"
-   ],
-   "hq": [
-    "Нью-Йорк"
-   ],
-   "popularity": 32,
-   "level": "сложный",
-   "source": "https://www.wikidata.org/wiki/Q880942",
-   "problems": [
-    "несколько стран: США, Великобритания"
-   ]
-  },
-  {
    "id": "Q917031",
    "name": "Brill",
    "name_ru": "Brill",
@@ -8424,7 +7764,6 @@
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q949610",
    "problems": [
-    "несколько стран: Япония, Японская империя",
     "сектор не определён: sports industry, bicycle industry"
    ]
   },
@@ -8704,39 +8043,6 @@
    ]
   },
   {
-   "id": "Q17538813",
-   "name": "Similarweb",
-   "name_ru": "Similarweb",
-   "aliases": [
-    "SMWB",
-    "Similarweb.com"
-   ],
-   "country": "США",
-   "region": "Северная Америка",
-   "sector": "Технологии",
-   "industries": [
-    "information technology"
-   ],
-   "founded": 2007,
-   "exchange": "NYSE",
-   "ticker": "SMWB",
-   "founders": [
-    "Or Offer"
-   ],
-   "ceo": [
-    "Or Offer"
-   ],
-   "hq": [
-    "Гиватаим"
-   ],
-   "popularity": 31,
-   "level": "сложный",
-   "source": "https://www.wikidata.org/wiki/Q17538813",
-   "problems": [
-    "несколько стран: США, Израиль"
-   ]
-  },
-  {
    "id": "Q1762250",
    "name": "Uralvagonzavod",
    "name_ru": "Уралвагонзавод",
@@ -8803,39 +8109,6 @@
    "problems": [
     "сектор не определён: human resource management, employment services industry",
     "незнакомая биржа: Swiss Stock Exchange"
-   ]
-  },
-  {
-   "id": "Q420506",
-   "name": "Wix.com",
-   "name_ru": "Wix.com",
-   "aliases": [
-    "WIX",
-    "Wix"
-   ],
-   "country": "США",
-   "region": "Северная Америка",
-   "sector": "Электронная торговля",
-   "industries": [
-    "Internet",
-    "e-commerce",
-    "website builder",
-    "web hosting service",
-    "Internet industry"
-   ],
-   "founded": 2006,
-   "exchange": "NASDAQ",
-   "ticker": "WIX",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Тель-Авив"
-   ],
-   "popularity": 31,
-   "level": "сложный",
-   "source": "https://www.wikidata.org/wiki/Q420506",
-   "problems": [
-    "несколько стран: США, Израиль"
    ]
   },
   {
@@ -9293,7 +8566,7 @@
     "Русал",
     "Русский алюминий"
    ],
-   "country": "Джерси",
+   "country": "Россия",
    "region": "Европа",
    "sector": "Металлы и добыча",
    "industries": [
@@ -9315,6 +8588,9 @@
    "popularity": 30,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q1642605",
+   "notes": [
+    "страна компании (Джерси) не совпадает со страной штаб-квартиры (Россия) — взята страна штаб-квартиры"
+   ],
    "problems": [
     "разные годы основания: 2000, 2007"
    ]
@@ -9454,42 +8730,6 @@
    "source": "https://www.wikidata.org/wiki/Q2247432",
    "problems": [
     "нет названия"
-   ]
-  },
-  {
-   "id": "Q624798",
-   "name": "Canadian National Railway",
-   "name_ru": "Canadian National Railway",
-   "aliases": [
-    "CN",
-    "CN Rail",
-    "CNI",
-    "CNR",
-    "Canadian National",
-    "Canadien National",
-    "Rida"
-   ],
-   "country": "Канада",
-   "region": "Северная Америка",
-   "sector": "Транспорт",
-   "industries": [
-    "rail freight transport"
-   ],
-   "founded": 1919,
-   "exchange": "NYSE",
-   "ticker": "CNI",
-   "founders": [
-    "правительство Канады"
-   ],
-   "ceo": [],
-   "hq": [
-    "Downtown Montreal"
-   ],
-   "popularity": 30,
-   "level": "сложный",
-   "source": "https://www.wikidata.org/wiki/Q624798",
-   "problems": [
-    "несколько стран: Канада, США"
    ]
   },
   {
@@ -9659,7 +8899,7 @@
    ],
    "country": "Германия",
    "region": "Европа",
-   "sector": "Медиа и развлечения",
+   "sector": "Финансы",
    "industries": [
     "financial services",
     "financial service activities, except insurance and pension funding",
@@ -10156,45 +9396,6 @@
    ]
   },
   {
-   "id": "Q1570773",
-   "name": "Kohlberg Kravis Roberts",
-   "name_ru": "Kohlberg Kravis Roberts",
-   "aliases": [
-    "KKR",
-    "KKR & Co.",
-    "KKR & Co. L.P.",
-    "KKR & Co., Inc.",
-    "KKR Private Equity",
-    "Kohlberg Kravis Roberts & Co."
-   ],
-   "country": "США",
-   "region": "Северная Америка",
-   "sector": "Финансы",
-   "industries": [
-    "asset management",
-    "private equity firm",
-    "investment management"
-   ],
-   "founded": 1976,
-   "exchange": "NYSE",
-   "ticker": "KKR",
-   "founders": [
-    "Henry Kravis",
-    "George R. Roberts",
-    "Jerome Kohlberg, Jr."
-   ],
-   "ceo": [],
-   "hq": [
-    "Нью-Йорк"
-   ],
-   "popularity": 28,
-   "level": "сложный",
-   "source": "https://www.wikidata.org/wiki/Q1570773",
-   "problems": [
-    "несколько стран: США, Великобритания"
-   ]
-  },
-  {
    "id": "Q166621",
    "name": "Mizuho Financial",
    "name_ru": "Mizuho Financial Group",
@@ -10225,42 +9426,6 @@
    "source": "https://www.wikidata.org/wiki/Q166621",
    "problems": [
     "разные годы основания: 1999, 2003"
-   ]
-  },
-  {
-   "id": "Q1885456",
-   "name": "VK",
-   "name_ru": "VK",
-   "aliases": [
-    "MAIL",
-    "Mail.ru Group"
-   ],
-   "country": "Россия",
-   "region": "Европа",
-   "sector": "Технологии",
-   "industries": [
-    "investment",
-    "technology company"
-   ],
-   "founded": 2005,
-   "exchange": "Мосбиржа",
-   "ticker": "MAIL",
-   "founders": [
-    "Юрий Мильнер",
-    "Гришин, Дмитрий Сергеевич"
-   ],
-   "ceo": [
-    "Владимир Кириенко",
-    "Добродеев, Борис Олегович"
-   ],
-   "hq": [
-    "Москва"
-   ],
-   "popularity": 28,
-   "level": "сложный",
-   "source": "https://www.wikidata.org/wiki/Q1885456",
-   "problems": [
-    "несколько стран: Россия, Кипр"
    ]
   },
   {
@@ -11147,38 +10312,6 @@
    ]
   },
   {
-   "id": "Q1944412",
-   "name": "MoneyGram",
-   "name_ru": "MoneyGram",
-   "aliases": [
-    "MGI",
-    "MoneyGram International",
-    "MoneyGram International Inc.",
-    "MoneyGram Payment Services, Inc."
-   ],
-   "country": "Канада",
-   "region": "Северная Америка",
-   "sector": "Финансы",
-   "industries": [
-    "wire transfer",
-    "financial services"
-   ],
-   "founded": 1940,
-   "exchange": "NASDAQ",
-   "ticker": "MGI",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Даллас"
-   ],
-   "popularity": 27,
-   "level": "сложный",
-   "source": "https://www.wikidata.org/wiki/Q1944412",
-   "problems": [
-    "несколько стран: Канада, США"
-   ]
-  },
-  {
    "id": "Q2529982",
    "name": "New York Times",
    "name_ru": "The New York Times Company",
@@ -11322,8 +10455,8 @@
     "ADATA Technology",
     "ADATA Technology Co., Ltd."
    ],
-   "country": null,
-   "region": null,
+   "country": "Китайская Республика",
+   "region": "Азия",
    "sector": "Медиа и развлечения",
    "industries": [
     "computer storage media",
@@ -11343,7 +10476,6 @@
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q352669",
    "problems": [
-    "нет страны",
     "незнакомая биржа: Taipei Exchange"
    ]
   },
@@ -11454,6 +10586,9 @@
    "popularity": 27,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q524989",
+   "notes": [
+    "страна компании (США) не совпадает со страной штаб-квартиры (Германия) — взята страна штаб-квартиры"
+   ],
    "problems": [
     "разные годы основания: 1884, 1974"
    ]
@@ -11859,7 +10994,7 @@
     "LATAM Airlines Group",
     "LATAM Airlines Group S.A."
    ],
-   "country": "Бразилия",
+   "country": "Чили",
    "region": "Южная Америка",
    "sector": null,
    "industries": [
@@ -11877,7 +11012,6 @@
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q1321868",
    "problems": [
-    "несколько стран: Бразилия, Чили",
     "сектор не определён: aircraft industry",
     "незнакомая биржа: Santiago Stock Exchange"
    ]
@@ -11912,40 +11046,6 @@
    "source": "https://www.wikidata.org/wiki/Q1325987",
    "problems": [
     "сектор не определён: agriculture, meatpacking industry"
-   ]
-  },
-  {
-   "id": "Q1329463",
-   "name": "Quiksilver",
-   "name_ru": "Quiksilver",
-   "aliases": [
-    "Quiksilver Inc",
-    "Quiksilver, Inc.",
-    "ZQK",
-    "Квиксилвер",
-    "Квиксилвер ру",
-    "Квиксильвер",
-    "Квиксильвер ру"
-   ],
-   "country": "США",
-   "region": "Северная Америка",
-   "sector": "Одежда и роскошь",
-   "industries": [
-    "textile industry"
-   ],
-   "founded": 1969,
-   "exchange": "NYSE",
-   "ticker": "ZQK",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Хантингтон-Бич"
-   ],
-   "popularity": 26,
-   "level": "сложный",
-   "source": "https://www.wikidata.org/wiki/Q1329463",
-   "problems": [
-    "несколько стран: США, Франция"
    ]
   },
   {
@@ -12074,7 +11174,8 @@
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q15913890",
    "problems": [
-    "сектор не определён: video on demand"
+    "сектор не определён: video on demand",
+    "странное название: iQIYI"
    ]
   },
   {
@@ -12149,41 +11250,8 @@
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q285161",
    "problems": [
-    "сектор не определён: robotics"
-   ]
-  },
-  {
-   "id": "Q29739",
-   "name": "International",
-   "name_ru": null,
-   "aliases": [
-    "International Harvester Company",
-    "International Motors",
-    "International Trucks",
-    "NAV",
-    "Navistar",
-    "Navistar International",
-    "Navistar International Corporation"
-   ],
-   "country": "Канада",
-   "region": "Северная Америка",
-   "sector": "Автомобили",
-   "industries": [
-    "automotive industry"
-   ],
-   "founded": 1986,
-   "exchange": "NYSE",
-   "ticker": "NAV",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Лайл"
-   ],
-   "popularity": 26,
-   "level": "сложный",
-   "source": "https://www.wikidata.org/wiki/Q29739",
-   "problems": [
-    "несколько стран: Канада, США, Мексика"
+    "сектор не определён: robotics",
+    "странное название: iRobot"
    ]
   },
   {
@@ -12752,38 +11820,6 @@
    ]
   },
   {
-   "id": "Q790060",
-   "name": "Broadcom",
-   "name_ru": "Broadcom",
-   "aliases": [
-    "AVGO"
-   ],
-   "country": "США",
-   "region": "Северная Америка",
-   "sector": "Полупроводники",
-   "industries": [
-    "semiconductor industry"
-   ],
-   "founded": 1961,
-   "exchange": "NASDAQ",
-   "ticker": "AVGO",
-   "founders": [
-    "Хью́летт-Па́ккард"
-   ],
-   "ceo": [
-    "Tan Hock Eng"
-   ],
-   "hq": [
-    "Пало-Алто"
-   ],
-   "popularity": 26,
-   "level": "сложный",
-   "source": "https://www.wikidata.org/wiki/Q790060",
-   "problems": [
-    "несколько стран: США, Сингапур"
-   ]
-  },
-  {
    "id": "Q907265",
    "name": "Brembo",
    "name_ru": "Brembo",
@@ -13205,7 +12241,6 @@
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q1493131",
    "problems": [
-    "несколько стран: Испания, Германия",
     "сектор не определён: wind power",
     "незнакомая биржа: Bolsas y Mercados Españoles"
    ]
@@ -13679,8 +12714,8 @@
     "Samsonite International S.A.",
     "Самсонайт"
    ],
-   "country": "Люксембург",
-   "region": "Европа",
+   "country": "США",
+   "region": "Северная Америка",
    "sector": null,
    "industries": [],
    "founded": 1910,
@@ -13698,6 +12733,9 @@
    "popularity": 24,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q1203426",
+   "notes": [
+    "страна компании (Люксембург) не совпадает со страной штаб-квартиры (США) — взята страна штаб-квартиры"
+   ],
    "problems": [
     "сектор не определён: отрасль не указана"
    ]
@@ -13826,40 +12864,6 @@
    "source": "https://www.wikidata.org/wiki/Q1812075",
    "problems": [
     "сектор не определён: отрасль не указана"
-   ]
-  },
-  {
-   "id": "Q199296",
-   "name": "Ziff Davis",
-   "name_ru": "Ziff Davis",
-   "aliases": [
-    "ZD",
-    "Ziff-Davis",
-    "Ziff-Davis Publishing Co.",
-    "Ziff-Davis Publishing Company",
-    "Ziff-Davis, Inc."
-   ],
-   "country": null,
-   "region": null,
-   "sector": "Технологии",
-   "industries": [
-    "Internet industry"
-   ],
-   "founded": 1927,
-   "exchange": "NASDAQ",
-   "ticker": "ZD",
-   "founders": [
-    "William Bernard Ziff, Sr."
-   ],
-   "ceo": [],
-   "hq": [
-    "Нью-Йорк"
-   ],
-   "popularity": 24,
-   "level": "сложный",
-   "source": "https://www.wikidata.org/wiki/Q199296",
-   "problems": [
-    "нет страны"
    ]
   },
   {
@@ -14168,39 +13172,6 @@
    ]
   },
   {
-   "id": "Q48872",
-   "name": "Eaton",
-   "name_ru": "Eaton Corporation",
-   "aliases": [
-    "EATON",
-    "ETN",
-    "Eaton Corporation",
-    "Eaton Corporation Plc"
-   ],
-   "country": "Ирландия",
-   "region": "Европа",
-   "sector": "Промышленность",
-   "industries": [
-    "industrial manufacturing"
-   ],
-   "founded": 1911,
-   "exchange": "NYSE",
-   "ticker": "ETN",
-   "founders": [
-    "Joseph Eaton"
-   ],
-   "ceo": [],
-   "hq": [
-    "Кливленд"
-   ],
-   "popularity": 24,
-   "level": "сложный",
-   "source": "https://www.wikidata.org/wiki/Q48872",
-   "problems": [
-    "несколько стран: Ирландия, США"
-   ]
-  },
-  {
    "id": "Q509544",
    "name": "Givaudan",
    "name_ru": "Givaudan",
@@ -14393,7 +13364,6 @@
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q696061",
    "problems": [
-    "несколько стран: Испания, Франция",
     "незнакомая биржа: OTC Markets Group"
    ]
   },
@@ -14523,39 +13493,6 @@
    "source": "https://www.wikidata.org/wiki/Q903219",
    "problems": [
     "незнакомая биржа: Tadawul Holding Group"
-   ]
-  },
-  {
-   "id": "Q99510294",
-   "name": "Leapmotor",
-   "name_ru": "Leapmotor",
-   "aliases": [
-    "9863",
-    "Zhejiang Leapmotor Technology Co., Ltd."
-   ],
-   "country": null,
-   "region": null,
-   "sector": "Автомобили",
-   "industries": [
-    "automotive industry"
-   ],
-   "founded": 2015,
-   "exchange": "Гонконг",
-   "ticker": "9863",
-   "founders": [
-    "Fu Liquan"
-   ],
-   "ceo": [
-    "Fu Liquan"
-   ],
-   "hq": [
-    "Ханчжоу"
-   ],
-   "popularity": 24,
-   "level": "сложный",
-   "source": "https://www.wikidata.org/wiki/Q99510294",
-   "problems": [
-    "нет страны"
    ]
   },
   {
@@ -14911,7 +13848,6 @@
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q540891",
    "problems": [
-    "несколько стран: США, Бразилия",
     "сектор не определён: information industry"
    ]
   },
@@ -15455,39 +14391,6 @@
    "source": "https://www.wikidata.org/wiki/Q1540297",
    "problems": [
     "незнакомая биржа: Nasdaq Helsinki Ltd"
-   ]
-  },
-  {
-   "id": "Q1562826",
-   "name": "VEON",
-   "name_ru": "ВЕОН",
-   "aliases": [
-    "VEON Group",
-    "VimpelCom",
-    "ВЕОН",
-    "ВымпелКом"
-   ],
-   "country": "Нидерланды",
-   "region": "Европа",
-   "sector": "Телеком",
-   "industries": [
-    "telecommunications industry"
-   ],
-   "founded": 2009,
-   "exchange": "NASDAQ",
-   "ticker": "VEON",
-   "founders": [],
-   "ceo": [
-    "Kaan Terzioğlu"
-   ],
-   "hq": [
-    "Дубай"
-   ],
-   "popularity": 22,
-   "level": "сложный",
-   "source": "https://www.wikidata.org/wiki/Q1562826",
-   "problems": [
-    "несколько стран: Нидерланды, Бермудские Острова"
    ]
   },
   {
@@ -16312,42 +15215,6 @@
    ]
   },
   {
-   "id": "Q98139925",
-   "name": "Li Auto",
-   "name_ru": "Li Auto",
-   "aliases": [
-    "2015",
-    "Beijing CHJ Information Technology Co., Ltd.",
-    "Beijing Co Wheels Technology Co., Ltd.",
-    "LI",
-    "Leading Ideal Inc.",
-    "Li Auto Inc.",
-    "Li Xiang"
-   ],
-   "country": null,
-   "region": null,
-   "sector": "Автомобили",
-   "industries": [
-    "automotive industry"
-   ],
-   "founded": 2015,
-   "exchange": "NASDAQ",
-   "ticker": "LI",
-   "founders": [
-    "Li Xiang"
-   ],
-   "ceo": [],
-   "hq": [
-    "Пекин"
-   ],
-   "popularity": 22,
-   "level": "сложный",
-   "source": "https://www.wikidata.org/wiki/Q98139925",
-   "problems": [
-    "нет страны"
-   ]
-  },
-  {
    "id": "Q1003968",
    "name": "Bulgarian Stock Exchange",
    "name_ru": "Болгарская фондовая биржа — София",
@@ -16641,7 +15508,6 @@
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q2064074",
    "problems": [
-    "несколько стран: Сингапур, Малайзия",
     "незнакомая биржа: OTC Markets Group"
    ]
   },
@@ -16758,8 +15624,8 @@
     "Metro International S.A.",
     "издатель группы изданий Metro"
    ],
-   "country": null,
-   "region": null,
+   "country": "Швеция",
+   "region": "Европа",
    "sector": null,
    "industries": [],
    "founded": 1995,
@@ -16774,7 +15640,6 @@
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q293008",
    "problems": [
-    "нет страны",
     "сектор не определён: отрасль не указана",
     "незнакомая биржа: OMX AB"
    ]
@@ -16788,7 +15653,7 @@
     "ERFSF",
     "Eurofins Scientific SE"
    ],
-   "country": "Франция",
+   "country": "Люксембург",
    "region": "Европа",
    "sector": null,
    "industries": [
@@ -16807,6 +15672,9 @@
    "popularity": 21,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q324846",
+   "notes": [
+    "страна компании (Франция) не совпадает со страной штаб-квартиры (Люксембург) — взята страна штаб-квартиры"
+   ],
    "problems": [
     "сектор не определён: technical analyses, tests and inspections"
    ]
@@ -17081,7 +15949,6 @@
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q667865",
    "problems": [
-    "несколько стран: Ирландия, Бельгия",
     "сектор не определён: отрасль не указана"
    ]
   },
@@ -17146,40 +16013,6 @@
    "source": "https://www.wikidata.org/wiki/Q686030",
    "problems": [
     "незнакомая биржа: Nasdaq Nordic"
-   ]
-  },
-  {
-   "id": "Q691592",
-   "name": "GlobalFoundries",
-   "name_ru": "GlobalFoundries",
-   "aliases": [
-    "GFS",
-    "GloFo",
-    "Global Foundries",
-    "GlobalFoundries (Cayman Islands)",
-    "GlobalFoundries Inc"
-   ],
-   "country": "США",
-   "region": "Северная Америка",
-   "sector": "Полупроводники",
-   "industries": [
-    "semiconductor industry"
-   ],
-   "founded": 2008,
-   "exchange": "NASDAQ",
-   "ticker": "GFS",
-   "founders": [],
-   "ceo": [
-    "Sanjay Jha"
-   ],
-   "hq": [
-    "Malta"
-   ],
-   "popularity": 21,
-   "level": "сложный",
-   "source": "https://www.wikidata.org/wiki/Q691592",
-   "problems": [
-    "несколько стран: США, Каймановы Острова"
    ]
   },
   {
@@ -17322,7 +16155,7 @@
     "Regus",
     "Regus plc"
    ],
-   "country": "Великобритания",
+   "country": "Швейцария",
    "region": "Европа",
    "sector": null,
    "industries": [
@@ -17341,6 +16174,9 @@
    "popularity": 21,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q761072",
+   "notes": [
+    "страна компании (Великобритания) не совпадает со страной штаб-квартиры (Швейцария) — взята страна штаб-квартиры"
+   ],
    "problems": [
     "сектор не определён: facility management"
    ]
@@ -17670,7 +16506,7 @@
   },
   {
    "id": "Q1508526",
-   "name": "Sturm, Ruger &",
+   "name": "Sturm, Ruger",
    "name_ru": "Sturm, Ruger & Co.",
    "aliases": [
     "RGR",
@@ -17741,7 +16577,7 @@
     "Rainbowbridge World",
     "WA Entertainment"
    ],
-   "country": "Япония",
+   "country": "Республика Корея",
    "region": "Азия",
    "sector": "Медиа и развлечения",
    "industries": [
@@ -17760,7 +16596,6 @@
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q16174772",
    "problems": [
-    "несколько стран: Япония, Республика Корея",
     "незнакомая биржа: Korean Stock Exchange"
    ]
   },
@@ -17835,8 +16670,8 @@
    "aliases": [
     "KNCRY"
    ],
-   "country": "США",
-   "region": "Северная Америка",
+   "country": "Финляндия",
+   "region": "Европа",
    "sector": "Промышленность",
    "industries": [
     "mechanical engineering",
@@ -17856,7 +16691,6 @@
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q1781308",
    "problems": [
-    "несколько стран: США, Финляндия",
     "незнакомая биржа: OTC Markets Group"
    ]
   },
@@ -18184,8 +17018,8 @@
     "Renovable"
    ],
    "founded": 1997,
-   "exchange": "Madrid Stock Exchange",
-   "ticker": null,
+   "exchange": "OTC Markets Group",
+   "ticker": "ACXIF",
    "founders": [],
    "ceo": [],
    "hq": [
@@ -18195,7 +17029,7 @@
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q339142",
    "problems": [
-    "незнакомая биржа: Madrid Stock Exchange"
+    "незнакомая биржа: OTC Markets Group"
    ]
   },
   {
@@ -18258,8 +17092,10 @@
    "popularity": 20,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q4653060",
+   "notes": [
+    "страна компании (Каймановы Острова, Китай) не совпадает со страной штаб-квартиры (Китай) — взята страна штаб-квартиры"
+   ],
    "problems": [
-    "несколько стран: Каймановы Острова, Китай",
     "сектор не определён: sporting goods industry"
    ]
   },
@@ -18397,40 +17233,6 @@
    ]
   },
   {
-   "id": "Q55118127",
-   "name": "Geely Auto",
-   "name_ru": "Geely Automobile",
-   "aliases": [
-    "175",
-    "GELYF",
-    "Geely",
-    "Geely Automobile",
-    "Geely Automobile Holdings Limited",
-    "Geely Automobile Holdings Ltd."
-   ],
-   "country": "Китай",
-   "region": "Азия",
-   "sector": "Автомобили",
-   "industries": [
-    "automotive industry"
-   ],
-   "founded": 1986,
-   "exchange": "Гонконг",
-   "ticker": "175",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Ханчжоу",
-    "Чжэцзян"
-   ],
-   "popularity": 20,
-   "level": "сложный",
-   "source": "https://www.wikidata.org/wiki/Q55118127",
-   "problems": [
-    "несколько стран: Китай, Гонконг"
-   ]
-  },
-  {
    "id": "Q553927",
    "name": "Marubeni",
    "name_ru": "Marubeni",
@@ -18500,8 +17302,8 @@
     "Merida",
     "Merida Industry Co., Ltd (MIC)"
    ],
-   "country": null,
-   "region": null,
+   "country": "Китайская Республика",
+   "region": "Азия",
    "sector": null,
    "industries": [],
    "founded": 1972,
@@ -18516,7 +17318,6 @@
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q619230",
    "problems": [
-    "нет страны",
     "сектор не определён: отрасль не указана"
    ]
   },
@@ -18898,37 +17699,6 @@
    ]
   },
   {
-   "id": "Q919935",
-   "name": "Ooredoo",
-   "name_ru": null,
-   "aliases": [
-    "ORDS",
-    "Ooredoo Q.P.S.C.",
-    "Qtel"
-   ],
-   "country": null,
-   "region": null,
-   "sector": "Телеком",
-   "industries": [
-    "telecommunications industry",
-    "mobile phone industry"
-   ],
-   "founded": 1987,
-   "exchange": "Лондон",
-   "ticker": "ORDS",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Доха"
-   ],
-   "popularity": 20,
-   "level": "сложный",
-   "source": "https://www.wikidata.org/wiki/Q919935",
-   "problems": [
-    "нет страны"
-   ]
-  },
-  {
    "id": "Q925132",
    "name": "Dia",
    "name_ru": null,
@@ -19280,7 +18050,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1408037",
    "problems": [
-    "несколько стран: Испания, Нидерланды",
     "незнакомая биржа: Madrid Stock Exchange"
    ]
   },
@@ -19825,36 +18594,6 @@
    "problems": [
     "сектор не определён: отрасль не указана",
     "незнакомая биржа: Korean Stock Exchange"
-   ]
-  },
-  {
-   "id": "Q493108",
-   "name": "Kumho Tire",
-   "name_ru": "Kumho Tire",
-   "aliases": [
-    "Kumho Tyre"
-   ],
-   "country": null,
-   "region": null,
-   "sector": "Промышленность",
-   "industries": [
-    "industrial manufacturing"
-   ],
-   "founded": 1960,
-   "exchange": "Лондон",
-   "ticker": null,
-   "founders": [
-    "Park In-chon"
-   ],
-   "ceo": [],
-   "hq": [
-    "Кванджу"
-   ],
-   "popularity": 19,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q493108",
-   "problems": [
-    "нет страны"
    ]
   },
   {
@@ -20891,37 +19630,6 @@
    ]
   },
   {
-   "id": "Q1439934",
-   "name": "Kingsoft",
-   "name_ru": "Kingsoft",
-   "aliases": [
-    "3888",
-    "Kingsoft Corporation"
-   ],
-   "country": "Китай",
-   "region": "Азия",
-   "sector": "Медиа и развлечения",
-   "industries": [
-    "software industry",
-    "video game industry",
-    "Internet industry"
-   ],
-   "founded": 1989,
-   "exchange": "Гонконг",
-   "ticker": "3888",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Пекин"
-   ],
-   "popularity": 18,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q1439934",
-   "problems": [
-    "несколько стран: Китай, Гонконг"
-   ]
-  },
-  {
    "id": "Q1477575",
    "name": "Smithfield Foods",
    "name_ru": "Smithfield Foods",
@@ -21395,38 +20103,6 @@
    ]
   },
   {
-   "id": "Q5289230",
-   "name": "Dollar Tree",
-   "name_ru": "Dollar Tree",
-   "aliases": [
-    "DLTR"
-   ],
-   "country": "Канада",
-   "region": "Северная Америка",
-   "sector": "Ритейл",
-   "industries": [
-    "retail"
-   ],
-   "founded": 1986,
-   "exchange": "NASDAQ",
-   "ticker": "DLTR",
-   "founders": [
-    "Macon Foscue Brock, Jr."
-   ],
-   "ceo": [
-    "Macon Foscue Brock, Jr."
-   ],
-   "hq": [
-    "Чесапик"
-   ],
-   "popularity": 18,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q5289230",
-   "problems": [
-    "несколько стран: Канада, США"
-   ]
-  },
-  {
    "id": "Q54075",
    "name": "SSAB",
    "name_ru": "SSAB",
@@ -21645,8 +20321,8 @@
    "aliases": [
     "Betfair"
    ],
-   "country": null,
-   "region": null,
+   "country": "Великобритания",
+   "region": "Европа",
    "sector": null,
    "industries": [
     "online gambling"
@@ -21665,8 +20341,8 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q683281",
    "problems": [
-    "нет страны",
-    "сектор не определён: online gambling"
+    "сектор не определён: online gambling",
+    "странное название: betfair"
    ]
   },
   {
@@ -21738,8 +20414,8 @@
     "Graphisoft SE",
     "graphisoft.com"
    ],
-   "country": null,
-   "region": null,
+   "country": "Венгрия",
+   "region": "Европа",
    "sector": "Технологии",
    "industries": [
     "software industry"
@@ -21756,7 +20432,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q743588",
    "problems": [
-    "нет страны",
     "незнакомая биржа: Budapest Stock Exchange"
    ]
   },
@@ -22083,8 +20758,8 @@
     "Mandarin Oriental",
     "Mandarin Oriental Hotel Group"
    ],
-   "country": "Бермудские Острова",
-   "region": "Северная Америка",
+   "country": "Китай",
+   "region": "Азия",
    "sector": null,
    "industries": [],
    "founded": 1963,
@@ -22098,6 +20773,9 @@
    "popularity": 17,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1236521",
+   "notes": [
+    "страна компании (Бермудские Острова) не совпадает со страной штаб-квартиры (Китай) — взята страна штаб-квартиры"
+   ],
    "problems": [
     "сектор не определён: отрасль не указана"
    ]
@@ -22389,37 +21067,6 @@
    ]
   },
   {
-   "id": "Q1652574",
-   "name": "Manulife Financial",
-   "name_ru": "Manulife Financial",
-   "aliases": [
-    "0945",
-    "MFC",
-    "Manulife",
-    "Manulife Financial Corporation"
-   ],
-   "country": "Канада",
-   "region": "Северная Америка",
-   "sector": "Финансы",
-   "industries": [
-    "insurance industry"
-   ],
-   "founded": 1887,
-   "exchange": "NYSE",
-   "ticker": "MFC",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Торонто"
-   ],
-   "popularity": 17,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q1652574",
-   "problems": [
-    "несколько стран: Канада, Япония"
-   ]
-  },
-  {
    "id": "Q1654103",
    "name": "IMAX",
    "name_ru": "IMAX Corporation",
@@ -22484,6 +21131,42 @@
    "source": "https://www.wikidata.org/wiki/Q1656230",
    "problems": [
     "разные годы основания: 1927, 2012"
+   ]
+  },
+  {
+   "id": "Q1671509",
+   "name": "onsemi",
+   "name_ru": null,
+   "aliases": [
+    "AMI Semiconductor",
+    "Alcatel Microelectronics",
+    "Fairchild Semiconductor",
+    "Mietec",
+    "ON"
+   ],
+   "country": "США",
+   "region": "Северная Америка",
+   "sector": "Полупроводники",
+   "industries": [
+    "semiconductor industry"
+   ],
+   "founded": 1992,
+   "exchange": "NASDAQ",
+   "ticker": "ON",
+   "founders": [],
+   "ceo": [
+    "Keith D. Jackson",
+    "Hassane El-Khoury",
+    "http://www.wikidata.org/.well-known/genid/be7d5212fb963c48879a0c6565c7d7bd"
+   ],
+   "hq": [
+    "Скотсдейл"
+   ],
+   "popularity": 17,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q1671509",
+   "problems": [
+    "странное название: onsemi"
    ]
   },
   {
@@ -22639,38 +21322,6 @@
    ]
   },
   {
-   "id": "Q1915049",
-   "name": "McCormick &",
-   "name_ru": null,
-   "aliases": [
-    "MKC",
-    "McCormick",
-    "McCormick & Company",
-    "McCormick & Company, Inc.",
-    "McCormick & Company, Incorporated"
-   ],
-   "country": "США",
-   "region": "Северная Америка",
-   "sector": "Напитки и продукты",
-   "industries": [
-    "food industry"
-   ],
-   "founded": 1669,
-   "exchange": "NYSE",
-   "ticker": "MKC",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Hunt Valley"
-   ],
-   "popularity": 17,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q1915049",
-   "problems": [
-    "несколько стран: США, Франция"
-   ]
-  },
-  {
    "id": "Q23014836",
    "name": null,
    "name_ru": null,
@@ -22701,38 +21352,6 @@
    "source": "https://www.wikidata.org/wiki/Q23014836",
    "problems": [
     "нет названия"
-   ]
-  },
-  {
-   "id": "Q265176",
-   "name": "Qcells",
-   "name_ru": "Q-Cells",
-   "aliases": [
-    "HQCL",
-    "Hanwha Qcells",
-    "Q-CELLS",
-    "Q-Cells",
-    "Q CELLS"
-   ],
-   "country": "Германия",
-   "region": "Европа",
-   "sector": "Промышленность",
-   "industries": [
-    "engineering"
-   ],
-   "founded": 2012,
-   "exchange": "NASDAQ",
-   "ticker": "HQCL",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Сеул"
-   ],
-   "popularity": 17,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q265176",
-   "problems": [
-    "несколько стран: Германия, Республика Корея"
    ]
   },
   {
@@ -23127,7 +21746,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q5384453",
    "problems": [
-    "несколько стран: США, Великобритания",
     "сектор не определён: отрасль не указана"
    ]
   },
@@ -23161,41 +21779,6 @@
    "source": "https://www.wikidata.org/wiki/Q544532",
    "problems": [
     "незнакомая биржа: Madrid Stock Exchange"
-   ]
-  },
-  {
-   "id": "Q5638920",
-   "name": "Haidilao",
-   "name_ru": "Haidilao",
-   "aliases": [
-    "6862",
-    "HDALF",
-    "Hai Di Lao",
-    "Haidilao Group"
-   ],
-   "country": "Канада",
-   "region": "Северная Америка",
-   "sector": "Финансы",
-   "industries": [
-    "investment",
-    "system catering"
-   ],
-   "founded": 1994,
-   "exchange": "Гонконг",
-   "ticker": "6862",
-   "founders": [
-    "Zhang Yong"
-   ],
-   "ceo": [],
-   "hq": [
-    "Чикаго",
-    "Сенчери-Сити"
-   ],
-   "popularity": 17,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q5638920",
-   "problems": [
-    "несколько стран: Канада, США, Китай"
    ]
   },
   {
@@ -23290,46 +21873,6 @@
    ]
   },
   {
-   "id": "Q637440",
-   "name": "Lazard",
-   "name_ru": "Лазард",
-   "aliases": [
-    "LAZ",
-    "Lazard Brothers & Co",
-    "Lazard Frères & Co",
-    "Лазард"
-   ],
-   "country": "Канада",
-   "region": "Северная Америка",
-   "sector": "Финансы",
-   "industries": [
-    "asset management",
-    "investment banking",
-    "financial service activities, except insurance and pension funding",
-    "financial sector"
-   ],
-   "founded": 1848,
-   "exchange": "NYSE",
-   "ticker": "LAZ",
-   "founders": [
-    "Simon Lazard",
-    "Élie Lazard",
-    "Alexandre Lazard"
-   ],
-   "ceo": [
-    "Питер Орзаг"
-   ],
-   "hq": [
-    "Нью-Йорк"
-   ],
-   "popularity": 17,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q637440",
-   "problems": [
-    "несколько стран: Канада, Япония, Ирландия, Испания, США, Бельгия, Люксембург, Швеция, Италия, Швейцария, Австрия, Нидерланды, Франция, Великобритания, Бразилия, Германия, Сингапур, Австралия, Саудовская Аравия, Объединённые Арабские Эмираты, Республика Корея, Гонконг"
-   ]
-  },
-  {
    "id": "Q67389109",
    "name": "Prosus",
    "name_ru": null,
@@ -23418,40 +21961,6 @@
    ]
   },
   {
-   "id": "Q751361",
-   "name": "Hong Kong Exchanges and Clearing",
-   "name_ru": "Hong Kong Exchanges & Clearing",
-   "aliases": [
-    "0388",
-    "HKEX",
-    "HKEx",
-    "Hong Kong Exchanges & Clearing",
-    "Hong Kong Exchanges And Clearing Ltd",
-    "Hong Kong Exchanges and Clearing Limited",
-    "The London Metal Stock Exchange"
-   ],
-   "country": "Китай",
-   "region": "Азия",
-   "sector": "Финансы",
-   "industries": [
-    "finance"
-   ],
-   "founded": 1999,
-   "exchange": "Гонконг",
-   "ticker": "0388",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Гонконг"
-   ],
-   "popularity": 17,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q751361",
-   "problems": [
-    "несколько стран: Китай, Гонконг"
-   ]
-  },
-  {
    "id": "Q792500",
    "name": "Axiata",
    "name_ru": null,
@@ -23526,8 +22035,8 @@
     "Lyondell Chemical",
     "LyondellBasell Industries"
    ],
-   "country": "Нидерланды",
-   "region": "Европа",
+   "country": "США",
+   "region": "Северная Америка",
    "sector": null,
    "industries": [],
    "founded": 1985,
@@ -23541,6 +22050,9 @@
    "popularity": 17,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q899255",
+   "notes": [
+    "страна компании (Нидерланды) не совпадает со страной штаб-квартиры (США) — взята страна штаб-квартиры"
+   ],
    "problems": [
     "сектор не определён: отрасль не указана"
    ]
@@ -23886,8 +22398,8 @@
     "MRF",
     "MRF TYRES"
    ],
-   "country": null,
-   "region": null,
+   "country": "Индия",
+   "region": "Азия",
    "sector": null,
    "industries": [],
    "founded": 1946,
@@ -23904,7 +22416,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1789944",
    "problems": [
-    "нет страны",
     "сектор не определён: отрасль не указана"
    ]
   },
@@ -23966,39 +22477,6 @@
    "source": "https://www.wikidata.org/wiki/Q1817417",
    "problems": [
     "сектор не определён: отрасль не указана"
-   ]
-  },
-  {
-   "id": "Q1853060",
-   "name": "SANY Heavy Industry",
-   "name_ru": "Sany Heavy Industry",
-   "aliases": [
-    "600031",
-    "SANY",
-    "SANY Heavy Industry Co., Ltd",
-    "Sany Heavy Industry"
-   ],
-   "country": "Китай",
-   "region": "Азия",
-   "sector": "Промышленность",
-   "industries": [
-    "manufacture of machinery and equipment"
-   ],
-   "founded": 1989,
-   "exchange": "Гонконг",
-   "ticker": null,
-   "founders": [
-    "Лян Вэньгэнь"
-   ],
-   "ceo": [],
-   "hq": [
-    "Чанша"
-   ],
-   "popularity": 16,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q1853060",
-   "problems": [
-    "несколько стран: Китай, Гонконг"
    ]
   },
   {
@@ -24211,40 +22689,6 @@
    ]
   },
   {
-   "id": "Q226897",
-   "name": "Zotac",
-   "name_ru": "Zotac",
-   "aliases": [
-    "1263",
-    "PC Partner Group Limited",
-    "ZOTAC",
-    "ZOTAC Technology",
-    "ZOTAC Technology Limited",
-    "ZOTAC Technology Pte. Limited"
-   ],
-   "country": null,
-   "region": null,
-   "sector": "Электроника",
-   "industries": [
-    "microelectronics",
-    "computer hardware industry"
-   ],
-   "founded": 2006,
-   "exchange": "Гонконг",
-   "ticker": "1263",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Гонконг"
-   ],
-   "popularity": 16,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q226897",
-   "problems": [
-    "нет страны"
-   ]
-  },
-  {
    "id": "Q2274089",
    "name": "Wynn Resorts",
    "name_ru": null,
@@ -24344,7 +22788,7 @@
     "Evoke plc",
     "VGDSL"
    ],
-   "country": "Гибралтар",
+   "country": "Великобритания",
    "region": "Европа",
    "sector": null,
    "industries": [
@@ -24366,6 +22810,9 @@
    "popularity": 16,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q274372",
+   "notes": [
+    "страна компании (Гибралтар) не совпадает со страной штаб-квартиры (Великобритания) — взята страна штаб-квартиры"
+   ],
    "problems": [
     "сектор не определён: gambling industry"
    ]
@@ -24401,6 +22848,9 @@
    "popularity": 16,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q289704",
+   "notes": [
+    "страна компании (ЮАР) не совпадает со страной штаб-квартиры (Великобритания) — взята страна штаб-квартиры"
+   ],
    "problems": [
     "разные годы основания: 1845, 1885, 1999"
    ]
@@ -25048,73 +23498,6 @@
    ]
   },
   {
-   "id": "Q724186",
-   "name": "Phoenix Television",
-   "name_ru": null,
-   "aliases": [
-    "2008",
-    "Fenghuang Weishi",
-    "Phoenix News",
-    "Phoenix Satellite Television Holdings Limited",
-    "Phoenix TV",
-    "ifeng.com"
-   ],
-   "country": "Китай",
-   "region": "Азия",
-   "sector": "Медиа и развлечения",
-   "industries": [
-    "television"
-   ],
-   "founded": 1996,
-   "exchange": "Гонконг",
-   "ticker": "2008",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Тайпоу"
-   ],
-   "popularity": 16,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q724186",
-   "problems": [
-    "несколько стран: Китай, Британский Гонконг"
-   ]
-  },
-  {
-   "id": "Q734779",
-   "name": "Comscore",
-   "name_ru": null,
-   "aliases": [
-    "Comscore, Inc.",
-    "SCOR",
-    "comScore Inc"
-   ],
-   "country": "США",
-   "region": "Северная Америка",
-   "sector": "Технологии",
-   "industries": [
-    "Internet",
-    "marketing"
-   ],
-   "founded": 1999,
-   "exchange": "NASDAQ",
-   "ticker": "SCOR",
-   "founders": [
-    "Gian M. Fulgoni",
-    "Q6731070"
-   ],
-   "ceo": [],
-   "hq": [
-    "Рестон"
-   ],
-   "popularity": 16,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q734779",
-   "problems": [
-    "несколько стран: США, Нидерланды"
-   ]
-  },
-  {
    "id": "Q740553",
    "name": "bpost",
    "name_ru": "Bpost",
@@ -25151,7 +23534,8 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q740553",
    "problems": [
-    "сектор не определён: отрасль не указана"
+    "сектор не определён: отрасль не указана",
+    "странное название: bpost"
    ]
   },
   {
@@ -25438,6 +23822,9 @@
    "popularity": 16,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q921716",
+   "notes": [
+    "страна компании (Нидерланды) не совпадает со страной штаб-квартиры (Египет) — взята страна штаб-квартиры"
+   ],
    "problems": [
     "незнакомая биржа: Egyptian Exchange"
    ]
@@ -25593,75 +23980,6 @@
    "source": "https://www.wikidata.org/wiki/Q1131463",
    "problems": [
     "сектор не определён: consulting industry"
-   ]
-  },
-  {
-   "id": "Q11320256",
-   "name": "DeNA",
-   "name_ru": null,
-   "aliases": [
-    "2432",
-    "DeNA Co., Ltd."
-   ],
-   "country": "Япония",
-   "region": "Азия",
-   "sector": "Технологии",
-   "industries": [
-    "software development"
-   ],
-   "founded": 1999,
-   "exchange": "Токио",
-   "ticker": "2432",
-   "founders": [
-    "Томоко Намба"
-   ],
-   "ceo": [
-    "Исао Мориясу"
-   ],
-   "hq": [
-    "Shibuya"
-   ],
-   "popularity": 15,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q11320256",
-   "problems": [
-    "несколько стран: Япония, Франция"
-   ]
-  },
-  {
-   "id": "Q1142797",
-   "name": "Schroders",
-   "name_ru": "Шрёдер",
-   "aliases": [
-    "SDR",
-    "SDRC",
-    "Schroders plc",
-    "Д. Г. Шрёдер и K°",
-    "Шрёдер"
-   ],
-   "country": "Люксембург",
-   "region": "Европа",
-   "sector": "Финансы",
-   "industries": [
-    "financial services"
-   ],
-   "founded": 1804,
-   "exchange": "Лондон",
-   "ticker": "SDR",
-   "founders": [
-    "J. Henry Schroder"
-   ],
-   "ceo": [
-    "Richard Oldfield"
-   ],
-   "hq": [
-    "Лондон"
-   ],
-   "popularity": 15,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q1142797",
-   "problems": [
-    "несколько стран: Люксембург, Великобритания"
    ]
   },
   {
@@ -26040,7 +24358,7 @@
    "name": "HellermannTyton",
    "name_ru": null,
    "aliases": [],
-   "country": "Германия",
+   "country": "Великобритания",
    "region": "Европа",
    "sector": null,
    "industries": [],
@@ -26055,6 +24373,9 @@
    "popularity": 15,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1602805",
+   "notes": [
+    "страна компании (Германия) не совпадает со страной штаб-квартиры (Великобритания) — взята страна штаб-квартиры"
+   ],
    "problems": [
     "сектор не определён: отрасль не указана"
    ]
@@ -26179,36 +24500,6 @@
    "problems": [
     "сектор не определён: product packaging industry",
     "разные годы основания: 1903, 1929"
-   ]
-  },
-  {
-   "id": "Q1859143",
-   "name": "VTech",
-   "name_ru": "VTech",
-   "aliases": [
-    "0303",
-    "VTech Holdings",
-    "Video Technology Limited"
-   ],
-   "country": "Китай",
-   "region": "Азия",
-   "sector": "Электроника",
-   "industries": [
-    "electronics industry"
-   ],
-   "founded": 1976,
-   "exchange": "Гонконг",
-   "ticker": "0303",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Тайпоу"
-   ],
-   "popularity": 15,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q1859143",
-   "problems": [
-    "несколько стран: Китай, Гонконг, Британский Гонконг"
    ]
   },
   {
@@ -26537,7 +24828,8 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q24862548",
    "problems": [
-    "сектор не определён: space industry"
+    "сектор не определён: space industry",
+    "странное название: ispace"
    ]
   },
   {
@@ -26551,8 +24843,8 @@
     "Gas Authority India Limited",
     "Gas Authority of India Ltd."
    ],
-   "country": null,
-   "region": null,
+   "country": "Индия",
+   "region": "Азия",
    "sector": null,
    "industries": [],
    "founded": 1984,
@@ -26567,7 +24859,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q2512333",
    "problems": [
-    "нет страны",
     "сектор не определён: отрасль не указана"
    ]
   },
@@ -27141,35 +25432,6 @@
    ]
   },
   {
-   "id": "Q5167530",
-   "name": "Coolpad",
-   "name_ru": "Coolpad",
-   "aliases": [
-    "2369",
-    "Coolpad Group"
-   ],
-   "country": null,
-   "region": null,
-   "sector": "Электроника",
-   "industries": [
-    "consumer electronics industry"
-   ],
-   "founded": 1993,
-   "exchange": "Гонконг",
-   "ticker": "2369",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Шэньчжэнь"
-   ],
-   "popularity": 15,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q5167530",
-   "problems": [
-    "нет страны"
-   ]
-  },
-  {
    "id": "Q517117",
    "name": "Shimadzu",
    "name_ru": "Shimadzu",
@@ -27584,40 +25846,6 @@
    ]
   },
   {
-   "id": "Q7561808",
-   "name": "Sonic Drive-In",
-   "name_ru": null,
-   "aliases": [
-    "SONC",
-    "Sonic",
-    "Sonic Corporation"
-   ],
-   "country": null,
-   "region": null,
-   "sector": "Рестораны",
-   "industries": [
-    "restaurant"
-   ],
-   "founded": 1963,
-   "exchange": "NASDAQ",
-   "ticker": "SONC",
-   "founders": [
-    "Трой Смит"
-   ],
-   "ceo": [
-    "J. Clifford Hudson"
-   ],
-   "hq": [
-    "Оклахома-Сити"
-   ],
-   "popularity": 15,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q7561808",
-   "problems": [
-    "нет страны"
-   ]
-  },
-  {
    "id": "Q780696",
    "name": "Austal",
    "name_ru": "Austal",
@@ -27874,8 +26102,8 @@
    "aliases": [
     "09633"
    ],
-   "country": null,
-   "region": null,
+   "country": "Китай",
+   "region": "Азия",
    "sector": null,
    "industries": [],
    "founded": 1996,
@@ -27895,7 +26123,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q10895089",
    "problems": [
-    "нет страны",
     "сектор не определён: отрасль не указана"
    ]
   },
@@ -28060,8 +26287,8 @@
     "Mercer Human Resource Consulting",
     "Mercer, LLC"
    ],
-   "country": null,
-   "region": null,
+   "country": "США",
+   "region": "Северная Америка",
    "sector": null,
    "industries": [
     "risk management",
@@ -28080,7 +26307,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1391599",
    "problems": [
-    "нет страны",
     "сектор не определён: risk management, professional service, consulting company"
    ]
   },
@@ -28632,8 +26858,8 @@
    "aliases": [
     "CMCM"
    ],
-   "country": null,
-   "region": null,
+   "country": "Китай",
+   "region": "Азия",
    "sector": null,
    "industries": [
     "mobile app"
@@ -28650,7 +26876,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q18111091",
    "problems": [
-    "нет страны",
     "сектор не определён: mobile app"
    ]
   },
@@ -28719,6 +26944,9 @@
    "popularity": 14,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1815030",
+   "notes": [
+    "страна компании (Испания) не совпадает со страной штаб-квартиры (США) — взята страна штаб-квартиры"
+   ],
    "problems": [
     "сектор не определён: hospitality industry",
     "незнакомая биржа: Madrid Stock Exchange"
@@ -28887,37 +27115,6 @@
    ]
   },
   {
-   "id": "Q225440",
-   "name": "Celestica",
-   "name_ru": "Celestica",
-   "aliases": [
-    "CLS",
-    "Celestica Inc."
-   ],
-   "country": null,
-   "region": null,
-   "sector": "Электроника",
-   "industries": [
-    "electronics"
-   ],
-   "founded": 1994,
-   "exchange": "NYSE",
-   "ticker": "CLS",
-   "founders": [
-    "IBM"
-   ],
-   "ceo": [],
-   "hq": [
-    "Торонто"
-   ],
-   "popularity": 14,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q225440",
-   "problems": [
-    "нет страны"
-   ]
-  },
-  {
    "id": "Q229764",
    "name": "3i",
    "name_ru": null,
@@ -28949,35 +27146,6 @@
    "source": "https://www.wikidata.org/wiki/Q229764",
    "problems": [
     "сектор не определён: отрасль не указана"
-   ]
-  },
-  {
-   "id": "Q2527380",
-   "name": "Viohalco",
-   "name_ru": null,
-   "aliases": [
-    "BIO",
-    "VIO"
-   ],
-   "country": "Бельгия",
-   "region": "Европа",
-   "sector": "Металлы и добыча",
-   "industries": [
-    "iron and steel industry"
-   ],
-   "founded": 1937,
-   "exchange": "Брюссель",
-   "ticker": "VIO",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Брюссель"
-   ],
-   "popularity": 14,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q2527380",
-   "problems": [
-    "несколько стран: Бельгия, Греция"
    ]
   },
   {
@@ -29080,7 +27248,7 @@
     "Millicom International Cellular S.A.",
     "TIGO"
    ],
-   "country": "Швеция",
+   "country": "Люксембург",
    "region": "Европа",
    "sector": "Телеком",
    "industries": [
@@ -29100,6 +27268,9 @@
    "popularity": 14,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q276345",
+   "notes": [
+    "страна компании (Швеция) не совпадает со страной штаб-квартиры (Люксембург) — взята страна штаб-квартиры"
+   ],
    "problems": [
     "разные годы основания: 1979, 2004"
    ]
@@ -29192,6 +27363,9 @@
    "popularity": 14,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q3067064",
+   "notes": [
+    "страна компании (Чили) не совпадает со страной штаб-квартиры (Россия) — взята страна штаб-квартиры"
+   ],
    "problems": [
     "разные годы основания: 1926, 1968"
    ]
@@ -29647,7 +27821,7 @@
    ],
    "country": "Италия",
    "region": "Европа",
-   "sector": null,
+   "sector": "Энергетика",
    "industries": [
     "gas industry"
    ],
@@ -29665,7 +27839,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q583247",
    "problems": [
-    "сектор не определён: gas industry",
     "незнакомая биржа: OTC Markets Group"
    ]
   },
@@ -29681,8 +27854,8 @@
     "Olam International Limited",
     "VC2"
    ],
-   "country": "Франция",
-   "region": "Европа",
+   "country": "Сингапур",
+   "region": "Азия",
    "sector": "Напитки и продукты",
    "industries": [
     "food industry",
@@ -29701,6 +27874,9 @@
    "popularity": 14,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q5950695",
+   "notes": [
+    "страна компании (Франция) не совпадает со страной штаб-квартиры (Сингапур) — взята страна штаб-квартиры"
+   ],
    "problems": [
     "разные годы основания: 1989, 2018",
     "незнакомая биржа: Singapore Stock Exchange"
@@ -30149,35 +28325,6 @@
    ]
   },
   {
-   "id": "Q1053372",
-   "name": "Cencosud",
-   "name_ru": "Cencosud",
-   "aliases": [
-    "CENCOSUD"
-   ],
-   "country": "Бразилия",
-   "region": "Южная Америка",
-   "sector": "Ритейл",
-   "industries": [
-    "retail"
-   ],
-   "founded": 1960,
-   "exchange": "NYSE",
-   "ticker": null,
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Сантьяго",
-    "Лас-Кондес"
-   ],
-   "popularity": 13,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q1053372",
-   "problems": [
-    "несколько стран: Бразилия, Чили, Аргентина, Перу, Колумбия"
-   ]
-  },
-  {
    "id": "Q1059709",
    "name": "Ariston",
    "name_ru": null,
@@ -30366,7 +28513,8 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1160928",
    "problems": [
-    "незнакомая биржа: Warsaw Stock Exchange"
+    "незнакомая биржа: Warsaw Stock Exchange",
+    "странное название: mBank"
    ]
   },
   {
@@ -30407,8 +28555,8 @@
     "Rapala VMC Corporation",
     "Rapala VMC Oyj"
    ],
-   "country": null,
-   "region": null,
+   "country": "Финляндия",
+   "region": "Европа",
    "sector": null,
    "industries": [
     "fishing industry"
@@ -30427,7 +28575,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q120371",
    "problems": [
-    "нет страны",
     "сектор не определён: fishing industry",
     "незнакомая биржа: Nasdaq Helsinki Ltd"
    ]
@@ -30639,8 +28786,8 @@
     "Industrias Peñoles",
     "Penoles"
    ],
-   "country": null,
-   "region": null,
+   "country": "Мексика",
+   "region": "Северная Америка",
    "sector": "Металлы и добыча",
    "industries": [
     "mining"
@@ -30657,36 +28804,7 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1577153",
    "problems": [
-    "нет страны",
     "незнакомая биржа: OTC Markets Group"
-   ]
-  },
-  {
-   "id": "Q1666568",
-   "name": "International Flavors & Fragrances",
-   "name_ru": "International Flavors & Fragrances",
-   "aliases": [
-    "IFF"
-   ],
-   "country": "США",
-   "region": "Северная Америка",
-   "sector": "Химия",
-   "industries": [
-    "specialty chemicals"
-   ],
-   "founded": 1958,
-   "exchange": "NYSE",
-   "ticker": "IFF",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Нью-Йорк"
-   ],
-   "popularity": 13,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q1666568",
-   "problems": [
-    "несколько стран: США, Нидерланды"
    ]
   },
   {
@@ -30976,36 +29094,6 @@
    ]
   },
   {
-   "id": "Q322320",
-   "name": "Level 3 Communications",
-   "name_ru": "Level 3 Communications",
-   "aliases": [
-    "LVLT",
-    "Level 3",
-    "Level3"
-   ],
-   "country": "США",
-   "region": "Северная Америка",
-   "sector": "Телеком",
-   "industries": [
-    "telecommunications industry"
-   ],
-   "founded": 1985,
-   "exchange": "NYSE",
-   "ticker": "LVLT",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Франкфурт-на-Майне"
-   ],
-   "popularity": 13,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q322320",
-   "problems": [
-    "несколько стран: США, Германия"
-   ]
-  },
-  {
    "id": "Q324029",
    "name": "Hays",
    "name_ru": "Hays",
@@ -31048,7 +29136,7 @@
    ],
    "country": "Сингапур",
    "region": "Азия",
-   "sector": "Электроника",
+   "sector": "Промышленность",
    "industries": [
     "aerospace manufacturer",
     "electronics industry",
@@ -31163,38 +29251,6 @@
    ]
   },
   {
-   "id": "Q4115012",
-   "name": "Giordano",
-   "name_ru": "Giordano International",
-   "aliases": [
-    "0709",
-    "Giordano International",
-    "Giordano, International Limited"
-   ],
-   "country": "Китай",
-   "region": "Азия",
-   "sector": "Ритейл",
-   "industries": [
-    "retail"
-   ],
-   "founded": 1981,
-   "exchange": "Гонконг",
-   "ticker": "0709",
-   "founders": [
-    "Джимми Лай"
-   ],
-   "ceo": [],
-   "hq": [
-    "Гонконг"
-   ],
-   "popularity": 13,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q4115012",
-   "problems": [
-    "несколько стран: Китай, Британский Гонконг"
-   ]
-  },
-  {
    "id": "Q442018",
    "name": "Andritz",
    "name_ru": "Andritz AG",
@@ -31255,7 +29311,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q460307",
    "problems": [
-    "несколько стран: Швейцария, Австралия",
     "сектор не определён: product packaging industry"
    ]
   },
@@ -31642,8 +29697,8 @@
     "TYC",
     "Tyco"
    ],
-   "country": "США",
-   "region": "Северная Америка",
+   "country": "Ирландия",
+   "region": "Европа",
    "sector": null,
    "industries": [],
    "founded": 1960,
@@ -31659,6 +29714,9 @@
    "popularity": 13,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q672885",
+   "notes": [
+    "страна компании (США) не совпадает со страной штаб-квартиры (Ирландия) — взята страна штаб-квартиры"
+   ],
    "problems": [
     "сектор не определён: отрасль не указана"
    ]
@@ -31724,7 +29782,8 @@
    "source": "https://www.wikidata.org/wiki/Q690011",
    "problems": [
     "сектор не определён: отрасль не указана",
-    "незнакомая биржа: Swiss Stock Exchange"
+    "незнакомая биржа: Swiss Stock Exchange",
+    "странное название: dormakaba"
    ]
   },
   {
@@ -32069,8 +30128,8 @@
     "Suez Financial Company",
     "Компания Суэцкого канала"
    ],
-   "country": "Франция",
-   "region": "Европа",
+   "country": "Египет",
+   "region": "Африка",
    "sector": null,
    "industries": [
     "port management"
@@ -32088,6 +30147,9 @@
    "popularity": 13,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q959814",
+   "notes": [
+    "страна компании (Франция) не совпадает со страной штаб-квартиры (Египет) — взята страна штаб-квартиры"
+   ],
    "problems": [
     "сектор не определён: port management",
     "незнакомая биржа: Paris Bourse"
@@ -32163,7 +30225,7 @@
     "STXE 600 PR.EUR",
     "SXXP"
    ],
-   "country": "Норвегия",
+   "country": "Швейцария",
    "region": "Европа",
    "sector": null,
    "industries": [],
@@ -32179,7 +30241,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q10366645",
    "problems": [
-    "несколько стран: Норвегия, Ирландия, Испания, Бельгия, Люксембург, Финляндия, Швеция, Дания, Польша, Италия, Швейцария, Австрия, Греция, Португалия, Нидерланды, Франция, Великобритания, Германия",
     "сектор не определён: отрасль не указана"
    ]
   },
@@ -32255,8 +30316,8 @@
    "name": "Pizza Pizza",
    "name_ru": null,
    "aliases": [],
-   "country": null,
-   "region": null,
+   "country": "Канада",
+   "region": "Северная Америка",
    "sector": null,
    "industries": [],
    "founded": 1967,
@@ -32273,7 +30334,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1194143",
    "problems": [
-    "нет страны",
     "сектор не определён: отрасль не указана"
    ]
   },
@@ -32334,38 +30394,6 @@
    "source": "https://www.wikidata.org/wiki/Q1280748",
    "problems": [
     "нет названия"
-   ]
-  },
-  {
-   "id": "Q1333162",
-   "name": "WSP Global",
-   "name_ru": null,
-   "aliases": [
-    "WSP",
-    "WSP Cantor Seinuk",
-    "WSP Group plc"
-   ],
-   "country": "Канада",
-   "region": "Северная Америка",
-   "sector": "Промышленность",
-   "industries": [
-    "engineering"
-   ],
-   "founded": 1959,
-   "exchange": "Лондон",
-   "ticker": null,
-   "founders": [],
-   "ceo": [
-    "Alexandre L'Heureux"
-   ],
-   "hq": [
-    "Монреаль"
-   ],
-   "popularity": 12,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q1333162",
-   "problems": [
-    "несколько стран: Канада, США"
    ]
   },
   {
@@ -32711,36 +30739,6 @@
    ]
   },
   {
-   "id": "Q1758392",
-   "name": "IDEXX Laboratories",
-   "name_ru": "Idexx Laboratories",
-   "aliases": [
-    "IDEXX Laboratories, Inc.",
-    "IDXX",
-    "Idexx Laboratories"
-   ],
-   "country": "США",
-   "region": "Северная Америка",
-   "sector": "Фармацевтика и здоровье",
-   "industries": [
-    "health care"
-   ],
-   "founded": 1983,
-   "exchange": "NASDAQ",
-   "ticker": "IDXX",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Уэстбрук"
-   ],
-   "popularity": 12,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q1758392",
-   "problems": [
-    "несколько стран: США, Нидерланды"
-   ]
-  },
-  {
    "id": "Q1779056",
    "name": "SBM Offshore",
    "name_ru": null,
@@ -32943,7 +30941,7 @@
     "Стэнли Гиббонс",
     "Стэнли Гиббонс Ltd"
    ],
-   "country": "Великобритания",
+   "country": "Джерси",
    "region": "Европа",
    "sector": null,
    "industries": [
@@ -32962,6 +30960,9 @@
    "popularity": 12,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1938876",
+   "notes": [
+    "страна компании (Великобритания) не совпадает со страной штаб-квартиры (Джерси) — взята страна штаб-квартиры"
+   ],
    "problems": [
     "сектор не определён: philately"
    ]
@@ -33037,8 +31038,8 @@
    "aliases": [
     "001696"
    ],
-   "country": null,
-   "region": null,
+   "country": "Китай",
+   "region": "Азия",
    "sector": "Транспорт",
    "industries": [
     "transport"
@@ -33055,7 +31056,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q219927",
    "problems": [
-    "нет страны",
     "нет названия"
    ]
   },
@@ -33088,7 +31088,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q23745600",
    "problems": [
-    "несколько стран: Индонезия, Филиппины",
     "сектор не определён: convenience store",
     "незнакомая биржа: Indonesia Stock Exchange"
    ]
@@ -33306,8 +31305,8 @@
     "ADNT",
     "Adient Plc"
    ],
-   "country": "США",
-   "region": "Северная Америка",
+   "country": "Ирландия",
+   "region": "Европа",
    "sector": null,
    "industries": [],
    "founded": 2016,
@@ -33321,6 +31320,9 @@
    "popularity": 12,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q26832896",
+   "notes": [
+    "страна компании (США) не совпадает со страной штаб-квартиры (Ирландия) — взята страна штаб-квартиры"
+   ],
    "problems": [
     "сектор не определён: отрасль не указана"
    ]
@@ -33475,7 +31477,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q2874395",
    "problems": [
-    "несколько стран: США, Великобритания",
     "сектор не определён: car rental company"
    ]
   },
@@ -33725,39 +31726,6 @@
    ]
   },
   {
-   "id": "Q3512329",
-   "name": "TPV Technology",
-   "name_ru": "TPV Technology",
-   "aliases": [
-    "0903",
-    "TPV",
-    "TPV Limited",
-    "TPV Technology Limited"
-   ],
-   "country": null,
-   "region": null,
-   "sector": "Электроника",
-   "industries": [
-    "electronics industry"
-   ],
-   "founded": 1967,
-   "exchange": "Гонконг",
-   "ticker": "0903",
-   "founders": [
-    "Джейсон Хуан"
-   ],
-   "ceo": [],
-   "hq": [
-    "Гонконг"
-   ],
-   "popularity": 12,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q3512329",
-   "problems": [
-    "нет страны"
-   ]
-  },
-  {
    "id": "Q3535226",
    "name": "Almarai",
    "name_ru": null,
@@ -33786,36 +31754,6 @@
    "source": "https://www.wikidata.org/wiki/Q3535226",
    "problems": [
     "незнакомая биржа: Saudi Stock Exchange"
-   ]
-  },
-  {
-   "id": "Q3915128",
-   "name": "Focusrite",
-   "name_ru": null,
-   "aliases": [
-    "TUNE"
-   ],
-   "country": null,
-   "region": null,
-   "sector": "Электроника",
-   "industries": [
-    "electronics"
-   ],
-   "founded": 1985,
-   "exchange": "Лондон",
-   "ticker": "TUNE",
-   "founders": [
-    "Руперт Нив"
-   ],
-   "ceo": [],
-   "hq": [
-    "Хай-Уиком"
-   ],
-   "popularity": 12,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q3915128",
-   "problems": [
-    "нет страны"
    ]
   },
   {
@@ -34018,7 +31956,7 @@
    ],
    "country": "Австрия",
    "region": "Европа",
-   "sector": "Полупроводники",
+   "sector": "Электроника",
    "industries": [
     "electronics",
     "semiconductor industry",
@@ -34039,7 +31977,8 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q477875",
    "problems": [
-    "незнакомая биржа: Swiss Stock Exchange"
+    "незнакомая биржа: Swiss Stock Exchange",
+    "странное название: ams OSRAM"
    ]
   },
   {
@@ -34238,8 +32177,8 @@
     "China National Building Material Company",
     "China National Building Material Group"
    ],
-   "country": null,
-   "region": null,
+   "country": "Китай",
+   "region": "Азия",
    "sector": null,
    "industries": [
     "building material"
@@ -34256,7 +32195,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q5099798",
    "problems": [
-    "нет страны",
     "сектор не определён: building material"
    ]
   },
@@ -34268,8 +32206,8 @@
     "CINE",
     "Cine World"
    ],
-   "country": "США",
-   "region": "Северная Америка",
+   "country": "Великобритания",
+   "region": "Европа",
    "sector": null,
    "industries": [],
    "founded": 1995,
@@ -34283,6 +32221,9 @@
    "popularity": 12,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q5120901",
+   "notes": [
+    "страна компании (США) не совпадает со страной штаб-квартиры (Великобритания) — взята страна штаб-квартиры"
+   ],
    "problems": [
     "сектор не определён: отрасль не указана"
    ]
@@ -34438,39 +32379,6 @@
    "problems": [
     "сектор не определён: photovoltaics",
     "незнакомая биржа: OTC Markets Group"
-   ]
-  },
-  {
-   "id": "Q585150",
-   "name": "Antofagasta",
-   "name_ru": null,
-   "aliases": [
-    "ANTO",
-    "Antofagasta plc"
-   ],
-   "country": "Великобритания",
-   "region": "Европа",
-   "sector": "Металлы и добыча",
-   "industries": [
-    "mining"
-   ],
-   "founded": 1888,
-   "exchange": "Лондон",
-   "ticker": "ANTO",
-   "founders": [
-    "Andrónico Lukšić"
-   ],
-   "ceo": [
-    "Iván Arriagada"
-   ],
-   "hq": [
-    "Лондон"
-   ],
-   "popularity": 12,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q585150",
-   "problems": [
-    "несколько стран: Великобритания, Чили"
    ]
   },
   {
@@ -34773,7 +32681,7 @@
    "aliases": [
     "LXMPR"
    ],
-   "country": "Бельгия",
+   "country": "Люксембург",
    "region": "Европа",
    "sector": "Финансы",
    "industries": [
@@ -34791,7 +32699,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q6706375",
    "problems": [
-    "несколько стран: Бельгия, Люксембург",
     "незнакомая биржа: Luxembourg Stock Exchange"
    ]
   },
@@ -34936,7 +32843,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q750619",
    "problems": [
-    "несколько стран: Япония, Франция",
     "сектор не определён: Q112165285"
    ]
   },
@@ -35260,98 +33166,6 @@
    ]
   },
   {
-   "id": "Q835145",
-   "name": "Parkson",
-   "name_ru": null,
-   "aliases": [
-    "3368",
-    "Parkson Retail Group"
-   ],
-   "country": null,
-   "region": null,
-   "sector": "Ритейл",
-   "industries": [
-    "department store"
-   ],
-   "founded": 1987,
-   "exchange": "Гонконг",
-   "ticker": "3368",
-   "founders": [
-    "William Cheng"
-   ],
-   "ceo": [],
-   "hq": [
-    "Куала-Лумпур"
-   ],
-   "popularity": 12,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q835145",
-   "problems": [
-    "нет страны"
-   ]
-  },
-  {
-   "id": "Q903372",
-   "name": "Organon &",
-   "name_ru": "Органон и Ко",
-   "aliases": [
-    "OGN",
-    "Organon",
-    "Organon & Co.",
-    "Organon International",
-    "Органон и Ко"
-   ],
-   "country": "США",
-   "region": "Северная Америка",
-   "sector": "Фармацевтика и здоровье",
-   "industries": [
-    "pharmaceutical industry"
-   ],
-   "founded": 1923,
-   "exchange": "NYSE",
-   "ticker": "OGN",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Осс"
-   ],
-   "popularity": 12,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q903372",
-   "problems": [
-    "несколько стран: США, Нидерланды"
-   ]
-  },
-  {
-   "id": "Q909105",
-   "name": "Frutarom",
-   "name_ru": "Фрутаром",
-   "aliases": [
-    "Фрутаром"
-   ],
-   "country": null,
-   "region": null,
-   "sector": "Напитки и продукты",
-   "industries": [
-    "chemical industry",
-    "food industry"
-   ],
-   "founded": 1933,
-   "exchange": "Лондон",
-   "ticker": null,
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Хайфа"
-   ],
-   "popularity": 12,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q909105",
-   "problems": [
-    "нет страны"
-   ]
-  },
-  {
    "id": "Q924370",
    "name": "Obrascón Huarte Lain",
    "name_ru": null,
@@ -35387,8 +33201,8 @@
    "aliases": [
     "MOV"
    ],
-   "country": "Швейцария",
-   "region": "Европа",
+   "country": "США",
+   "region": "Северная Америка",
    "sector": null,
    "industries": [],
    "founded": 1881,
@@ -35404,40 +33218,11 @@
    "popularity": 12,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q939816",
+   "notes": [
+    "страна компании (Швейцария) не совпадает со страной штаб-квартиры (США) — взята страна штаб-квартиры"
+   ],
    "problems": [
     "сектор не определён: отрасль не указана"
-   ]
-  },
-  {
-   "id": "Q970695",
-   "name": "Northern Trust",
-   "name_ru": "Northern Trust",
-   "aliases": [
-    "NTRS",
-    "Northern Trust Corporation"
-   ],
-   "country": "США",
-   "region": "Северная Америка",
-   "sector": "Финансы",
-   "industries": [
-    "financial services"
-   ],
-   "founded": 1889,
-   "exchange": "NASDAQ",
-   "ticker": "NTRS",
-   "founders": [],
-   "ceo": [
-    "Michael G. O'Grady"
-   ],
-   "hq": [
-    "Иллинойс",
-    "Чикаго"
-   ],
-   "popularity": 12,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q970695",
-   "problems": [
-    "несколько стран: США, Швейцария"
    ]
   },
   {
@@ -35449,8 +33234,8 @@
     "GE Capital International Services",
     "GECIS"
    ],
-   "country": null,
-   "region": null,
+   "country": "США",
+   "region": "Северная Америка",
    "sector": null,
    "industries": [
     "professional service"
@@ -35467,7 +33252,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1007000",
    "problems": [
-    "нет страны",
     "сектор не определён: professional service"
    ]
   },
@@ -35598,8 +33382,8 @@
     "Tingyi (Cayman Islands) Holding Corporation",
     "Tingyi Holding"
    ],
-   "country": null,
-   "region": null,
+   "country": "Китай",
+   "region": "Азия",
    "sector": null,
    "industries": [],
    "founded": 1991,
@@ -35614,7 +33398,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q11063808",
    "problems": [
-    "нет страны",
     "сектор не определён: отрасль не указана"
    ]
   },
@@ -35742,8 +33525,8 @@
    "aliases": [
     "4197"
    ],
-   "country": null,
-   "region": null,
+   "country": "Малайзия",
+   "region": "Азия",
    "sector": "Промышленность",
    "industries": [
     "conglomerate"
@@ -35760,7 +33543,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1146772",
    "problems": [
-    "нет страны",
     "незнакомая биржа: Bursa Malaysia"
    ]
   },
@@ -36478,8 +34260,8 @@
    "aliases": [
     "SIMG"
    ],
-   "country": null,
-   "region": null,
+   "country": "США",
+   "region": "Северная Америка",
    "sector": null,
    "industries": [
     "integrated device manufacturer"
@@ -36496,7 +34278,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q2003999",
    "problems": [
-    "нет страны",
     "сектор не определён: integrated device manufacturer"
    ]
   },
@@ -36525,36 +34306,11 @@
    "popularity": 11,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q20182011",
+   "notes": [
+    "страна компании (Каймановы Острова) не совпадает со страной штаб-квартиры (Китай) — взята страна штаб-квартиры"
+   ],
    "problems": [
     "сектор не определён: photovoltaics"
-   ]
-  },
-  {
-   "id": "Q20714863",
-   "name": "Coca-Cola FEMSA",
-   "name_ru": "Coca-Cola FEMSA",
-   "aliases": [
-    "KOF"
-   ],
-   "country": null,
-   "region": null,
-   "sector": "Напитки и продукты",
-   "industries": [
-    "beverage industry"
-   ],
-   "founded": 1991,
-   "exchange": "NYSE",
-   "ticker": "KOF",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Мексика"
-   ],
-   "popularity": 11,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q20714863",
-   "problems": [
-    "нет страны"
    ]
   },
   {
@@ -36971,8 +34727,8 @@
     "James B. Beam Distilling Company",
     "Сантори Глобал Спиритс"
    ],
-   "country": "Испания",
-   "region": "Европа",
+   "country": "США",
+   "region": "Северная Америка",
    "sector": "Напитки и продукты",
    "industries": [
     "beverage industry"
@@ -36989,7 +34745,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q2892812",
    "problems": [
-    "несколько стран: Испания, США",
     "разные годы основания: 2011, 2014"
    ]
   },
@@ -37023,34 +34778,6 @@
    "source": "https://www.wikidata.org/wiki/Q3009498",
    "problems": [
     "сектор не определён: personal protective equipment"
-   ]
-  },
-  {
-   "id": "Q3031783",
-   "name": "Odwalla",
-   "name_ru": "Odwalla",
-   "aliases": [
-    "ODWA"
-   ],
-   "country": null,
-   "region": null,
-   "sector": "Напитки и продукты",
-   "industries": [
-    "beverage industry"
-   ],
-   "founded": 1980,
-   "exchange": "NASDAQ",
-   "ticker": "ODWA",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Хаф-Мун-Бей"
-   ],
-   "popularity": 11,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q3031783",
-   "problems": [
-    "нет страны"
    ]
   },
   {
@@ -37220,7 +34947,7 @@
    "aliases": [
     "CLAS-B"
    ],
-   "country": "Норвегия",
+   "country": "Швеция",
    "region": "Европа",
    "sector": "Ритейл",
    "industries": [
@@ -37240,7 +34967,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q3356220",
    "problems": [
-    "несколько стран: Норвегия, Швеция",
     "незнакомая биржа: Nasdaq Stockholm AB"
    ]
   },
@@ -37517,7 +35243,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q48742870",
    "problems": [
-    "несколько стран: Канада, Австралия",
     "сектор не определён: agriculture"
    ]
   },
@@ -37673,7 +35398,8 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q5500950",
    "problems": [
-    "сектор не определён: отрасль не указана"
+    "сектор не определён: отрасль не указана",
+    "странное название: freelancer.com"
    ]
   },
   {
@@ -37714,8 +35440,8 @@
     "Embotelladoras Arca",
     "Grupo Continental"
    ],
-   "country": null,
-   "region": null,
+   "country": "Мексика",
+   "region": "Северная Америка",
    "sector": "Напитки и продукты",
    "industries": [
     "beverage industry"
@@ -37734,7 +35460,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q5612197",
    "problems": [
-    "нет страны",
     "незнакомая биржа: Mexican Stock Exchange"
    ]
   },
@@ -37886,37 +35611,6 @@
    "problems": [
     "сектор не определён: convenience store",
     "незнакомая биржа: Korean Stock Exchange"
-   ]
-  },
-  {
-   "id": "Q625708",
-   "name": "Aramark",
-   "name_ru": null,
-   "aliases": [
-    "ARMK",
-    "Aramark Corporation"
-   ],
-   "country": "Канада",
-   "region": "Северная Америка",
-   "sector": "Напитки и продукты",
-   "industries": [
-    "food service"
-   ],
-   "founded": 1959,
-   "exchange": "NYSE",
-   "ticker": "ARMK",
-   "founders": [],
-   "ceo": [
-    "Eric J. Foss"
-   ],
-   "hq": [
-    "Филадельфия"
-   ],
-   "popularity": 11,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q625708",
-   "problems": [
-    "несколько стран: Канада, США"
    ]
   },
   {
@@ -38343,37 +36037,6 @@
    ]
   },
   {
-   "id": "Q825291",
-   "name": "Village Roadshow",
-   "name_ru": "Village Roadshow",
-   "aliases": [
-    "VRL",
-    "Village Roadshow Limited"
-   ],
-   "country": null,
-   "region": null,
-   "sector": "Медиа и развлечения",
-   "industries": [
-    "film industry"
-   ],
-   "founded": 1954,
-   "exchange": "Сидней",
-   "ticker": "VRL",
-   "founders": [
-    "Roc Kirby"
-   ],
-   "ceo": [],
-   "hq": [
-    "Мельбурн"
-   ],
-   "popularity": 11,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q825291",
-   "problems": [
-    "нет страны"
-   ]
-  },
-  {
    "id": "Q839552",
    "name": "SMC",
    "name_ru": "SMC Corporation",
@@ -38508,8 +36171,8 @@
     "CLP Power",
     "CLP Power Hong Kong Limited"
    ],
-   "country": null,
-   "region": null,
+   "country": "Китай",
+   "region": "Азия",
    "sector": null,
    "industries": [
     "electric power industry"
@@ -38526,7 +36189,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q977959",
    "problems": [
-    "нет страны",
     "сектор не определён: electric power industry"
    ]
   },
@@ -38591,7 +36253,7 @@
     "CITIC Limited",
     "CITIC Pacific"
    ],
-   "country": "Гонконг",
+   "country": "Китай",
    "region": "Азия",
    "sector": "Промышленность",
    "industries": [
@@ -38608,6 +36270,9 @@
    "popularity": 10,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1023763",
+   "notes": [
+    "страна компании (Гонконг) не совпадает со страной штаб-квартиры (Китай) — взята страна штаб-квартиры"
+   ],
    "problems": [
     "разные годы основания: 1985, 1990"
    ]
@@ -38895,8 +36560,8 @@
    "aliases": [
     "2362"
    ],
-   "country": null,
-   "region": null,
+   "country": "Китайская Республика",
+   "region": "Азия",
    "sector": null,
    "industries": [
     "computing"
@@ -38913,7 +36578,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1100868",
    "problems": [
-    "нет страны",
     "сектор не определён: computing"
    ]
   },
@@ -39409,37 +37073,6 @@
    ]
   },
   {
-   "id": "Q1525445",
-   "name": "Hyundai Motor India",
-   "name_ru": null,
-   "aliases": [
-    "544274",
-    "HMIL",
-    "HYUNDAI",
-    "Hyundai Motor India Limited"
-   ],
-   "country": null,
-   "region": null,
-   "sector": "Автомобили",
-   "industries": [
-    "automotive industry"
-   ],
-   "founded": 1996,
-   "exchange": "Мумбаи (BSE)",
-   "ticker": "544274",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Гургаон"
-   ],
-   "popularity": 10,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q1525445",
-   "problems": [
-    "нет страны"
-   ]
-  },
-  {
    "id": "Q1572831",
    "name": "Yingli",
    "name_ru": "Yingli",
@@ -39499,36 +37132,7 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q15903799",
    "problems": [
-    "несколько стран: Китай, Каймановы Острова",
     "разные годы основания: 1994, 2000, 2018"
-   ]
-  },
-  {
-   "id": "Q1631922",
-   "name": "Snap-on",
-   "name_ru": null,
-   "aliases": [
-    "SNA"
-   ],
-   "country": "Канада",
-   "region": "Северная Америка",
-   "sector": "Промышленность",
-   "industries": [
-    "industrial manufacturing"
-   ],
-   "founded": 1920,
-   "exchange": "NYSE",
-   "ticker": "SNA",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Кеноша"
-   ],
-   "popularity": 10,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q1631922",
-   "problems": [
-    "несколько стран: Канада, США"
    ]
   },
   {
@@ -39563,36 +37167,6 @@
    ]
   },
   {
-   "id": "Q16922766",
-   "name": "Genting Hong Kong",
-   "name_ru": "Genting Hong Kong",
-   "aliases": [
-    "0678",
-    "Genting Hong Kong Limited",
-    "Star Cruises Limited"
-   ],
-   "country": "Китай",
-   "region": "Азия",
-   "sector": "Туризм",
-   "industries": [
-    "tourism"
-   ],
-   "founded": 1993,
-   "exchange": "Гонконг",
-   "ticker": "0678",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Гонконг"
-   ],
-   "popularity": 10,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q16922766",
-   "problems": [
-    "несколько стран: Китай, Британский Гонконг"
-   ]
-  },
-  {
    "id": "Q1728446",
    "name": "Korn Ferry",
    "name_ru": "Korn Ferry",
@@ -39622,6 +37196,9 @@
    "popularity": 10,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1728446",
+   "notes": [
+    "страна компании (Германия) не совпадает со страной штаб-квартиры (США) — взята страна штаб-квартиры"
+   ],
    "problems": [
     "сектор не определён: professional service, employment services industry"
    ]
@@ -39684,40 +37261,6 @@
    "source": "https://www.wikidata.org/wiki/Q1812489",
    "problems": [
     "сектор не определён: отрасль не указана"
-   ]
-  },
-  {
-   "id": "Q18658020",
-   "name": "Meitu",
-   "name_ru": "Meitu",
-   "aliases": [
-    "1357",
-    "Meitu Inc.",
-    "Meitu Technology Co",
-    "Meitu, Inc.",
-    "Xiamen Meitu Technology Co.,Ltd"
-   ],
-   "country": "Китай",
-   "region": "Азия",
-   "sector": "Технологии",
-   "industries": [
-    "software development",
-    "software industry",
-    "electrical appliance"
-   ],
-   "founded": 2008,
-   "exchange": "Гонконг",
-   "ticker": "1357",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Сямэнь"
-   ],
-   "popularity": 10,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q18658020",
-   "problems": [
-    "несколько стран: Китай, Каймановы Острова"
    ]
   },
   {
@@ -39902,7 +37445,7 @@
     "CEVA",
     "TNT Logistics"
    ],
-   "country": "Нидерланды",
+   "country": "Франция",
    "region": "Европа",
    "sector": "Транспорт",
    "industries": [
@@ -39919,6 +37462,9 @@
    "popularity": 10,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q2136905",
+   "notes": [
+    "страна компании (Нидерланды) не совпадает со страной штаб-квартиры (Франция) — взята страна штаб-квартиры"
+   ],
    "problems": [
     "незнакомая биржа: Swiss Stock Exchange"
    ]
@@ -40261,6 +37807,35 @@
    ]
   },
   {
+   "id": "Q28255",
+   "name": "cdv Software Entertainment",
+   "name_ru": "cdv Software Entertainment",
+   "aliases": [
+    "cdv Software Entertainment AG"
+   ],
+   "country": "Германия",
+   "region": "Европа",
+   "sector": "Медиа и развлечения",
+   "industries": [
+    "video game industry"
+   ],
+   "founded": 1989,
+   "exchange": "Франкфурт",
+   "ticker": null,
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Мюнхен",
+    "Франкфурт-на-Майне"
+   ],
+   "popularity": 10,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q28255",
+   "problems": [
+    "странное название: cdv Software Entertainment"
+   ]
+  },
+  {
    "id": "Q285931",
    "name": "GlassBridge Enterprises",
    "name_ru": null,
@@ -40331,8 +37906,8 @@
     "BFR",
     "Banco Frances"
    ],
-   "country": "США",
-   "region": "Северная Америка",
+   "country": "Аргентина",
+   "region": "Южная Америка",
    "sector": "Финансы",
    "industries": [
     "financial services"
@@ -40349,7 +37924,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q2876788",
    "problems": [
-    "несколько стран: США, Аргентина",
     "разные годы основания: 1886, 1996"
    ]
   },
@@ -40391,8 +37965,8 @@
     "GCHEF",
     "Grupo Comercial Chedraui"
    ],
-   "country": null,
-   "region": null,
+   "country": "Мексика",
+   "region": "Северная Америка",
    "sector": "Ритейл",
    "industries": [
     "retail"
@@ -40409,7 +37983,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q2961952",
    "problems": [
-    "нет страны",
     "незнакомая биржа: OTC Markets Group"
    ]
   },
@@ -40591,8 +38164,8 @@
    "aliases": [
     "LEDO"
    ],
-   "country": null,
-   "region": null,
+   "country": "Хорватия",
+   "region": "Европа",
    "sector": null,
    "industries": [],
    "founded": 1976,
@@ -40607,7 +38180,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q3069294",
    "problems": [
-    "нет страны",
     "сектор не определён: отрасль не указана",
     "незнакомая биржа: Zagreb Stock Exchange"
    ]
@@ -40677,39 +38249,7 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q317513",
    "problems": [
-    "несколько стран: Германия, Германский рейх",
     "разные годы основания: 1885, 1935, 1939, 2005"
-   ]
-  },
-  {
-   "id": "Q3310113",
-   "name": "JB Hi-Fi",
-   "name_ru": null,
-   "aliases": [
-    "JB",
-    "JB HI-FI LIMITED",
-    "JB Hi-Fi Limited",
-    "JBH"
-   ],
-   "country": "Австралия",
-   "region": "Австралия и Океания",
-   "sector": "Ритейл",
-   "industries": [
-    "retail"
-   ],
-   "founded": 1974,
-   "exchange": "Сидней",
-   "ticker": "JBH",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Мельбурн"
-   ],
-   "popularity": 10,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q3310113",
-   "problems": [
-    "несколько стран: Австралия, Новая Зеландия"
    ]
   },
   {
@@ -40864,35 +38404,6 @@
    ]
   },
   {
-   "id": "Q392221",
-   "name": "Brown-Forman",
-   "name_ru": "Brown-Forman",
-   "aliases": [
-    "BF.B",
-    "Brown-Forman Corporation"
-   ],
-   "country": "США",
-   "region": "Северная Америка",
-   "sector": "Напитки и продукты",
-   "industries": [
-    "beverage industry"
-   ],
-   "founded": 1870,
-   "exchange": "NYSE",
-   "ticker": "BF.B",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Луисвилл"
-   ],
-   "popularity": 10,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q392221",
-   "problems": [
-    "несколько стран: США, Нидерланды"
-   ]
-  },
-  {
    "id": "Q4037686",
    "name": "Dunkin' Brands",
    "name_ru": "Dunkin’ Brands",
@@ -40924,38 +38435,6 @@
    "source": "https://www.wikidata.org/wiki/Q4037686",
    "problems": [
     "сектор не определён: gastronomy"
-   ]
-  },
-  {
-   "id": "Q4039216",
-   "name": "Galaxy Entertainment",
-   "name_ru": "Galaxy Entertainment Group",
-   "aliases": [
-    "0027",
-    "Galaxy Entertainment Group",
-    "Galaxy Entertainment Group Limited"
-   ],
-   "country": null,
-   "region": null,
-   "sector": "Туризм",
-   "industries": [
-    "tourism"
-   ],
-   "founded": 1988,
-   "exchange": "Гонконг",
-   "ticker": "0027",
-   "founders": [
-    "Lui Che Woo"
-   ],
-   "ceo": [],
-   "hq": [
-    "Гонконг"
-   ],
-   "popularity": 10,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q4039216",
-   "problems": [
-    "нет страны"
    ]
   },
   {
@@ -41001,7 +38480,7 @@
     "Orient-Express Hotels",
     "Orient-Express Hotels Ltd"
    ],
-   "country": "Италия",
+   "country": "Великобритания",
    "region": "Европа",
    "sector": null,
    "industries": [
@@ -41021,7 +38500,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q4045977",
    "problems": [
-    "несколько стран: Италия, Великобритания",
     "сектор не определён: hospitality industry"
    ]
   },
@@ -41403,8 +38881,8 @@
    "aliases": [
     "AMBUJACEM"
    ],
-   "country": null,
-   "region": null,
+   "country": "Индия",
+   "region": "Азия",
    "sector": null,
    "industries": [],
    "founded": 1986,
@@ -41419,7 +38897,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q459976",
    "problems": [
-    "нет страны",
     "сектор не определён: отрасль не указана"
    ]
   },
@@ -41481,6 +38958,45 @@
    "problems": [
     "нет года основания",
     "незнакомая биржа: KOSDAQ"
+   ]
+  },
+  {
+   "id": "Q4764375",
+   "name": "iFlytek",
+   "name_ru": "IFlytek",
+   "aliases": [
+    "002230",
+    "Anhui USTC iFLYTEK Science and Technology Co. Ltd.",
+    "Anhui USTC iFlytek Co.",
+    "IFlytek",
+    "Iflytek Co Ltd",
+    "Keda Xufei",
+    "Keda Xunfei",
+    "USTC iFlytek",
+    "Xunfei",
+    "iflytek.com"
+   ],
+   "country": "Китай",
+   "region": "Азия",
+   "sector": "Технологии",
+   "industries": [
+    "information technology"
+   ],
+   "founded": 1999,
+   "exchange": "Шэньчжэнь",
+   "ticker": "002230",
+   "founders": [
+    "Liu Qingfeng"
+   ],
+   "ceo": [],
+   "hq": [
+    "Хэфэй"
+   ],
+   "popularity": 10,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q4764375",
+   "problems": [
+    "странное название: iFlytek"
    ]
   },
   {
@@ -41602,38 +39118,6 @@
    ]
   },
   {
-   "id": "Q5203271",
-   "name": "DMart",
-   "name_ru": null,
-   "aliases": [
-    "Avenue Supermarts Ltd",
-    "D-Mart",
-    "DMART"
-   ],
-   "country": null,
-   "region": null,
-   "sector": "Ритейл",
-   "industries": [
-    "retail"
-   ],
-   "founded": 2005,
-   "exchange": "Мумбаи (NSE)",
-   "ticker": "DMART",
-   "founders": [
-    "Radhakishan Damani"
-   ],
-   "ceo": [],
-   "hq": [
-    "Мумбаи"
-   ],
-   "popularity": 10,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q5203271",
-   "problems": [
-    "нет страны"
-   ]
-  },
-  {
    "id": "Q5270580",
    "name": "Dialog",
    "name_ru": null,
@@ -41642,7 +39126,7 @@
     "Dialog Axiata",
     "Dialog Axiata PLC"
    ],
-   "country": "Индия",
+   "country": "Шри-Ланка",
    "region": "Азия",
    "sector": "Телеком",
    "industries": [
@@ -41661,7 +39145,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q5270580",
    "problems": [
-    "несколько стран: Индия, Шри-Ланка",
     "незнакомая биржа: Colombo Stock Exchange"
    ]
   },
@@ -41726,38 +39209,6 @@
    ]
   },
   {
-   "id": "Q5338060",
-   "name": "Edifier",
-   "name_ru": "Edifier",
-   "aliases": [
-    "002351",
-    "Beijing Edifier Technology Company, Ltd.",
-    "EDIFIER",
-    "name Běijīng mànbùzhě kējì yǒuxiàn gōngsī",
-    "北京漫步者科技有限公司"
-   ],
-   "country": null,
-   "region": null,
-   "sector": "Электроника",
-   "industries": [
-    "consumer electronics industry"
-   ],
-   "founded": 1996,
-   "exchange": "Шэньчжэнь",
-   "ticker": "002351",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Пекин"
-   ],
-   "popularity": 10,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q5338060",
-   "problems": [
-    "нет страны"
-   ]
-  },
-  {
    "id": "Q5378747",
    "name": "Engro",
    "name_ru": "Engro Corporation",
@@ -41765,8 +39216,8 @@
     "ENGRO",
     "Engro Corporation"
    ],
-   "country": null,
-   "region": null,
+   "country": "Пакистан",
+   "region": "Азия",
    "sector": "Промышленность",
    "industries": [
     "conglomerate"
@@ -41783,7 +39234,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q5378747",
    "problems": [
-    "нет страны",
     "незнакомая биржа: Karachi Stock Exchange"
    ]
   },
@@ -41999,36 +39449,6 @@
    "source": "https://www.wikidata.org/wiki/Q6747833",
    "problems": [
     "сектор не определён: antiquarian bookstore, dōjin shop"
-   ]
-  },
-  {
-   "id": "Q6858774",
-   "name": "Millennium Hotels and Resorts",
-   "name_ru": null,
-   "aliases": [
-    "Millennium & Copthorne Hotels",
-    "Millennium & Copthorne Hotels plc",
-    "My Millenium"
-   ],
-   "country": null,
-   "region": null,
-   "sector": "Туризм",
-   "industries": [
-    "hotel"
-   ],
-   "founded": 1972,
-   "exchange": "Лондон",
-   "ticker": null,
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Лондон"
-   ],
-   "popularity": 10,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q6858774",
-   "problems": [
-    "нет страны"
    ]
   },
   {
