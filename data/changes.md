@@ -1,0 +1,211 @@
+# Изменения базы компаний — 2026-11-25
+
+В игре: **1337** компаний. На ручной проверке: **1320** (data/review.json).
+
+## Добавлены (200)
+- Apple — США, Электроника, NASDAQ
+- Microsoft — США, Электроника, NASDAQ
+- Toyota — Япония, Автомобили, NYSE
+- Walt Disney — США, Медиа и развлечения, NYSE
+- McDonald's — США, Напитки и продукты, NYSE
+- Amazon — США, Электронная торговля, NASDAQ
+- BMW — Германия, Автомобили, Франкфурт
+- Ford Motor — США, Автомобили, NYSE
+- Audi — Германия, Автомобили, Франкфурт
+- Sony — Япония, Медиа и развлечения, NYSE
+- IBM — США, Технологии, NYSE
+- Nokia — Финляндия, Технологии, NYSE
+- Tesla — Израиль, Автомобили, NASDAQ
+- Renault — Франция, Автомобили, Париж
+- Boeing — США, Промышленность, NYSE
+- Grupo Televisa — Мексика, Медиа и развлечения, NYSE
+- Honda — Япония, Автомобили, NYSE
+- Intel — США, Полупроводники, NASDAQ
+- Yamaha Motor — Япония, Автомобили, Токио
+- Starbucks — США, Рестораны, NASDAQ
+- Porsche — Германия, Автомобили, Франкфурт
+- eBay — США, Электронная торговля, NASDAQ
+- Nissan — Япония, Автомобили, NASDAQ
+- General Motors — США, Автомобили, NYSE
+- Nike — США, Одежда и роскошь, NYSE
+- Xiaomi — Китай, Автомобили, Гонконг
+- Meta Platforms — США, Технологии, NASDAQ
+- Adobe — США, Технологии, NASDAQ
+- Hewlett-Packard — США, Технологии, NYSE
+- Nvidia — США, Полупроводники, NASDAQ
+- Lenovo — Китай, Электроника, Гонконг
+- Suzuki Motor — Япония, Автомобили, Токио
+- Mazda — Япония, Автомобили, Токио
+- Dell — США, Технологии, NYSE
+- AMD — США, Полупроводники, NASDAQ
+- United Airlines — США, Транспорт, NASDAQ
+- Panasonic — Япония, Полупроводники, Токио
+- Siemens — Германия, Фармацевтика и здоровье, Франкфурт
+- Gazprom — Россия, Технологии, Мосбиржа
+- Oracle — США, Технологии, NYSE
+- Motorola — США, Электроника, NYSE
+- Koninklijke Philips — Нидерланды, Электроника, NYSE
+- Shell — Великобритания, Энергетика, NYSE
+- Pfizer — США, Фармацевтика и здоровье, NYSE
+- Alphabet — США, Технологии, NASDAQ
+- Delta Air Lines — США, Транспорт, NYSE
+- Aeroflot — Россия, Транспорт, Мосбиржа
+- Sun Microsystems — США, Технологии, NASDAQ
+- Yandex — Россия, Технологии, Мосбиржа
+- Mercedes-Benz — Германия, Автомобили, NYSE
+- Coca-Cola — США, Напитки и продукты, NYSE
+- AT&T — США, Телеком, NYSE
+- Baidu — Китай, Технологии, NASDAQ
+- ASUS — Китайская Республика, Электроника, Лондон
+- ExxonMobil — США, Энергетика, NYSE
+- Electronic Arts — США, Медиа и развлечения, NASDAQ
+- Canon — Япония, Электроника, Токио
+- Alibaba — Китай, Электронная торговля, NYSE
+- Tata Motors — Индия, Автомобили, Мумбаи (BSE)
+- Qantas Airways — Австралия, Транспорт, Сидней
+- Deutsche Bank — Германия, Медиа и развлечения, NYSE
+- Lockheed Martin — США, Электроника, NYSE
+- Volkswagen — Германия, Автомобили, Франкфурт
+- Air Canada — Канада, Транспорт, Торонто
+- TotalEnergies — Франция, Энергетика, NYSE
+- HTC — Китайская Республика, Электроника, Тайбэй
+- Prada — Италия, Одежда и роскошь, Гонконг
+- Coursera — США, Технологии, NYSE
+- Bayer — Германия, Фармацевтика и здоровье, Франкфурт
+- BP — Великобритания, Энергетика, NYSE
+- Visa — США, Финансы, NYSE
+- Anthropic — США, Технологии, NASDAQ
+- Kodak — США, Промышленность, NYSE
+- Jack in the Box — США, Рестораны, NASDAQ
+- Procter & Gamble — США, Фармацевтика и здоровье, NYSE
+- SAP — Германия, Технологии, NYSE
+- Embraer — Бразилия, Промышленность, NYSE
+- Michelin — Франция, Автомобили, Париж
+- HSBC — Великобритания, Финансы, NYSE
+- Vodafone — Великобритания, Телеком, NYSE
+- Samsung Electronics — Республика Корея, Электроника, Лондон
+- Mitsubishi Motors — Япония, Автомобили, Токио
+- Bank of America — США, Финансы, NYSE
+- Ericsson — Швеция, Технологии, NASDAQ
+- Goldman Sachs — США, Финансы, NYSE
+- Hitachi — Япония, Электроника, Токио
+- L'Oréal — Франция, Потребительские товары, Париж
+- Victoria’s Secret — США, Одежда и роскошь, NYSE
+- Konami — Япония, Медиа и развлечения, Токио
+- Hermès — Франция, Одежда и роскошь, Париж
+- Tencent — Китай, Медиа и развлечения, Гонконг
+- BASF — Германия, Энергетика, Франкфурт
+- Warner Bros. Discovery — США, Медиа и развлечения, NASDAQ
+- Capcom — Япония, Медиа и развлечения, Токио
+- Yamaha — Япония, Автомобили, Токио
+- DreamWorks Animation — США, Медиа и развлечения, NASDAQ
+- Sharp — Япония, Полупроводники, Токио
+- Domino's Pizza — США, Рестораны, NYSE
+- Casio — Япония, Электроника, Токио
+- BlackRock — США, Финансы, NYSE
+- Tesco — Великобритания, Ритейл, Лондон
+- LVMH — Франция, Ритейл, Париж
+- Qualcomm — США, Полупроводники, NASDAQ
+- American Express — США, Финансы, NYSE
+- Air New Zealand — Новая Зеландия, Транспорт, Сидней
+- GSK — Великобритания, Фармацевтика и здоровье, NYSE
+- Berkshire Hathaway — США, Финансы, NYSE
+- TSMC — Китайская Республика, Полупроводники, NYSE
+- Xerox — США, Технологии, NYSE
+- LG Electronics — Республика Корея, Ритейл, Лондон
+- Texas Instruments — США, Полупроводники, NASDAQ
+- Barclays — Великобритания, Финансы, NYSE
+- Southwest Airlines — США, Транспорт, NYSE
+- Comcast — США, Телеком, NASDAQ
+- Harley-Davidson — США, Автомобили, NYSE
+- Industrial and Commercial Bank of China — Китай, Финансы, Гонконг
+- Isuzu — Япония, Автомобили, Токио
+- MAN — Германия, Автомобили, Франкфурт
+- Airbnb — США, Туризм, NASDAQ
+- Aer Lingus — Ирландия, Транспорт, Лондон
+- Bridgestone — Япония, Промышленность, Токио
+- Fujitsu — Япония, Электроника, Токио
+- Viacom — США, Медиа и развлечения, NASDAQ
+- NEC — Япония, Медиа и развлечения, Токио
+- Société Générale — Франция, Медиа и развлечения, Париж
+- Lukoil — Россия, Энергетика, Лондон
+- Credit Suisse — Швейцария, Финансы, NYSE
+- Burberry — Великобритания, Одежда и роскошь, Лондон
+- Levi Strauss & — США, Одежда и роскошь, NYSE
+- Sanofi — Франция, Фармацевтика и здоровье, NYSE
+- Monsanto — США, Фармацевтика и здоровье, NYSE
+- Petrobras — Бразилия, Энергетика, NYSE
+- Accenture — Ирландия, Технологии, NYSE
+- Aegean Airlines — Греция, Транспорт, Лондон
+- Caterpillar — США, Промышленность, NYSE
+- ZTE — Китай, Телеком, Гонконг
+- Warner Music — США, Медиа и развлечения, NASDAQ
+- Lehman Brothers — США, Финансы, NYSE
+- Danone — Испания, Напитки и продукты, Париж
+- Deutsche Telekom — Германия, Телеком, NYSE
+- Sberbank — Россия, Финансы, Мосбиржа
+- Kamaz — Россия, Автомобили, Мосбиржа
+- ABB — Швейцария, Промышленность, NYSE
+- Wells Fargo — США, Финансы, NYSE
+- Stellantis — Нидерланды, Автомобили, NYSE
+- Engie — Франция, Энергетика, Париж
+- Northrop Grumman — США, Электроника, NYSE
+- 21st Century Fox — США, Медиа и развлечения, NASDAQ
+- Wendy's — США, Напитки и продукты, NASDAQ
+- Tiffany & — США, Одежда и роскошь, NYSE
+- Vinci — Франция, Промышленность, Париж
+- United Parcel Service — США, Транспорт, NYSE
+- 3M — США, Металлы и добыча, NYSE
+- Telefónica — Испания, Телеком, NYSE
+- BNP Paribas — Франция, Медиа и развлечения, Лондон
+- Novartis — Швейцария, Фармацевтика и здоровье, NYSE
+- Goodyear Tire and Rubber — США, Промышленность, NASDAQ
+- Rosneft — Россия, Энергетика, Мосбиржа
+- AXA — Франция, Финансы, Париж
+- Safran — Франция, Промышленность, Париж
+- BioNTech — Германия, Фармацевтика и здоровье, NASDAQ
+- ING — Нидерланды, Финансы, NYSE
+- Western Digital — США, Медиа и развлечения, NASDAQ
+- VMware — США, Технологии, NYSE
+- thyssenkrupp — Германия, Металлы и добыча, Лондон
+- ASML — Нидерланды, Полупроводники, NASDAQ
+- BlackBerry — Канада, Технологии, NYSE
+- gital — США, Технологии, NASDAQ
+- Costco — США, Ритейл, NASDAQ
+- Paramount Global — США, Медиа и развлечения, NASDAQ
+- Thales — Франция, Технологии, Париж
+- ZiL — Россия, Автомобили, Мосбиржа
+- Saint-Gobain — Франция, Химия, Париж
+- Olympus — Япония, Электроника, Токио
+- Toei Animation — Япония, Медиа и развлечения, Токио
+- Continental — Германия, Автомобили, Франкфурт
+- Palantir Technologies — США, Технологии, NYSE
+- Virgin — Великобритания, Фармацевтика и здоровье, Лондон
+- Eni — Италия, Энергетика, NYSE
+- Autodesk — США, Технологии, NASDAQ
+- Toho — Япония, Медиа и развлечения, Токио
+- Diageo — Великобритания, Напитки и продукты, NYSE
+- Rheinmetall — Германия, Автомобили, Франкфурт
+- SoftBank — Япония, Технологии, Токио
+- Merck & — США, Фармацевтика и здоровье, NYSE
+- Bombardier — Канада, Промышленность, Торонто
+- East Japan Railway — Япония, Транспорт, Токио
+- General Dynamics — США, Промышленность, NYSE
+- PetroChina — Китай, Энергетика, NYSE
+- Credit Agricole — Франция, Медиа и развлечения, Париж
+- Seagate Technology — США, Медиа и развлечения, NASDAQ
+- BAE Systems — Великобритания, Промышленность, Лондон
+- Bank of China — Китай, Финансы, Гонконг
+- Sinopec — Китай, Энергетика, NYSE
+- Mahindra & Mahindra — Индия, Автомобили, Мумбаи (NSE)
+- Reliance Industries — Индия, Энергетика, Лондон
+- Anheuser-Busch InBev — Бельгия, Напитки и продукты, NYSE
+- Fiat Chrysler Automobiles — Нидерланды, Автомобили, NYSE
+- Glencore — Швейцария, Металлы и добыча, Лондон
+- Equinor ASA — Норвегия, Энергетика, NYSE
+
+## Убраны (0)
+—
+
+## Изменились (0)
+—
