@@ -59,7 +59,7 @@ SECTOR_RULES = [
     (["software", "internet", "information technology", "computer", "cloud", "technology", "artificial intelligence"], "Технологии"),
     (["bank", "financial", "finance", "insurance", "payment", "investment", "asset management", "credit card", "stock exchange"], "Финансы"),
     (["telecommunication", "telecom", "mobile network", "wireless"], "Телеком"),
-    (["petroleum", "oil", "natural gas", "energy", "electric utility", "electricity", "utility", "renewable", "coal"], "Энергетика"),
+    (["petroleum", "oil", "natural gas", "gas industry", "energy", "electric utility", "electricity", "utility", "renewable", "coal"], "Энергетика"),
     (["mining", "steel", "metal", "aluminium", "aluminum", "gold", "copper"], "Металлы и добыча"),
     (["airline", "shipping", "logistics", "railway", "rail transport", "transport", "courier", "freight"], "Транспорт"),
     (["aerospace", "defense", "defence", "machinery", "industrial", "engineering", "construction", "conglomerate", "manufacturing"], "Промышленность"),
@@ -147,12 +147,17 @@ def fetch_names(ids):
 
 # ---------------- Нормализация ----------------
 def map_sector(industry_labels):
+    """Голосование: каждая отрасль компании голосует за первый подходящий сектор.
+    Побеждает сектор с наибольшим числом голосов, при равенстве — тот, что выше в SECTOR_RULES."""
     labels = [l.lower() for l in industry_labels if l]
-    for keys, sector in SECTOR_RULES:
-        for l in labels:
+    votes = {}
+    for l in labels:
+        for rank, (keys, sector) in enumerate(SECTOR_RULES):
             if any(k in l for k in keys):
-                return sector
-    return None
+                v = votes.setdefault(sector, [0, rank]); v[0] += 1
+                break
+    if not votes: return None
+    return sorted(votes.items(), key=lambda kv: (-kv[1][0], kv[1][1]))[0][0]
 
 def map_exchange(listings):
     named = []
@@ -177,6 +182,8 @@ def short_name(name):
         for suf in LEGAL_SUFFIXES:
             if s.endswith(suf) and len(s) > len(suf) + 1:
                 s = s[: -len(suf)].rstrip(" ,"); changed = True
+    s = s.rstrip(" ,&")
+    if s.endswith(" and"): s = s[:-4].rstrip(" ,")
     if s != name.strip() and s.startswith("The ") and len(s) > 6:
         s = s[4:]
     return s
@@ -246,7 +253,9 @@ def build():
     founders = fetch_prop(ids, "P112")
     ceo = fetch_prop(ids, "P169")
     hq = fetch_prop(ids, "P159")
-    country_ids = sorted({c[0] for v in country.values() for c in v})
+    hq_ids = sorted({h[0] for v in hq.values() for h in v})
+    hq_country = fetch_prop(hq_ids, "P17")
+    country_ids = sorted({c[0] for v in list(country.values()) + list(hq_country.values()) for c in v})
     continent = fetch_prop(country_ids, "P30")
 
     companies, review = [], []
@@ -254,10 +263,19 @@ def build():
         nm = names[i]
         full = nm["en"] or nm["ru"]
         name = short_name(full) if full else None
-        problems = []
-        countries = list(dict.fromkeys(c[1] for c in country.get(i, [])))
+        problems, notes = [], []
+        # Страна: по штаб-квартире (надёжнее), если её нет — по свойству «страна» компании
+        hq_c = list(dict.fromkeys(c for h in hq.get(i, []) for c in hq_country.get(h[0], [])))
+        own_c = list(dict.fromkeys(country.get(i, [])))
+        pool = hq_c if len(hq_c) == 1 else own_c
+        if len(pool) > 1 and hq_c:
+            common = [c for c in own_c if c in hq_c]
+            if len(common) == 1: pool = common
+        countries = list(dict.fromkeys(c[1] for c in pool))
         if not countries: problems.append("нет страны")
         elif len(countries) > 1: problems.append("несколько стран: " + ", ".join(countries))
+        elif hq_c and own_c and hq_c[0][0] not in [c[0] for c in own_c]:
+            notes.append("страна компании (" + ", ".join(c[1] for c in own_c) + ") не совпадает со страной штаб-квартиры (" + hq_c[0][1] + ") — взята страна штаб-квартиры")
         ind_labels = [x[1] for x in industry.get(i, [])]
         sector = map_sector(ind_labels)
         if not sector: problems.append("сектор не определён: " + (", ".join(ind_labels) or "отрасль не указана"))
@@ -268,9 +286,10 @@ def build():
         if not exch: problems.append("нет биржи")
         elif not known: problems.append("незнакомая биржа: " + exch)
         if not name: problems.append("нет названия")
+        elif len(name) < 2 or not (name[0].isupper() or name[0].isdigit()): problems.append("странное название: " + name)
 
         cid = countries[0] if countries else None
-        c_qid = next((c[0] for c in country.get(i, []) if c[1] == cid), None)
+        c_qid = next((c[0] for c in pool if c[1] == cid), None)
         region = (continent.get(c_qid) or [(None, None)])[0][1] if c_qid else None
         aliases = sorted({a for a in ([nm["ru"], full] + list(nm["alt"]) + [l["ticker"] for l in listed[i]["listings"]]) if a and a != name})
         rec = {
@@ -282,6 +301,7 @@ def build():
             "popularity": listed[i]["links"], "level": level_of(listed[i]["links"]),
             "source": f"https://www.wikidata.org/wiki/{i}",
         }
+        if notes: rec["notes"] = notes
         (review if problems else companies).append(dict(rec, problems=problems) if problems else rec)
 
     companies.sort(key=lambda c: -c["popularity"])
@@ -328,6 +348,18 @@ def main():
     json.dump({"updated": meta["updated"], "count": len(review), "companies": review},
               open(os.path.join(OUT_DIR, "review.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     write_changes(os.path.join(OUT_DIR, "changes.md"), *diff(old, companies), len(companies), len(review))
+    # Компактный файл для игр: только нужные поля, без отступов (грузится быстрее)
+    def short_aliases(c):
+        seen, out = {c["name"].lower()}, []
+        for x in sorted(c["aliases"], key=len):
+            if x.lower() not in seen and len(x) <= 40:
+                seen.add(x.lower()); out.append(x)
+        return out[:10]
+    game = {"updated": meta["updated"],
+            "fields": ["id", "name", "aliases", "country", "region", "sector", "founded", "exchange", "ticker", "popularity", "level"],
+            "companies": [[c["id"], c["name"], short_aliases(c), c["country"], c["region"], c["sector"], c["founded"],
+                           c["exchange"], c["ticker"], c["popularity"], c["level"]] for c in companies]}
+    json.dump(game, open(os.path.join(OUT_DIR, "game.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     print(f"Готово: {len(companies)} в игре, {len(review)} на проверке, уровни: {meta['levels']}")
 
 if __name__ == "__main__":
