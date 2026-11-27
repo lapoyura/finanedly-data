@@ -1,0 +1,14 @@
+{
+ "_readme": "Ручные правки автора. Ключ — ID компании в Wikidata. check — название для сверки: если не совпадёт с Wikidata, правка не применится (список таких — в changes.md). status: ok — пустить в игру, no — убрать. sector — один или два сектора через «;». Остальные поля заменяют данные Wikidata.",
+ "companies": {
+  "Q3295867": {"check": "Coca-Cola", "founded": 1892, "comment": "1886 — год создания напитка, компания основана в 1892"},
+  "Q157062": {"check": "Unilever", "sector": "Бытовая химия и косметика"},
+  "Q20718": {"check": "Samsung", "exchange": "Сеул"},
+  "Q53268": {"check": "Toyota", "exchange": "Токио"},
+  "Q9584": {"check": "Honda", "exchange": "Токио"},
+  "Q55931": {"check": "Hyundai", "exchange": "Сеул"},
+  "Q27530": {"check": "Mercedes", "founded": 1926, "comment": "1998 — год слияния с Chrysler; Daimler-Benz основана в 1926"},
+  "Q41187": {"check": "Sony", "sector": "Электроника и компьютеры; Видеоигры"},
+  "Q860580": {"check": "Tencent", "sector": "Интернет-сервисы; Видеоигры"}
+ }
+}
