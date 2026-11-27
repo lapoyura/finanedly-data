@@ -540,7 +540,7 @@ var FND=(function(){
   };
   /* Поле ввода с подсказками. Выбор из списка только подставляет, ответ — кнопкой или Enter.
      o: root, $, search(q) → варианты, label(item) → [текст в списке, другие названия, подпись справа], submit,
-     valueOf(item) — что подставить в поле при выборе (по умолчанию название) */
+     fieldText(item) — что подставить в поле при выборе (по умолчанию название) */
   F.autocomplete=function(o){
     var $=o.$, input=$('input'), list=$('list'), active=-1, matches=[];
     function sug(item){
@@ -557,7 +557,7 @@ var FND=(function(){
     }
     function hide(){ list.style.display='none'; active=-1; }
     function setActive(i){ active=i; Array.prototype.forEach.call(list.children,function(li,k){ li.className=k===i?'t-act':''; }); }
-    function val(it){ return o.valueOf?o.valueOf(it):it.name; }
+    function val(it){ return o.fieldText?o.fieldText(it):it.name; }
     function choose(i){ var it=matches[i]; if(!it) return; input.value=val(it); hide(); input.focus(); }
     input.addEventListener('input',function(){ $('msg').textContent=''; show(); });
     input.addEventListener('keydown',function(e){
@@ -973,7 +973,7 @@ var FND=(function(){
         altsOf:function(it){ if(!isPerson(it)) return it.aliases; var c=co(it); return open?it.aliases.concat([c.name]).concat(c.aliases.slice(0,3)):it.aliases; },
         skip:function(it){ return state.guesses.indexOf(gid(it))>=0; }}); },
     label:function(it){ return isPerson(it)?[personLabel(it),it.aliases,it.aliases[0]||'']:[it.name,it.aliases,'компания']; },
-    valueOf:function(it){ return isPerson(it)?personLabel(it):it.name; }});
+    fieldText:function(it){ return isPerson(it)?personLabel(it):it.name; }});
   var input=AC.input;
   function findCompany(n){ return FND.LIST.filter(function(c){ return norm(c.name)===n||c.aliases.some(function(a){return norm(a)===n;}); })[0]; }
   function submit(){
