@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-25",
+ "updated": "2026-11-27",
  "count": 1415,
  "sources": [
   "Wikidata (CC0)"
  ],
  "levels": {
   "лёгкий": 33,
-  "средний": 183,
-  "сложный": 453,
+  "средний": 184,
+  "сложный": 452,
   "эксперт": 746
  },
  "companies": [
@@ -7573,6 +7573,40 @@
    "source": "https://www.wikidata.org/wiki/Q725793"
   },
   {
+   "id": "Q94933",
+   "name": "Take-Two Interactive",
+   "name_ru": "Take-Two Interactive",
+   "aliases": [
+    "T2",
+    "TTWO",
+    "Take-Two",
+    "Take-Two Interactive Software",
+    "Take-Two Interactive Software, Inc.",
+    "Take2"
+   ],
+   "country": "США",
+   "region": "Северная Америка",
+   "sector": "Медиа и развлечения",
+   "industries": [
+    "video game industry"
+   ],
+   "founded": 1993,
+   "exchange": "NASDAQ",
+   "ticker": "TTWO",
+   "founders": [
+    "Ryan Ashley Brant"
+   ],
+   "ceo": [
+    "Kelly Sumner"
+   ],
+   "hq": [
+    "Нью-Йорк"
+   ],
+   "popularity": 40,
+   "level": "средний",
+   "source": "https://www.wikidata.org/wiki/Q94933"
+  },
+  {
    "id": "Q1141173",
    "name": "Marriott International",
    "name_ru": "Marriott International",
@@ -7835,40 +7869,6 @@
    "popularity": 39,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q741618"
-  },
-  {
-   "id": "Q94933",
-   "name": "Take-Two Interactive",
-   "name_ru": "Take-Two Interactive",
-   "aliases": [
-    "T2",
-    "TTWO",
-    "Take-Two",
-    "Take-Two Interactive Software",
-    "Take-Two Interactive Software, Inc.",
-    "Take2"
-   ],
-   "country": "США",
-   "region": "Северная Америка",
-   "sector": "Медиа и развлечения",
-   "industries": [
-    "video game industry"
-   ],
-   "founded": 1993,
-   "exchange": "NASDAQ",
-   "ticker": "TTWO",
-   "founders": [
-    "Ryan Ashley Brant"
-   ],
-   "ceo": [
-    "Kelly Sumner"
-   ],
-   "hq": [
-    "Нью-Йорк"
-   ],
-   "popularity": 39,
-   "level": "сложный",
-   "source": "https://www.wikidata.org/wiki/Q94933"
   },
   {
    "id": "Q1172038",
@@ -9718,9 +9718,7 @@
    "name_ru": "Opera Software",
    "aliases": [
     "OPRA",
-    "Opera Limited",
-    "Opera Software",
-    "Opera Software AS"
+    "Opera Software"
    ],
    "country": "Норвегия",
    "region": "Европа",
@@ -10302,6 +10300,40 @@
    "source": "https://www.wikidata.org/wiki/Q605233"
   },
   {
+   "id": "Q63035278",
+   "name": "XPeng",
+   "name_ru": "XPeng",
+   "aliases": [
+    "9868",
+    "XPEV",
+    "XPeng Inc",
+    "XPeng Motors",
+    "Xiaopeng Motors"
+   ],
+   "country": "Китай",
+   "region": "Азия",
+   "sector": "Автомобили",
+   "industries": [
+    "automotive industry"
+   ],
+   "founded": 2014,
+   "exchange": "NYSE",
+   "ticker": "XPEV",
+   "founders": [
+    "He Xiaopeng",
+    "Xia Heng"
+   ],
+   "ceo": [
+    "He Xiaopeng"
+   ],
+   "hq": [
+    "Гуанчжоу"
+   ],
+   "popularity": 33,
+   "level": "сложный",
+   "source": "https://www.wikidata.org/wiki/Q63035278"
+  },
+  {
    "id": "Q745099",
    "name": "Kyocera",
    "name_ru": "Kyocera",
@@ -10843,40 +10875,6 @@
    "popularity": 32,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q573103"
-  },
-  {
-   "id": "Q63035278",
-   "name": "XPeng",
-   "name_ru": "XPeng",
-   "aliases": [
-    "9868",
-    "XPEV",
-    "XPeng Inc",
-    "XPeng Motors",
-    "Xiaopeng Motors"
-   ],
-   "country": "Китай",
-   "region": "Азия",
-   "sector": "Автомобили",
-   "industries": [
-    "automotive industry"
-   ],
-   "founded": 2014,
-   "exchange": "NYSE",
-   "ticker": "XPEV",
-   "founders": [
-    "He Xiaopeng",
-    "Xia Heng"
-   ],
-   "ceo": [
-    "He Xiaopeng"
-   ],
-   "hq": [
-    "Гуанчжоу"
-   ],
-   "popularity": 32,
-   "level": "сложный",
-   "source": "https://www.wikidata.org/wiki/Q63035278"
   },
   {
    "id": "Q658789",
@@ -14411,6 +14409,35 @@
    "source": "https://www.wikidata.org/wiki/Q757307"
   },
   {
+   "id": "Q790060",
+   "name": "Broadcom",
+   "name_ru": "Broadcom",
+   "aliases": [
+    "AVGO"
+   ],
+   "country": "США",
+   "region": "Северная Америка",
+   "sector": "Полупроводники",
+   "industries": [
+    "semiconductor industry"
+   ],
+   "founded": 1961,
+   "exchange": "NASDAQ",
+   "ticker": "AVGO",
+   "founders": [
+    "Хью́летт-Па́ккард"
+   ],
+   "ceo": [
+    "Tan Hock Eng"
+   ],
+   "hq": [
+    "Пало-Алто"
+   ],
+   "popularity": 27,
+   "level": "сложный",
+   "source": "https://www.wikidata.org/wiki/Q790060"
+  },
+  {
    "id": "Q1107035",
    "name": "Cognizant Technology Solutions",
    "name_ru": null,
@@ -15195,35 +15222,6 @@
    "popularity": 26,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q7893816"
-  },
-  {
-   "id": "Q790060",
-   "name": "Broadcom",
-   "name_ru": "Broadcom",
-   "aliases": [
-    "AVGO"
-   ],
-   "country": "США",
-   "region": "Северная Америка",
-   "sector": "Полупроводники",
-   "industries": [
-    "semiconductor industry"
-   ],
-   "founded": 1961,
-   "exchange": "NASDAQ",
-   "ticker": "AVGO",
-   "founders": [
-    "Хью́летт-Па́ккард"
-   ],
-   "ceo": [
-    "Tan Hock Eng"
-   ],
-   "hq": [
-    "Пало-Алто"
-   ],
-   "popularity": 26,
-   "level": "сложный",
-   "source": "https://www.wikidata.org/wiki/Q790060"
   },
   {
    "id": "Q806680",
@@ -19970,7 +19968,9 @@
    "exchange": "Мосбиржа",
    "ticker": "OZON",
    "founders": [],
-   "ceo": [],
+   "ceo": [
+    "Александр Александрович Шульгин"
+   ],
    "hq": [
     "Москва"
    ],
@@ -22687,6 +22687,37 @@
    "source": "https://www.wikidata.org/wiki/Q4652575"
   },
   {
+   "id": "Q470156",
+   "name": "Cencora",
+   "name_ru": "AmerisourceBergen",
+   "aliases": [
+    "AmerisourceBergen",
+    "AmerisourceBergen Corporation",
+    "AmerisourceBergen World Courier",
+    "COR",
+    "Cencora, Inc."
+   ],
+   "country": "США",
+   "region": "Северная Америка",
+   "sector": "Фармацевтика и здоровье",
+   "industries": [
+    "pharmaceutical industry"
+   ],
+   "founded": 2001,
+   "exchange": "NYSE",
+   "ticker": "COR",
+   "founders": [],
+   "ceo": [
+    "Steven H. Collis"
+   ],
+   "hq": [
+    "Честербрук"
+   ],
+   "popularity": 19,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q470156"
+  },
+  {
    "id": "Q484930",
    "name": "Analog Devices",
    "name_ru": "Analog Devices",
@@ -24082,37 +24113,6 @@
    "popularity": 18,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q452726"
-  },
-  {
-   "id": "Q470156",
-   "name": "Cencora",
-   "name_ru": "AmerisourceBergen",
-   "aliases": [
-    "AmerisourceBergen",
-    "AmerisourceBergen Corporation",
-    "AmerisourceBergen World Courier",
-    "COR",
-    "Cencora, Inc."
-   ],
-   "country": "США",
-   "region": "Северная Америка",
-   "sector": "Фармацевтика и здоровье",
-   "industries": [
-    "pharmaceutical industry"
-   ],
-   "founded": 2001,
-   "exchange": "NYSE",
-   "ticker": "COR",
-   "founders": [],
-   "ceo": [
-    "Steven H. Collis"
-   ],
-   "hq": [
-    "Честербрук"
-   ],
-   "popularity": 18,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q470156"
   },
   {
    "id": "Q483006",
@@ -27654,6 +27654,33 @@
    "source": "https://www.wikidata.org/wiki/Q3178370"
   },
   {
+   "id": "Q3442791",
+   "name": "Ross Dress for Less",
+   "name_ru": "Ross Stores",
+   "aliases": [
+    "ROST",
+    "Ross Stores",
+    "Ross Stores Inc."
+   ],
+   "country": "США",
+   "region": "Северная Америка",
+   "sector": "Ритейл",
+   "industries": [
+    "retail"
+   ],
+   "founded": 1954,
+   "exchange": "NASDAQ",
+   "ticker": "ROST",
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Даблин"
+   ],
+   "popularity": 16,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q3442791"
+  },
+  {
    "id": "Q386414",
    "name": "PhosAgro",
    "name_ru": "ФосАгро",
@@ -29664,33 +29691,6 @@
    "popularity": 15,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q343204"
-  },
-  {
-   "id": "Q3442791",
-   "name": "Ross Dress for Less",
-   "name_ru": "Ross Stores",
-   "aliases": [
-    "ROST",
-    "Ross Stores",
-    "Ross Stores Inc."
-   ],
-   "country": "США",
-   "region": "Северная Америка",
-   "sector": "Ритейл",
-   "industries": [
-    "retail"
-   ],
-   "founded": 1954,
-   "exchange": "NASDAQ",
-   "ticker": "ROST",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Даблин"
-   ],
-   "popularity": 15,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q3442791"
   },
   {
    "id": "Q3518961",
@@ -34019,6 +34019,33 @@
    "source": "https://www.wikidata.org/wiki/Q741707"
   },
   {
+   "id": "Q747207",
+   "name": "Lattice Semiconductor",
+   "name_ru": "Lattice semiconductor",
+   "aliases": [
+    "LSCC",
+    "Lattice semiconductor"
+   ],
+   "country": "США",
+   "region": "Северная Америка",
+   "sector": "Полупроводники",
+   "industries": [
+    "semiconductor industry"
+   ],
+   "founded": 1983,
+   "exchange": "NASDAQ",
+   "ticker": "LSCC",
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Портленд",
+    "Хилсборо"
+   ],
+   "popularity": 13,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q747207"
+  },
+  {
    "id": "Q7564622",
    "name": "SoundHound",
    "name_ru": null,
@@ -34164,34 +34191,28 @@
   },
   {
    "id": "Q835456",
-   "name": "Sunlife",
+   "name": "Sun Life Financial",
    "name_ru": "Sun Life Financial",
    "aliases": [
-    "SLF",
-    "Sun Life Assurance Company of Canada",
-    "Sun Life Financial",
-    "Sun Life Financial Inc.",
-    "Sun Life Financial, Inc.",
-    "Sun Life of Canada",
-    "The Sun Insurance Co. of Montreal"
+    "SLF"
    ],
    "country": "Канада",
    "region": "Северная Америка",
    "sector": "Финансы",
    "industries": [
-    "financial services"
+    "health care",
+    "insurance",
+    "financial services",
+    "asset management",
+    "wealth management"
    ],
-   "founded": 1865,
+   "founded": 1999,
    "exchange": "NYSE",
    "ticker": "SLF",
-   "founders": [
-    "Мэтью Гамильтон Голт"
-   ],
+   "founders": [],
    "ceo": [],
    "hq": [
-    "Торонто",
-    "Уотерлу",
-    "Sun Life Building"
+    "Торонто"
    ],
    "popularity": 13,
    "level": "эксперт",
@@ -36720,33 +36741,6 @@
    "popularity": 12,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q7130852"
-  },
-  {
-   "id": "Q747207",
-   "name": "Lattice Semiconductor",
-   "name_ru": "Lattice semiconductor",
-   "aliases": [
-    "LSCC",
-    "Lattice semiconductor"
-   ],
-   "country": "США",
-   "region": "Северная Америка",
-   "sector": "Полупроводники",
-   "industries": [
-    "semiconductor industry"
-   ],
-   "founded": 1983,
-   "exchange": "NASDAQ",
-   "ticker": "LSCC",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Портленд",
-    "Хилсборо"
-   ],
-   "popularity": 12,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q747207"
   },
   {
    "id": "Q751883",

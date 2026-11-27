@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25",
+ "updated": "2026-11-27",
  "count": 1242,
  "companies": [
   {
@@ -1538,6 +1538,43 @@
    ]
   },
   {
+   "id": "Q489921",
+   "name": "Mastercard",
+   "name_ru": "Mastercard",
+   "aliases": [
+    "MA",
+    "MASTERCARD INTERNATIONAL INCORPORATED (Purchase, NY)",
+    "Master Card",
+    "MasterCard Incorporated",
+    "Mastercard International",
+    "Мастер Кард",
+    "Мастеркард"
+   ],
+   "country": "США",
+   "region": "Северная Америка",
+   "sector": "Финансы",
+   "industries": [
+    "financial services",
+    "financial service activities, except insurance and pension funding"
+   ],
+   "founded": 1966,
+   "exchange": "NYSE",
+   "ticker": "MA",
+   "founders": [],
+   "ceo": [
+    "Michael Miebach"
+   ],
+   "hq": [
+    "Перчейз"
+   ],
+   "popularity": 63,
+   "level": "средний",
+   "source": "https://www.wikidata.org/wiki/Q489921",
+   "problems": [
+    "разные годы основания: 1966, 1979"
+   ]
+  },
+  {
    "id": "Q188710",
    "name": "Thai Airways",
    "name_ru": "Тайские авиалинии",
@@ -1600,43 +1637,6 @@
    "source": "https://www.wikidata.org/wiki/Q213140",
    "problems": [
     "сектор не определён: aviation"
-   ]
-  },
-  {
-   "id": "Q489921",
-   "name": "Mastercard",
-   "name_ru": "Mastercard",
-   "aliases": [
-    "MA",
-    "MASTERCARD INTERNATIONAL INCORPORATED (Purchase, NY)",
-    "Master Card",
-    "MasterCard Incorporated",
-    "Mastercard International",
-    "Мастер Кард",
-    "Мастеркард"
-   ],
-   "country": "США",
-   "region": "Северная Америка",
-   "sector": "Финансы",
-   "industries": [
-    "financial services",
-    "financial service activities, except insurance and pension funding"
-   ],
-   "founded": 1966,
-   "exchange": "NYSE",
-   "ticker": "MA",
-   "founders": [],
-   "ceo": [
-    "Michael Miebach"
-   ],
-   "hq": [
-    "Перчейз"
-   ],
-   "popularity": 62,
-   "level": "средний",
-   "source": "https://www.wikidata.org/wiki/Q489921",
-   "problems": [
-    "разные годы основания: 1966, 1979"
    ]
   },
   {
@@ -14039,8 +14039,7 @@
    "aliases": [
     "ADP",
     "Aeroports de Paris",
-    "Airports of Paris",
-    "Aéroports de Paris"
+    "Airports of Paris"
    ],
    "country": "Франция",
    "region": "Европа",
@@ -15699,7 +15698,9 @@
    "founded": 1991,
    "exchange": "Budapest Stock Exchange",
    "ticker": "HU0000073507",
-   "founders": [],
+   "founders": [
+    "Magyar Posta"
+   ],
    "ceo": [
     "Tibor Rékasi"
    ],
@@ -17670,8 +17671,8 @@
    "name_ru": "DSM",
    "aliases": [
     "DSM",
-    "DSM (company)",
     "DSM (компания)",
+    "Koninklijke DSM N.V.",
     "RDSMY",
     "Royal DSM"
    ],
@@ -20423,7 +20424,9 @@
    "founded": 1982,
    "exchange": "Budapest Stock Exchange",
    "ticker": null,
-   "founders": [],
+   "founders": [
+    "Габор Бояр"
+   ],
    "ceo": [],
    "hq": [
     "Будапешт"
@@ -20713,6 +20716,41 @@
    "source": "https://www.wikidata.org/wiki/Q1189695",
    "problems": [
     "сектор не определён: gastronomy"
+   ]
+  },
+  {
+   "id": "Q1190323",
+   "name": "Genting",
+   "name_ru": "Genting Group",
+   "aliases": [
+    "3182",
+    "GEBHY",
+    "Genting Berhad",
+    "Genting Bhd.",
+    "Genting Group"
+   ],
+   "country": "Малайзия",
+   "region": "Азия",
+   "sector": null,
+   "industries": [
+    "hospitality industry"
+   ],
+   "founded": 1965,
+   "exchange": "Bursa Malaysia",
+   "ticker": "3182",
+   "founders": [
+    "Lim Goh Tong"
+   ],
+   "ceo": [],
+   "hq": [
+    "Куала-Лумпур"
+   ],
+   "popularity": 17,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q1190323",
+   "problems": [
+    "сектор не определён: hospitality industry",
+    "незнакомая биржа: Bursa Malaysia"
    ]
   },
   {
@@ -22114,41 +22152,6 @@
    "source": "https://www.wikidata.org/wiki/Q1184087",
    "problems": [
     "незнакомая биржа: Tel Aviv Stock Exchange"
-   ]
-  },
-  {
-   "id": "Q1190323",
-   "name": "Genting",
-   "name_ru": "Genting Group",
-   "aliases": [
-    "3182",
-    "GEBHY",
-    "Genting Berhad",
-    "Genting Bhd.",
-    "Genting Group"
-   ],
-   "country": "Малайзия",
-   "region": "Азия",
-   "sector": null,
-   "industries": [
-    "hospitality industry"
-   ],
-   "founded": 1965,
-   "exchange": "Bursa Malaysia",
-   "ticker": "3182",
-   "founders": [
-    "Lim Goh Tong"
-   ],
-   "ceo": [],
-   "hq": [
-    "Куала-Лумпур"
-   ],
-   "popularity": 16,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q1190323",
-   "problems": [
-    "сектор не определён: hospitality industry",
-    "незнакомая биржа: Bursa Malaysia"
    ]
   },
   {
@@ -24273,8 +24276,8 @@
     "beverage industry"
    ],
    "founded": 2003,
-   "exchange": "OTC Markets Group",
-   "ticker": "TBVPF",
+   "exchange": "Singapore Stock Exchange",
+   "ticker": "Y92",
    "founders": [
     "Charoen Sirivadhanabhakdi"
    ],
@@ -24286,7 +24289,7 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q15304350",
    "problems": [
-    "незнакомая биржа: OTC Markets Group"
+    "незнакомая биржа: Singapore Stock Exchange"
    ]
   },
   {
@@ -27563,6 +27566,40 @@
    ]
   },
   {
+   "id": "Q409075",
+   "name": "Airports of Thailand",
+   "name_ru": null,
+   "aliases": [
+    "AOT",
+    "Airports Of Thailand",
+    "Airports Of Thailand Public Co., Ltd.",
+    "Airports Of Thailand Public Company Limited",
+    "Airports of Thailand Public Company Limited"
+   ],
+   "country": "Таиланд",
+   "region": "Азия",
+   "sector": null,
+   "industries": [
+    "fixed-base operator"
+   ],
+   "founded": 1903,
+   "exchange": "Stock Exchange of Thailand",
+   "ticker": "AOT",
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Бангкок"
+   ],
+   "popularity": 14,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q409075",
+   "problems": [
+    "сектор не определён: fixed-base operator",
+    "разные годы основания: 1903, 1979",
+    "незнакомая биржа: Stock Exchange of Thailand"
+   ]
+  },
+  {
    "id": "Q444172",
    "name": "Bolloré",
    "name_ru": "Bolloré",
@@ -29217,40 +29254,6 @@
    ]
   },
   {
-   "id": "Q409075",
-   "name": "Airports of Thailand",
-   "name_ru": null,
-   "aliases": [
-    "AOT",
-    "Airports Of Thailand",
-    "Airports Of Thailand Public Co., Ltd.",
-    "Airports Of Thailand Public Company Limited",
-    "Airports of Thailand Public Company Limited"
-   ],
-   "country": "Таиланд",
-   "region": "Азия",
-   "sector": null,
-   "industries": [
-    "fixed-base operator"
-   ],
-   "founded": 1903,
-   "exchange": "Stock Exchange of Thailand",
-   "ticker": "AOT",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Бангкок"
-   ],
-   "popularity": 13,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q409075",
-   "problems": [
-    "сектор не определён: fixed-base operator",
-    "разные годы основания: 1903, 1979",
-    "незнакомая биржа: Stock Exchange of Thailand"
-   ]
-  },
-  {
    "id": "Q442018",
    "name": "Andritz",
    "name_ru": "Andritz AG",
@@ -30278,6 +30281,34 @@
    "source": "https://www.wikidata.org/wiki/Q1129882",
    "problems": [
     "незнакомая биржа: Indonesia Stock Exchange"
+   ]
+  },
+  {
+   "id": "Q1146772",
+   "name": "Sime Darby",
+   "name_ru": null,
+   "aliases": [
+    "4197"
+   ],
+   "country": "Малайзия",
+   "region": "Азия",
+   "sector": "Промышленность",
+   "industries": [
+    "conglomerate"
+   ],
+   "founded": 1910,
+   "exchange": "Bursa Malaysia",
+   "ticker": "4197",
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Куала-Лумпур"
+   ],
+   "popularity": 12,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q1146772",
+   "problems": [
+    "незнакомая биржа: Bursa Malaysia"
    ]
   },
   {
@@ -33516,34 +33547,6 @@
    "source": "https://www.wikidata.org/wiki/Q1131297",
    "problems": [
     "сектор не определён: отрасль не указана"
-   ]
-  },
-  {
-   "id": "Q1146772",
-   "name": "Sime Darby",
-   "name_ru": null,
-   "aliases": [
-    "4197"
-   ],
-   "country": "Малайзия",
-   "region": "Азия",
-   "sector": "Промышленность",
-   "industries": [
-    "conglomerate"
-   ],
-   "founded": 1910,
-   "exchange": "Bursa Malaysia",
-   "ticker": "4197",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Куала-Лумпур"
-   ],
-   "popularity": 11,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q1146772",
-   "problems": [
-    "незнакомая биржа: Bursa Malaysia"
    ]
   },
   {
