@@ -8,9 +8,11 @@
 ## Убраны (0)
 —
 
-## Изменились (2)
-- Infosys limited: exchange: Мумбаи (BSE) → Мумбаи (NSE); ticker: 500209 → INFY
-- Husky: ticker: HSE → HSE.PR.A
+## Изменились (4)
+- Infosys limited: exchange: Мумбаи (NSE) → Мумбаи (BSE); ticker: INFY → 500209
+- Leonardo: ticker: LDO → FNC
+- Fox: ticker: FOXA → FOX
+- Husky: ticker: HSE.PR.A → HSE
 
 ## Ручные правки (overrides.json): применено 30
 
@@ -18,10 +20,10 @@
 —
 
 ## Правки для компаний, которых нет в Wikidata-выборке (4)
-- Q861827 (Western Union)
-- Q651512 (Enel)
-- Q13416 (Engie)
-- Q477058 (Euronext)
+- name:Western Union ()
+- name:Enel ()
+- name:Engie ()
+- name:Euronext ()
 
 ## Убраны автором (статус no) (0)
 —
