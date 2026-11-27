@@ -27,6 +27,9 @@ WIKIDATA_URL = "https://query.wikidata.org/sparql"
 USER_AGENT = "finanedly-data/1.0 (https://finanedly.com; " + os.environ.get("SEC_CONTACT", "contact not set") + ")"
 SEC_CONTACT = os.environ.get("SEC_CONTACT", "").strip()
 OUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data")
+CAP_FRESH_DAYS = 365   # капитализация старше года в игре не показывается
+EMP_OLD_DAYS = 730     # число сотрудников старше двух лет помечается как устаревшее
+ECB_URL = "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"  # курсы ЕЦБ, бесплатно, можно публиковать
 YEAR_SPREAD_OK = 10  # годы основания расходятся сильнее — компания попадает в список «проверить год» в changes.md
 
 # Уровни сложности по числу языковых версий статьи в Википедии
@@ -166,70 +169,43 @@ SECTOR_INFO = {s: {"short": sh, "group": g} for s, sh, g in SECTORS}
 SECTOR_RULES = [
     ("Табак", ["tobacco", "cigarette", "cigar"]),
     ("Видеоигры", ["online game", "video game", "video game developer", "video game publisher", "esports", "game console"]),
-    ("Рестораны", ["gastronomy", "café", "cafe", "restaurant", "fast food", "fast-food", "coffeehouse", "coffee shop", "catering", "foodservice", "pizza"]),
-    ("Напитки", ["beverage", "soft drink", "drink", "brewing", "brewery", "beer", "wine", "winery", "spirits",
-                 "distill*", "alcoholic beverage", "bottled water", "juice"]),
-    ("Продукты питания", ["fish farming", "aquaculture", "food", "food processing", "confectionery", "dairy", "meat", "snack", "agribusiness",
-                          "agriculture", "sugar", "chocolate", "bakery", "cereal", "pet food", "seafood"]),
-    ("Полупроводники", ["central processing unit", "semiconductor", "integrated circuit", "microchip", "microprocessor", "chip", "foundry"]),
-    ("Электроника и компьютеры", ["printer", "audio signal processing", "recording medium", "battery", "battery industry", "office equipment", "consumer electronics", "electronics", "home appliance", "computer hardware",
-                                  "personal computer", "mobile phone", "smartphone", "telecommunications equipment",
-                                  "networking hardware", "camera", "optics"]),
-    ("Платежи и финтех", ["payment", "financial technology", "fintech", "credit card", "payment card", "money transfer",
-                          "payment processor", "digital payment"]),
-    ("Медтехника и клиники", ["medical device", "medical equipment", "medical technology", "hospital",
-                              "health insurance", "managed care", "diagnostic*", "medical imaging"]),
-    ("Биотехнологии", ["biotechnolog*", "biopharm*", "genetic*", "genomic*", "life science"]),
-    ("Фармацевтика", ["pharmaceutical", "pharmaceutics", "drug", "medicine", "vaccine", "generic drug"]),
-    ("Электронная торговля", ["e-commerce", "ecommerce", "online shopping", "electronic commerce", "online retail*",
-                              "online marketplace"]),
-    ("Интернет-сервисы", ["internet", "search engine", "social media", "social network*", "online service",
-                          "web portal", "online advertising", "ride-sharing", "ridesharing", "online platform", "web service"]),
-    ("Программы и облачные сервисы", ["video conference", "videoconferencing", "software", "cloud computing", "cloud", "information technology", "it service",
-                                      "it consulting", "computer security", "cybersecurity", "artificial intelligence",
-                                      "enterprise software", "software as a service", "data"]),
-    ("Медиа и стриминг", ["cinematography", "show business", "motion picture", "video on demand", "journalism", "scientific publication", "talent agent", "professional wrestling", "television channel", "film", "mass media", "media", "broadcasting", "television", "publishing", "music",
-                          "streaming", "entertainment", "newspaper", "radio", "advertising", "cinema", "movie theater"]),
-    ("Телеком", ["telecommunication", "telecom", "mobile network", "wireless", "internet service provider",
-                 "cable television", "mobile telephony"]),
-    ("Страхование", ["insurance", "reinsurance"]),
-    ("Банки", ["bank", "banking", "commercial bank", "investment banking"]),
-    ("Инвестиции и биржи", ["investment", "asset management", "stock exchange", "private equity", "brokerage",
-                            "venture capital", "wealth management", "hedge fund"]),
-    ("Недвижимость", ["real estate", "property", "real estate investment trust", "reit"]),
-    ("Нефть и газ", ["petroleum", "oil", "natural gas", "gas industry", "oil and gas", "oil refinery", "refining",
-                     "coal", "pipeline transport", "liquefied natural gas"]),
-    ("Электроэнергетика", ["photovoltaic*", "water supply", "water collection", "solar power", "electric utility", "electricity", "electric power", "utility", "public utility",
-                           "renewable energy", "power generation", "nuclear power", "water utility", "solar energy",
-                           "wind power", "hydroelectricity"]),
-    ("Химия и удобрения", ["chemical", "chemistry", "fertilizer", "fertiliser", "plastic", "potash", "agrochemical",
-                           "paint", "industrial gas"]),
-    ("Металлы и добыча", ["mining", "steel", "metal", "metallurgy", "aluminium", "aluminum", "gold", "copper",
-                          "iron", "nickel", "diamond", "iron ore"]),
-    ("Авиация, космос и оборона", ["aerospace", "aircraft", "aircraft manufactur*", "defense", "defence",
-                                   "arms industry", "military", "spaceflight", "weapon"]),
-    ("Автомобили и автодетали", ["transit bus", "bus manufactur*", "automotive", "automobile", "car manufactur*", "motor vehicle", "electric vehicle",
-                                 "auto parts", "automotive parts", "tire", "tyre", "truck", "motorcycle"]),
-    ("Туризм и отели", ["hotel", "travel", "tourism", "cruise", "cruise line", "casino", "gambling", "hospitality",
-                        "resort", "online travel"]),
-    ("Перевозки и логистика", ["aviation", "commercial aviation", "civil aviation", "mail", "postal service", "fixed-base operator", "tram", "airline", "shipping", "logistics", "railway", "rail transport", "transport",
-                               "courier", "freight", "delivery", "port", "maritime", "container shipping"]),
-    ("Строительство и материалы", ["construction", "building material", "cement", "civil engineering", "glass",
-                                   "homebuilding", "infrastructure", "construction industry"]),
+    ("Рестораны", ["gastronomy", "café", "cafe", "restaurant", "fast food", "fast-food", "coffeehouse", "coffee shop", "catering", "foodservice", "pizza", "coffee"]),
+    ("Напитки", ["beverage", "soft drink", "drink", "brewing", "brewery", "beer", "wine", "winery", "spirits", "distill*", "alcoholic beverage", "bottled water", "juice"]),
     ("Роскошь", ["horology", "luxury", "luxury goods", "jewel*", "watch", "watchmaking", "haute couture"]),
     ("Одежда и обувь", ["clothing", "apparel", "footwear", "fashion", "textile", "sportswear", "shoe"]),
-    ("Бытовая химия и косметика", ["cosmetic*", "personal care", "household", "toiletries", "beauty", "hygiene",
-                                   "consumer goods", "fast-moving consumer goods"]),
-    ("Розничные сети", ["hardware store", "bricolage", "bookselling", "bookstore", "direct selling", "retail", "supermarket", "hypermarket", "department store", "wholesale", "convenience store",
-                        "discount store", "grocery", "variety store"]),
+    ("Электронная торговля", ["e-commerce", "ecommerce", "online shopping", "electronic commerce", "online retail*", "online marketplace", "food delivery", "online food ordering", "online food delivery"]),
+    ("Розничные сети", ["hardware store", "bricolage", "bookselling", "bookstore", "direct selling", "retail", "supermarket", "hypermarket", "department store", "wholesale", "convenience store", "discount store", "grocery", "variety store"]),
+    ("Продукты питания", ["fish farming", "aquaculture", "food", "food processing", "confectionery", "dairy", "meat", "snack", "agribusiness", "agriculture", "sugar", "chocolate", "bakery", "cereal", "pet food", "seafood"]),
+    ("Полупроводники", ["central processing unit", "semiconductor", "integrated circuit", "microchip", "microprocessor", "chip", "foundry"]),
+    ("Телеком", ["telecommunication", "telecom", "mobile network", "wireless", "internet service provider", "cable television", "mobile telephony", "telecommunications service", "mobile telecommunications", "mobile phone operator", "telephone company"]),
+    ("Авиация, космос и оборона", ["aerospace", "aircraft", "aircraft manufactur*", "defense", "defence", "arms industry", "military", "spaceflight", "weapon"]),
+    ("Автомобили и автодетали", ["transit bus", "bus manufactur*", "automotive", "automobile", "car manufactur*", "motor vehicle", "electric vehicle", "auto parts", "automotive parts", "tire", "tyre", "truck", "motorcycle"]),
+    ("Электроника и компьютеры", ["printer", "audio signal processing", "recording medium", "battery", "battery industry", "office equipment", "consumer electronics", "electronics", "home appliance", "computer hardware", "personal computer", "mobile phone", "smartphone", "telecommunications equipment", "networking hardware", "camera", "optics", "household appliance", "home appliances", "data storage", "hard disk drive", "storage media", "computer data storage", "networking equipment"]),
+    ("Платежи и финтех", ["payment", "financial technology", "fintech", "credit card", "payment card", "money transfer", "payment processor", "digital payment"]),
+    ("Бытовая химия и косметика", ["cosmetic*", "personal care", "household", "toiletries", "beauty", "hygiene", "consumer goods", "fast-moving consumer goods"]),
+    ("Медтехника и клиники", ["medical device", "medical equipment", "medical technology", "hospital", "health insurance", "managed care", "diagnostic*", "medical imaging"]),
+    ("Биотехнологии", ["biotechnolog*", "biopharm*", "genetic*", "genomic*", "life science"]),
+    ("Фармацевтика", ["pharmaceutical", "pharmaceutics", "drug", "medicine", "vaccine", "generic drug"]),
+    ("Интернет-сервисы", ["internet", "search engine", "social media", "social network*", "online service", "web portal", "online advertising", "ride-sharing", "ridesharing", "online platform", "web service"]),
+    ("Программы и облачные сервисы", ["video conference", "videoconferencing", "software", "cloud computing", "cloud", "information technology", "it service", "it consulting", "computer security", "cybersecurity", "artificial intelligence", "enterprise software", "software as a service", "data"]),
+    ("Медиа и стриминг", ["cinematography", "show business", "motion picture", "video on demand", "journalism", "scientific publication", "talent agent", "professional wrestling", "television channel", "film", "mass media", "media", "broadcasting", "television", "publishing", "music", "streaming", "entertainment", "newspaper", "radio", "advertising", "cinema", "movie theater"]),
+    ("Страхование", ["insurance", "reinsurance"]),
+    ("Банки", ["bank", "banking", "commercial bank", "investment banking"]),
+    ("Инвестиции и биржи", ["investment", "asset management", "stock exchange", "private equity", "brokerage", "venture capital", "wealth management", "hedge fund", "credit rating", "credit rating agency", "financial market"]),
+    ("Недвижимость", ["real estate", "property", "real estate investment trust", "reit"]),
+    ("Химия и удобрения", ["chemical", "chemistry", "fertilizer", "fertiliser", "plastic", "potash", "agrochemical", "paint", "industrial gas"]),
+    ("Нефть и газ", ["petroleum", "oil", "natural gas", "gas industry", "oil and gas", "oil refinery", "refining", "coal", "pipeline transport", "liquefied natural gas"]),
+    ("Электроэнергетика", ["photovoltaic*", "water supply", "water collection", "solar power", "electric utility", "electricity", "electric power", "utility", "public utility", "renewable energy", "power generation", "nuclear power", "water utility", "solar energy", "wind power", "hydroelectricity"]),
+    ("Металлы и добыча", ["mining", "steel", "metal", "metallurgy", "aluminium", "aluminum", "gold", "copper", "iron", "nickel", "diamond", "iron ore"]),
+    ("Туризм и отели", ["hotel", "travel", "tourism", "cruise", "cruise line", "casino", "gambling", "hospitality", "resort", "online travel"]),
+    ("Перевозки и логистика", ["aviation", "commercial aviation", "civil aviation", "mail", "postal service", "fixed-base operator", "tram", "airline", "shipping", "logistics", "railway", "rail transport", "transport", "courier", "freight", "delivery", "port", "maritime", "container shipping"]),
+    ("Строительство и материалы", ["construction", "building material", "cement", "civil engineering", "glass", "homebuilding", "infrastructure", "construction industry"]),
     # --- самые общие слова: голосуют, но проигрывают любому узкому правилу при равенстве ---
     ("Банки", ["financial services", "finance", "financial"]),
     ("Нефть и газ", ["energy", "energy industry"]),
     ("Программы и облачные сервисы", ["technology", "computer", "high tech*"]),
     ("Медтехника и клиники", ["health care", "healthcare", "medical", "health"]),
-    ("Промышленное оборудование", ["shipbuilding", "power tool", "3d printing", "rapid prototyping", "sōgō shōsha", "sogo shosha", "trading company", "rail vehicle", "machinery", "industrial", "industry", "engineering", "conglomerate",
-                                   "manufacturing", "electrical equipment", "heavy equipment", "robotics",
-                                   "automation", "industrial machinery"]),
+    ("Промышленное оборудование", ["shipbuilding", "power tool", "3d printing", "rapid prototyping", "sōgō shōsha", "sogo shosha", "trading company", "rail vehicle", "machinery", "industrial", "engineering", "conglomerate", "manufacturing", "electrical equipment", "heavy equipment", "robotics", "automation", "industrial machinery"]),
 ]
 
 def _pattern(key):
@@ -241,7 +217,8 @@ SECTOR_RE = [(sector, re.compile("|".join(_pattern(k) for k in keys))) for secto
 assert all(s in SECTOR_INFO for s, _ in SECTOR_RULES), "В SECTOR_RULES есть сектор, которого нет в SECTORS"
 
 # ---------------- Фильтр «не компания» ----------------
-# Если в Wikidata объект — электростанция, фонд, индекс и т. п., в базу он не попадает вовсе.
+# Если в Wikidata объект — электростанция, фонд, индекс, клуб и т. п., он не идёт в игру сразу,
+# а попадает на проверку с пометкой «возможно, не компания» (решение автора 27.11).
 NOT_COMPANY = re.compile("|".join(_pattern(k) for k in [
     "power station", "power plant", "hydroelectric power station", "dam", "exchange-traded fund",
     "mutual fund", "investment fund", "closed-end fund", "index fund", "stock market index", "unit trust",
@@ -311,6 +288,48 @@ def fetch_prop(ids, prop, lang="ru,mul,en", literal=False):
         time.sleep(1)
     return out
 
+def fetch_quantity(ids, prop, with_unit=False):
+    """item -> список (число, дата или None, валюта-QID или None) для количественного свойства (P2226, P1128)."""
+    out = defaultdict(list)
+    for i in range(0, len(ids), BATCH):
+        chunk = ids[i:i + BATCH]
+        unit = "?v wikibase:quantityUnit ?unit ." if with_unit else ""
+        q = f"""SELECT ?item ?amount ?unit ?date WHERE {{ VALUES ?item {{ {batch_values(chunk)} }}
+                ?item p:{prop} ?st . ?st psv:{prop} ?v . ?v wikibase:quantityAmount ?amount . {unit}
+                FILTER NOT EXISTS {{ ?st wikibase:rank wikibase:DeprecatedRank . }}
+                OPTIONAL {{ ?st pq:P585 ?date . }} }}"""
+        for b in sparql(q):
+            try: amount = float(val(b, "amount"))
+            except Exception: continue
+            d = (val(b, "date") or "")[:10] or None
+            if d and d.startswith(("+", "-")): d = d[1:11]
+            out[qid(val(b, "item"))].append((amount, d, qid(val(b, "unit")) if val(b, "unit") else None))
+        time.sleep(1)
+    return out
+
+def fetch_ecb_rates():
+    """Курсы ЕЦБ: код валюты → сколько её за 1 евро. При ошибке — пустой словарь (капитализация не пересчитается)."""
+    try:
+        req = urllib.request.Request(ECB_URL, headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(req, timeout=60) as r:
+            xml = r.read().decode("utf-8")
+        rates = {m.group(1): float(m.group(2)) for m in re.finditer(r"currency='([A-Z]{3})' rate='([0-9.]+)'", xml)}
+        rates["EUR"] = 1.0
+        return rates
+    except Exception as e:
+        print(f"  ! курсы ЕЦБ не загрузились ({e}) — капитализация не в долларах будет пропущена", file=sys.stderr)
+        return {}
+
+def latest(values):
+    """Самое свежее значение с датой; если дат нет ни у одного — (последнее значение, None)."""
+    dated = [v for v in values if v[1]]
+    if dated: return max(dated, key=lambda v: v[1])
+    return values[-1] if values else None
+
+def days_since(d):
+    try: return (datetime.date.today() - datetime.date.fromisoformat(d)).days
+    except Exception: return None
+
 def fetch_names(ids):
     """Названия и синонимы на русском и английском."""
     out = defaultdict(lambda: {"ru": None, "en": None, "mul": None, "alt": set()})
@@ -331,7 +350,7 @@ def sector_votes(industry_labels):
     """Каждая отрасль компании голосует за первый подходящий сектор.
     Возвращает список (сектор, голосов) от победителя вниз; при равенстве выше тот, что выше в SECTOR_RULES."""
     votes = {}
-    for l in (x.lower() for x in industry_labels if x):
+    for l in (re.split(r",?\s+except\b", x.lower())[0] for x in industry_labels if x):
         for rank, (sector, rx) in enumerate(SECTOR_RE):
             if rx.search(l):
                 v = votes.setdefault(sector, [0, rank]); v[0] += 1
@@ -365,6 +384,8 @@ def map_exchange(listings, home_country=None):
                 "в Wikidata есть только внебиржевой рынок США (OTC) — биржа взята по стране компании, проверить")
     if otc: return ("OTC", otc[0]["ticker"], False, None)
     return (None, None, False, None)
+
+NOT_COMPANY_EXACT = {"airport", "international airport", "football club", "association football club"}
 
 def m_index(label):
     return bool(re.search(r"\bstock market index\b|\baktien-index\b", label.lower()))
@@ -491,6 +512,12 @@ def build():
     hq_country = fetch_prop(hq_ids, "P17")
     country_ids = sorted({c[0] for v in list(country.values()) + list(hq_country.values()) for c in v})
     continent = fetch_prop(country_ids, "P30")
+    # Капитализация и сотрудники (с датами)
+    caps = fetch_quantity(ids, "P2226", with_unit=True)
+    emps = fetch_quantity(ids, "P1128")
+    cur_ids = sorted({v[2] for vs in caps.values() for v in vs if v[2]})
+    cur_code = {k: v[0] for k, v in fetch_prop(cur_ids, "P498", literal=True).items() if v} if cur_ids else {}
+    rates = fetch_ecb_rates()
     # страна (подпись) → регион, чтобы правильно ставить регион при ручной правке страны
     region_of = {}
     for v in list(country.values()) + list(hq_country.values()):
@@ -498,7 +525,8 @@ def build():
             if cl and continent.get(cq): region_of.setdefault(cl, continent[cq][0][1])
 
     report = {"not_company": [], "removed_by_author": [], "ov_applied": 0, "ov_mismatch": [], "ov_missing": [],
-              "second_sector_candidates": [], "year_check": []}
+              "second_sector_candidates": [], "year_check": [],
+              "cap": {"fresh": 0, "stale": 0, "no_rate": 0, "none": 0}, "emp": {"fresh": 0, "old": 0, "nodate": 0, "none": 0}}
     seen_ov = set()
     companies, review = [], []
     for i in ids:
@@ -508,14 +536,15 @@ def build():
 
         # Фильтр «не компания»
         kinds = [k[1] for k in kind.get(i, []) if k[1]]
-        bad = [k for k in kinds if NOT_COMPANY.search(k.lower())]
+        bad = [k for k in kinds if NOT_COMPANY.search(k.lower()) or k.lower() in NOT_COMPANY_EXACT]
         bad += [x[1] for x in industry.get(i, []) if x[1] and m_index(x[1])]
         if only_crypto(listed[i]["listings"]): bad.append("торгуется только на криптобиржах")
-        if bad:
-            report["not_company"].append(f"{name or i} ({i}) — {', '.join(bad)}")
-            continue
-
         problems, notes = [], []   # problems: (поле, текст)
+        if bad:
+            # Не убираем, а отправляем на проверку: автор сам решит (статус ok — в игру, no — убрать)
+            bad = list(dict.fromkeys(bad))
+            report["not_company"].append(f"{name or i} ({i}) — {', '.join(bad)}")
+            problems.append(("kind", "возможно, не компания: " + ", ".join(bad)))
         # Страна: по штаб-квартире (надёжнее), если её нет — по свойству «страна» компании
         hq_c = list(dict.fromkeys(c for h in hq.get(i, []) for c in hq_country.get(h[0], [])))
         own_c = list(dict.fromkeys(country.get(i, [])))
@@ -576,6 +605,35 @@ def build():
             "source": f"https://www.wikidata.org/wiki/{i}",
         }
 
+        # Капитализация: самое свежее значение, в долларах по курсу ЕЦБ; в игре — только не старше года
+        c_best = latest(caps.get(i, []))
+        if c_best:
+            amount, d, unit = c_best
+            code = cur_code.get(unit) if unit else None
+            usd = None
+            if code and code in rates and "USD" in rates:
+                usd = amount / rates[code] * rates["USD"]
+            if usd is None:
+                report["cap"]["no_rate"] += 1
+            else:
+                age = days_since(d) if d else None
+                rec["market_cap_usd"] = round(usd); rec["market_cap_date"] = d
+                rec["market_cap_currency"] = code
+                if age is not None and age <= CAP_FRESH_DAYS: report["cap"]["fresh"] += 1
+                else: report["cap"]["stale"] += 1; rec["market_cap_stale"] = True
+        else:
+            report["cap"]["none"] += 1
+        # Сотрудники: самое свежее значение; старше двух лет — пометка
+        e_best = latest(emps.get(i, []))
+        if e_best:
+            rec["employees"] = int(e_best[0]); rec["employees_date"] = e_best[1]
+            age = days_since(e_best[1]) if e_best[1] else None
+            if age is None: report["emp"]["nodate"] += 1; rec["employees_old"] = True
+            elif age > EMP_OLD_DAYS: report["emp"]["old"] += 1; rec["employees_old"] = True
+            else: report["emp"]["fresh"] += 1
+        else:
+            report["emp"]["none"] += 1
+
         # Ручные правки автора
         ov = overrides.get(i)
         if ov:
@@ -603,6 +661,11 @@ def build():
                 try: rec["founded"] = int(ov["founded"])
                 except Exception: problems.append(("founded", "в правке неверный год: " + str(ov["founded"])))
             if ov.get("exchange"): rec["exchange"] = ov["exchange"]
+            if ov.get("market_cap_usd"):
+                rec["market_cap_usd"] = int(float(ov["market_cap_usd"])); rec["market_cap_date"] = ov.get("market_cap_date") or datetime.date.today().isoformat()
+                rec.pop("market_cap_stale", None)
+            if ov.get("employees"):
+                rec["employees"] = int(float(ov["employees"])); rec["employees_date"] = ov.get("employees_date"); rec.pop("employees_old", None)
             fixed = {f for f in ("name", "country", "sector", "founded", "exchange") if ov.get(f)}
             problems = [p for p in problems if p[0] not in fixed or p[1].startswith("в правке")]
             if str(ov.get("status", "")).strip().lower() == "ok":
@@ -656,8 +719,14 @@ def write_changes(path, added, removed, changed, total, review_count, report):
     block("Правки не применены: ID и название не совпали", ["- " + x for x in report["ov_mismatch"]])
     block("Правки для компаний, которых нет в Wikidata-выборке", ["- " + x for x in report["ov_missing"]])
     block("Убраны автором (статус no)", ["- " + x for x in report["removed_by_author"]])
-    block("Отсеяны как «не компания»", ["- " + x for x in report["not_company"]])
+    block("Возможно, не компании — отправлены на проверку", ["- " + x for x in report["not_company"]])
     block("Кандидаты на второй сектор (решить в таблице)", ["- " + x for x in report["second_sector_candidates"]])
+    cp, em = report["cap"], report["emp"]
+    lines.extend([f"## Капитализация и сотрудники", "",
+        f"- Капитализация (Wikidata, в долларах по курсу ЕЦБ): свежая, не старше года — **{cp['fresh']}**; "
+        f"старше года (в игре не показывается) — {cp['stale']}; валюта без курса ЕЦБ — {cp['no_rate']}; нет данных — {cp['none']}.",
+        f"- Сотрудники (Wikidata): не старше двух лет — **{em['fresh']}**; старше двух лет (с пометкой) — {em['old']}; "
+        f"без даты (с пометкой) — {em['nodate']}; нет данных — {em['none']}.", ""])
     block("Проверить год основания: в Wikidata годы расходятся больше чем на 10 лет, взят ранний",
           ["- " + x for _, x in sorted(report["year_check"], key=lambda t: -t[0])])
     open(path, "w", encoding="utf-8").write("\n".join(lines))
@@ -688,13 +757,17 @@ def main():
     game = {"updated": meta["updated"],
             "sectors": sectors_meta,
             "fields": ["id", "name", "aliases", "country", "region", "sector", "founded", "exchange", "ticker",
-                       "popularity", "level", "sector2"],
+                       "popularity", "level", "sector2", "cap", "cap_date", "emp", "emp_date", "emp_old"],
             "companies": [[c["id"], c["name"], short_aliases(c), c["country"], c["region"], c["sector"], c["founded"],
                            c["exchange"], c["ticker"], c["popularity"], c["level"],
-                           (c.get("sectors") or [None, None])[1] if len(c.get("sectors") or []) > 1 else None]
+                           (c.get("sectors") or [None, None])[1] if len(c.get("sectors") or []) > 1 else None,
+                           # капитализация — млрд долларов, только свежая (не старше года)
+                           round(c["market_cap_usd"] / 1e9, 2) if c.get("market_cap_usd") and not c.get("market_cap_stale") else None,
+                           c.get("market_cap_date") if c.get("market_cap_usd") and not c.get("market_cap_stale") else None,
+                           c.get("employees"), c.get("employees_date"), bool(c.get("employees_old"))]
                           for c in companies]}
     json.dump(game, open(os.path.join(OUT_DIR, "game.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
-    print(f"Готово: {len(companies)} в игре, {len(review)} на проверке, отсеяно «не компаний»: {len(report['not_company'])}, "
+    print(f"Готово: {len(companies)} в игре, {len(review)} на проверке (из них «возможно, не компании»: {len(report['not_company'])}), "
           f"правок применено: {report['ov_applied']}")
 
 if __name__ == "__main__":
