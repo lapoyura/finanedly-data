@@ -1,7 +1,50 @@
 {
  "updated": "2026-11-27",
- "count": 314,
+ "count": 419,
  "companies": [
+  {
+   "id": "Q131723",
+   "name": "Bitcoin",
+   "name_ru": "Биткоин",
+   "aliases": [
+    "BTC",
+    "Bitcoins",
+    "XBT",
+    "Биткоин",
+    "Биткойн",
+    "₿"
+   ],
+   "country": "Сальвадор",
+   "region": "Северная Америка",
+   "sector": "Платежи и финтех",
+   "sectors": [
+    "Платежи и финтех"
+   ],
+   "industries": [],
+   "founded": 2009,
+   "exchange": "BitBay",
+   "ticker": "BTC",
+   "founders": [],
+   "ceo": [],
+   "hq": [],
+   "popularity": 154,
+   "level": "лёгкий",
+   "source": "https://www.wikidata.org/wiki/Q131723",
+   "market_cap_usd": 712696504252,
+   "market_cap_date": "2023-11-14",
+   "market_cap_currency": "USD",
+   "market_cap_stale": true,
+   "sector_group": "Финансы",
+   "notes": [
+    "сектор определён по типу объекта в Wikidata: free software, currency, communication protocol, reserve currency, payment system, legal tender, cryptocurrency, crypto asset, blockchain",
+    "возможен второй сектор: Программы и облачные сервисы"
+   ],
+   "problems": [
+    "возможно, не компания: cryptocurrency",
+    "несколько стран: Сальвадор, Центральноафриканская Республика",
+    "незнакомая биржа: BitBay"
+   ]
+  },
   {
    "id": "Q18656",
    "name": "Manchester United F.C.",
@@ -44,6 +87,7 @@
    "source": "https://www.wikidata.org/wiki/Q18656",
    "sector_group": null,
    "problems": [
+    "возможно, не компания: association football club",
     "сектор не определён: отрасль не указана"
    ]
   },
@@ -94,47 +138,8 @@
    "source": "https://www.wikidata.org/wiki/Q1422",
    "sector_group": null,
    "problems": [
+    "возможно, не компания: association football club",
     "сектор не определён: отрасль не указана"
-   ]
-  },
-  {
-   "id": "Q689141",
-   "name": "Spotify",
-   "name_ru": null,
-   "aliases": [
-    "spotify.com",
-    "Спотифай"
-   ],
-   "country": null,
-   "region": null,
-   "sector": "Медиа и стриминг",
-   "sectors": [
-    "Медиа и стриминг"
-   ],
-   "industries": [],
-   "founded": 2006,
-   "exchange": "NYSE",
-   "ticker": null,
-   "founders": [
-    "Даниэль Эк",
-    "Мартин Лорентсон"
-   ],
-   "ceo": [
-    "Gustav Söderström"
-   ],
-   "hq": [],
-   "popularity": 104,
-   "level": "лёгкий",
-   "source": "https://www.wikidata.org/wiki/Q689141",
-   "edited": true,
-   "sector_group": "Связь и медиа",
-   "notes": [
-    "сектор определён по типу объекта в Wikidata: computer program, brand, mobile app, online community, music streaming service, podcast directory",
-    "комментарий автора: нет в выборке Wikidata — добавлена вручную",
-    "возможен второй сектор: Программы и облачные сервисы"
-   ],
-   "problems": [
-    "нет страны"
    ]
   },
   {
@@ -171,6 +176,7 @@
    "source": "https://www.wikidata.org/wiki/Q128446",
    "sector_group": null,
    "problems": [
+    "возможно, не компания: association football club",
     "сектор не определён: отрасль не указана"
    ]
   },
@@ -205,6 +211,7 @@
    "source": "https://www.wikidata.org/wiki/Q131499",
    "sector_group": null,
    "problems": [
+    "возможно, не компания: association football club",
     "сектор не определён: отрасль не указана"
    ]
   },
@@ -239,6 +246,7 @@
    "source": "https://www.wikidata.org/wiki/Q242260",
    "sector_group": null,
    "problems": [
+    "возможно, не компания: association football club",
     "сектор не определён: отрасль не указана"
    ]
   },
@@ -272,6 +280,7 @@
    "source": "https://www.wikidata.org/wiki/Q75729",
    "sector_group": null,
    "problems": [
+    "возможно, не компания: association football club",
     "сектор не определён: отрасль не указана"
    ]
   },
@@ -310,7 +319,102 @@
    "source": "https://www.wikidata.org/wiki/Q19593",
    "sector_group": null,
    "problems": [
+    "возможно, не компания: association football club",
     "сектор не определён: отрасль не указана"
+   ]
+  },
+  {
+   "id": "Q16783523",
+   "name": "Ethereum",
+   "name_ru": "Ethereum",
+   "aliases": [
+    "ETH",
+    "ETH Mainnet",
+    "ETH Network",
+    "ETH blockchain",
+    "Ether",
+    "Ethereum Chain",
+    "Ethereum blockchain",
+    "Ethereum network",
+    "Ethereum platform",
+    "ethereum.org",
+    "Ξ",
+    "Эфириум"
+   ],
+   "country": null,
+   "region": null,
+   "sector": "Интернет-сервисы",
+   "sectors": [
+    "Интернет-сервисы"
+   ],
+   "industries": [],
+   "founded": 2015,
+   "exchange": "GDAX",
+   "ticker": null,
+   "founders": [
+    "Виталик Бутерин",
+    "Гэвин Вуд",
+    "Mihai Alisie"
+   ],
+   "ceo": [],
+   "hq": [
+    "Швейцария"
+   ],
+   "popularity": 74,
+   "level": "средний",
+   "source": "https://www.wikidata.org/wiki/Q16783523",
+   "market_cap_usd": 294770121895,
+   "market_cap_date": "2022-01-25",
+   "market_cap_currency": "USD",
+   "market_cap_stale": true,
+   "sector_group": "Технологии",
+   "notes": [
+    "сектор определён по типу объекта в Wikidata: free software, web service, cryptocurrency, blockchain, smart contract platform, blockchain framework, ongoing project"
+   ],
+   "problems": [
+    "возможно, не компания: cryptocurrency",
+    "нет страны",
+    "незнакомая биржа: GDAX"
+   ]
+  },
+  {
+   "id": "Q188822",
+   "name": "Asian Development Bank",
+   "name_ru": "Азиатский банк развития",
+   "aliases": [
+    "ADB",
+    "ATB",
+    "Азиатский банк развития"
+   ],
+   "country": "Филиппины",
+   "region": "Азия",
+   "sector": "Банки",
+   "sectors": [
+    "Банки"
+   ],
+   "industries": [
+    "development aid"
+   ],
+   "founded": 1966,
+   "exchange": "Сидней",
+   "ticker": "ATB",
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Мандалуионг"
+   ],
+   "popularity": 73,
+   "level": "средний",
+   "source": "https://www.wikidata.org/wiki/Q188822",
+   "employees": 3687,
+   "employees_date": "2022-01-01",
+   "employees_old": true,
+   "sector_group": "Финансы",
+   "notes": [
+    "сектор определён по типу объекта в Wikidata: public company, international financial institution, publishing house, multilateral development bank"
+   ],
+   "problems": [
+    "возможно, не компания: international financial institution, multilateral development bank"
    ]
   },
   {
@@ -351,12 +455,52 @@
    "popularity": 68,
    "level": "средний",
    "source": "https://www.wikidata.org/wiki/Q27074",
+   "employees": 3000,
+   "employees_date": "2022-01-01",
+   "employees_old": true,
    "sector_group": "Транспорт",
    "notes": [
     "в Wikidata есть только внебиржевой рынок США (OTC) — биржа взята по стране компании, проверить"
    ],
    "problems": [
     "нет года основания"
+   ]
+  },
+  {
+   "id": "Q180816",
+   "name": "Dow Jones Industrial Average",
+   "name_ru": "Промышленный индекс Доу-Джонса",
+   "aliases": [
+    "DJI",
+    "DJIA",
+    "DJIA Component",
+    "Dow",
+    "Dow Jones",
+    "The Dow",
+    "^DJI",
+    "Доу Джонс",
+    "Индекс Доу-Джонса",
+    "Промышленный индекс Доу-Джонс",
+    "Промышленный индекс Доу-Джонса"
+   ],
+   "country": "США",
+   "region": "Северная Америка",
+   "sector": null,
+   "sectors": [],
+   "industries": [],
+   "founded": 1896,
+   "exchange": "NYSE",
+   "ticker": "DJI",
+   "founders": [],
+   "ceo": [],
+   "hq": [],
+   "popularity": 67,
+   "level": "средний",
+   "source": "https://www.wikidata.org/wiki/Q180816",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: stock market index",
+    "сектор не определён: отрасль не указана"
    ]
   },
   {
@@ -393,6 +537,7 @@
    "source": "https://www.wikidata.org/wiki/Q75684",
    "sector_group": null,
    "problems": [
+    "возможно, не компания: association football club",
     "сектор не определён: отрасль не указана"
    ]
   },
@@ -431,9 +576,86 @@
    "popularity": 60,
    "level": "средний",
    "source": "https://www.wikidata.org/wiki/Q319642",
+   "market_cap_usd": 429061000000,
+   "market_cap_date": "2026-11-14",
+   "market_cap_currency": "USD",
+   "employees": 48600,
+   "employees_date": "2018-01-01",
+   "employees_old": true,
    "sector_group": "Энергетика и сырьё",
    "problems": [
     "нет года основания"
+   ]
+  },
+  {
+   "id": "Q127955",
+   "name": "Belgrade Nikola Tesla Airport",
+   "name_ru": "Белград",
+   "aliases": [
+    "AERO",
+    "BEG",
+    "Belgrade Airport",
+    "LYBE",
+    "Аэропорт Никола Тесла",
+    "Белград",
+    "Никола Тесла"
+   ],
+   "country": "Сербия",
+   "region": "Европа",
+   "sector": "Перевозки и логистика",
+   "sectors": [
+    "Перевозки и логистика"
+   ],
+   "industries": [
+    "air transport"
+   ],
+   "founded": 1992,
+   "exchange": "Белград",
+   "ticker": "AERO",
+   "founders": [],
+   "ceo": [],
+   "hq": [],
+   "popularity": 56,
+   "level": "средний",
+   "source": "https://www.wikidata.org/wiki/Q127955",
+   "sector_group": "Транспорт",
+   "problems": [
+    "возможно, не компания: international airport, airport"
+   ]
+  },
+  {
+   "id": "Q242345",
+   "name": "S&P 500",
+   "name_ru": "S&P 500",
+   "aliases": [
+    "S & P 500",
+    "S&P",
+    "S&P 500 Component",
+    "S&P 500 Index",
+    "S500",
+    "SPX",
+    "Standard & Poor's 500",
+    "Standard and Poor's 500",
+    "^GSPC"
+   ],
+   "country": "США",
+   "region": "Северная Америка",
+   "sector": null,
+   "sectors": [],
+   "industries": [],
+   "founded": 1957,
+   "exchange": "NYSE",
+   "ticker": "S500",
+   "founders": [],
+   "ceo": [],
+   "hq": [],
+   "popularity": 56,
+   "level": "средний",
+   "source": "https://www.wikidata.org/wiki/Q242345",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: stock market index",
+    "сектор не определён: отрасль не указана"
    ]
   },
   {
@@ -477,6 +699,70 @@
    ]
   },
   {
+   "id": "Q466496",
+   "name": "FTSE 100 Index",
+   "name_ru": "FTSE 100",
+   "aliases": [
+    "FTSE",
+    "FTSE 100",
+    "FTSE100",
+    "Financial Times Stock Exchange",
+    "Financial Times Stock Exchange Index",
+    "UKX",
+    "footsie",
+    "Футси"
+   ],
+   "country": "Великобритания",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [],
+   "founded": 1984,
+   "exchange": "Лондон",
+   "ticker": "UKX",
+   "founders": [],
+   "ceo": [],
+   "hq": [],
+   "popularity": 54,
+   "level": "средний",
+   "source": "https://www.wikidata.org/wiki/Q466496",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: stock market index",
+    "сектор не определён: отрасль не указана"
+   ]
+  },
+  {
+   "id": "Q155718",
+   "name": "DAX",
+   "name_ru": "DAX",
+   "aliases": [
+    "Deutscher Aktienindex",
+    "FRAA"
+   ],
+   "country": "Германия",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [],
+   "founded": 1988,
+   "exchange": "Франкфурт",
+   "ticker": "FRAA",
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Франкфурт-на-Майне"
+   ],
+   "popularity": 53,
+   "level": "средний",
+   "source": "https://www.wikidata.org/wiki/Q155718",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: stock market index",
+    "сектор не определён: отрасль не указана"
+   ]
+  },
+  {
    "id": "Q211906",
    "name": "Brøndby IF",
    "name_ru": "Брондбю",
@@ -507,6 +793,7 @@
    "source": "https://www.wikidata.org/wiki/Q211906",
    "sector_group": null,
    "problems": [
+    "возможно, не компания: association football club",
     "сектор не определён: отрасль не указана"
    ]
   },
@@ -546,6 +833,9 @@
    "popularity": 50,
    "level": "средний",
    "source": "https://www.wikidata.org/wiki/Q1127887",
+   "employees": 35911,
+   "employees_date": "2021-12-31",
+   "employees_old": true,
    "sector_group": null,
    "notes": [
     "в Wikidata несколько годов основания (1981, 1987) — взят ранний"
@@ -598,6 +888,9 @@
    "popularity": 50,
    "level": "средний",
    "source": "https://www.wikidata.org/wiki/Q223127",
+   "employees": 7300,
+   "employees_date": "2024-03-31",
+   "employees_old": true,
    "sector_group": "Технологии",
    "problems": [
     "несколько стран: США, Швейцария"
@@ -637,6 +930,38 @@
    "source": "https://www.wikidata.org/wiki/Q455971",
    "sector_group": null,
    "problems": [
+    "возможно, не компания: association football club",
+    "сектор не определён: отрасль не указана"
+   ]
+  },
+  {
+   "id": "Q648828",
+   "name": "CAC 40",
+   "name_ru": "CAC 40",
+   "aliases": [
+    "CAC-40",
+    "Cotation Assistée en Continu",
+    "PX1",
+    "PX1GR",
+    "PX1NR"
+   ],
+   "country": "Франция",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [],
+   "founded": 1987,
+   "exchange": "Париж",
+   "ticker": "PX1",
+   "founders": [],
+   "ceo": [],
+   "hq": [],
+   "popularity": 50,
+   "level": "средний",
+   "source": "https://www.wikidata.org/wiki/Q648828",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: stock market index",
     "сектор не определён: отрасль не указана"
    ]
   },
@@ -675,6 +1000,154 @@
    ]
   },
   {
+   "id": "Q34328146",
+   "name": "Bitcoin Cash",
+   "name_ru": "Bitcoin Cash",
+   "aliases": [
+    "BCC",
+    "BCH",
+    "Bcash",
+    "биткойн кэш"
+   ],
+   "country": null,
+   "region": null,
+   "sector": null,
+   "sectors": [],
+   "industries": [],
+   "founded": 2017,
+   "exchange": null,
+   "ticker": null,
+   "founders": [],
+   "ceo": [],
+   "hq": [],
+   "popularity": 47,
+   "level": "средний",
+   "source": "https://www.wikidata.org/wiki/Q34328146",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: cryptocurrency, торгуется только на криптобиржах",
+    "нет страны",
+    "сектор не определён: отрасль не указана",
+    "нет биржи"
+   ]
+  },
+  {
+   "id": "Q333101",
+   "name": "Bank of Japan",
+   "name_ru": "Банк Японии",
+   "aliases": [
+    "8301",
+    "BOJ",
+    "Nippon Ginkō",
+    "Банк Японии",
+    "Центральный банк Японии"
+   ],
+   "country": "Япония",
+   "region": "Азия",
+   "sector": "Банки",
+   "sectors": [
+    "Банки"
+   ],
+   "industries": [],
+   "founded": 1882,
+   "exchange": "Токио",
+   "ticker": "8301",
+   "founders": [
+    "Мацуката Масаёси"
+   ],
+   "ceo": [],
+   "hq": [
+    "Bank of Japan Head Office"
+   ],
+   "popularity": 45,
+   "level": "средний",
+   "source": "https://www.wikidata.org/wiki/Q333101",
+   "sector_group": "Финансы",
+   "notes": [
+    "сектор определён по типу объекта в Wikidata: central bank, public company"
+   ],
+   "problems": [
+    "возможно, не компания: central bank"
+   ]
+  },
+  {
+   "id": "Q49053",
+   "name": "Schneider Electric",
+   "name_ru": "Schneider Electric",
+   "aliases": [
+    "SE",
+    "SU",
+    "Schneider & Compagnie",
+    "Schneider Creusot",
+    "Schneider Electric Industries",
+    "Шнедер Электрик"
+   ],
+   "country": "Франция",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "electrical industry",
+    "production of electrical distribution and control equipment"
+   ],
+   "founded": 1836,
+   "exchange": "Париж",
+   "ticker": "SU",
+   "founders": [
+    "Эжен Шнайдер"
+   ],
+   "ceo": [
+    "Peter Herweck"
+   ],
+   "hq": [
+    "Макон",
+    "Рюэй-Мальмезон"
+   ],
+   "popularity": 44,
+   "level": "средний",
+   "source": "https://www.wikidata.org/wiki/Q49053",
+   "market_cap_usd": 85675240018,
+   "market_cap_date": "2023-01-05",
+   "market_cap_currency": "EUR",
+   "market_cap_stale": true,
+   "employees": 166025,
+   "employees_date": "2021-12-31",
+   "employees_old": true,
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: electrical industry, production of electrical distribution and control equipment"
+   ]
+  },
+  {
+   "id": "Q507338",
+   "name": "Nikkei 225",
+   "name_ru": "Nikkei 225",
+   "aliases": [
+    "Nikkei",
+    "Nikkei Stock Average",
+    "Nikkei index"
+   ],
+   "country": "Япония",
+   "region": "Азия",
+   "sector": null,
+   "sectors": [],
+   "industries": [],
+   "founded": 1950,
+   "exchange": "Токио",
+   "ticker": null,
+   "founders": [],
+   "ceo": [],
+   "hq": [],
+   "popularity": 44,
+   "level": "средний",
+   "source": "https://www.wikidata.org/wiki/Q507338",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: stock market index",
+    "сектор не определён: отрасль не указана"
+   ]
+  },
+  {
    "id": "Q842297",
    "name": "Shenzhen Bao'an International Airport",
    "name_ru": "Шэньчжэнь Баоань",
@@ -704,6 +1177,7 @@
    "source": "https://www.wikidata.org/wiki/Q842297",
    "sector_group": null,
    "problems": [
+    "возможно, не компания: international airport, airport",
     "сектор не определён: отрасль не указана"
    ]
   },
@@ -743,6 +1217,9 @@
    "popularity": 43,
    "level": "средний",
    "source": "https://www.wikidata.org/wiki/Q931207",
+   "employees": 44000,
+   "employees_date": "2017-01-01",
+   "employees_old": true,
    "sector_group": null,
    "notes": [
     "в Wikidata несколько годов основания (1955, 1962) — взят ранний"
@@ -790,6 +1267,48 @@
    ]
   },
   {
+   "id": "Q597394",
+   "name": "Swiss National Bank",
+   "name_ru": "Национальный банк Швейцарии",
+   "aliases": [
+    "SNB",
+    "SWZNF",
+    "Национальный банк Швейцарии"
+   ],
+   "country": "Швейцария",
+   "region": "Европа",
+   "sector": "Банки",
+   "sectors": [
+    "Банки"
+   ],
+   "industries": [
+    "public sector",
+    "financial service activities, except insurance and pension funding"
+   ],
+   "founded": 1907,
+   "exchange": "Цюрих",
+   "ticker": null,
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Swiss National Bank (building)",
+    "Swiss National Bank, Zürich"
+   ],
+   "popularity": 42,
+   "level": "средний",
+   "source": "https://www.wikidata.org/wiki/Q597394",
+   "employees": 930,
+   "employees_date": null,
+   "employees_old": true,
+   "sector_group": "Финансы",
+   "notes": [
+    "в Wikidata есть только внебиржевой рынок США (OTC) — биржа взята по стране компании, проверить"
+   ],
+   "problems": [
+    "возможно, не компания: central bank"
+   ]
+  },
+  {
    "id": "Q821293",
    "name": "Rio Tinto",
    "name_ru": "Rio Tinto",
@@ -821,9 +1340,60 @@
    "popularity": 42,
    "level": "средний",
    "source": "https://www.wikidata.org/wiki/Q821293",
+   "market_cap_usd": 21900123976,
+   "market_cap_date": "2021-11-18",
+   "market_cap_currency": "AUD",
+   "market_cap_stale": true,
    "sector_group": "Энергетика и сырьё",
    "problems": [
     "несколько стран: Великобритания, Австралия"
+   ]
+  },
+  {
+   "id": "Q16972754",
+   "name": "Coinbase",
+   "name_ru": "Coinbase",
+   "aliases": [
+    "COIN",
+    "Coinbase Global",
+    "Coinbase Global, Inc.",
+    "Coinbase, Inc.",
+    "Coinbase, Inc. (Oakland, CA)"
+   ],
+   "country": "США",
+   "region": "Северная Америка",
+   "sector": "Платежи и финтех",
+   "sectors": [
+    "Платежи и финтех"
+   ],
+   "industries": [
+    "Bitcoin",
+    "fintech",
+    "cryptocurrency exchange",
+    "cryptocurrency industry"
+   ],
+   "founded": 2012,
+   "exchange": "NASDAQ",
+   "ticker": "COIN",
+   "founders": [
+    "Fred Ehrsam",
+    "Brian Armstrong"
+   ],
+   "ceo": [
+    "Brian Armstrong"
+   ],
+   "hq": [
+    "Сан-Франциско"
+   ],
+   "popularity": 40,
+   "level": "средний",
+   "source": "https://www.wikidata.org/wiki/Q16972754",
+   "employees": 1249,
+   "employees_date": "2020-12-31",
+   "employees_old": true,
+   "sector_group": "Финансы",
+   "problems": [
+    "возможно, не компания: cryptocurrency exchange"
    ]
   },
   {
@@ -867,6 +1437,9 @@
    "popularity": 40,
    "level": "средний",
    "source": "https://www.wikidata.org/wiki/Q1852556",
+   "employees": 79800,
+   "employees_date": "2022-01-01",
+   "employees_old": true,
    "sector_group": "Потребительские товары",
    "problems": [
     "несколько стран: США, Швейцария"
@@ -902,9 +1475,52 @@
    "popularity": 40,
    "level": "средний",
    "source": "https://www.wikidata.org/wiki/Q629998",
+   "employees": 35000,
+   "employees_date": "2011-01-01",
+   "employees_old": true,
    "sector_group": "Потребительские товары",
    "problems": [
     "нет года основания"
+   ]
+  },
+  {
+   "id": "Q733482",
+   "name": "GoPro",
+   "name_ru": "GoPro",
+   "aliases": [
+    "GPRO",
+    "GoPro, Inc.",
+    "Woodman Labs, Inc."
+   ],
+   "country": "США",
+   "region": "Северная Америка",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "photography",
+    "electrical industry"
+   ],
+   "founded": 2002,
+   "exchange": "NASDAQ",
+   "ticker": "GPRO",
+   "founders": [
+    "Ник Вудман"
+   ],
+   "ceo": [
+    "Ник Вудман"
+   ],
+   "hq": [
+    "Сан-Матео"
+   ],
+   "popularity": 40,
+   "level": "средний",
+   "source": "https://www.wikidata.org/wiki/Q733482",
+   "employees": 963,
+   "employees_date": "2014-09-30",
+   "employees_old": true,
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: photography, electrical industry"
    ]
   },
   {
@@ -943,6 +1559,9 @@
    "popularity": 39,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q407237",
+   "employees": 80730,
+   "employees_date": "2024-01-01",
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: holding company activities"
@@ -976,6 +1595,13 @@
    "popularity": 39,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q636755",
+   "market_cap_usd": 21372715000,
+   "market_cap_date": "2022-07-15",
+   "market_cap_currency": "EUR",
+   "market_cap_stale": true,
+   "employees": 34244,
+   "employees_date": "2021-12-31",
+   "employees_old": true,
    "sector_group": null,
    "notes": [
     "в Wikidata несколько годов основания (1904, 1953) — взят ранний"
@@ -1009,6 +1635,9 @@
    "popularity": 38,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q691508",
+   "employees": 16424,
+   "employees_date": "2019-01-01",
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
@@ -1052,6 +1681,9 @@
    "popularity": 37,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q296782",
+   "employees": 3294,
+   "employees_date": "2015-01-01",
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
@@ -1105,6 +1737,35 @@
    ]
   },
   {
+   "id": "Q47528658",
+   "name": "Tether",
+   "name_ru": "Tether",
+   "aliases": [
+    "USDT"
+   ],
+   "country": null,
+   "region": null,
+   "sector": null,
+   "sectors": [],
+   "industries": [],
+   "founded": 2015,
+   "exchange": null,
+   "ticker": null,
+   "founders": [],
+   "ceo": [],
+   "hq": [],
+   "popularity": 36,
+   "level": "сложный",
+   "source": "https://www.wikidata.org/wiki/Q47528658",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: cryptocurrency, stablecoin, торгуется только на криптобиржах",
+    "нет страны",
+    "сектор не определён: отрасль не указана",
+    "нет биржи"
+   ]
+  },
+  {
    "id": "Q608518",
    "name": "Unibail Rodamco Westfield",
    "name_ru": "Unibail-Rodamco SE",
@@ -1135,9 +1796,62 @@
    "popularity": 35,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q608518",
+   "market_cap_usd": 9527402475,
+   "market_cap_date": "2021-11-18",
+   "market_cap_currency": "AUD",
+   "market_cap_stale": true,
+   "employees": 3100,
+   "employees_date": "2021-01-01",
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: Q112165561"
+   ]
+  },
+  {
+   "id": "Q806693",
+   "name": "Bank of Montreal",
+   "name_ru": "Bank of Montreal",
+   "aliases": [
+    "BMO",
+    "BMO Bank of Montreal",
+    "BMO Financial Group"
+   ],
+   "country": "Канада",
+   "region": "Северная Америка",
+   "sector": "Банки",
+   "sectors": [
+    "Банки"
+   ],
+   "industries": [
+    "economics of banking",
+    "financial services",
+    "financial sector"
+   ],
+   "founded": 1817,
+   "exchange": "Торонто",
+   "ticker": "BMO",
+   "founders": [
+    "George Garden",
+    "Austin Cuvillier",
+    "Джордж Моффатт",
+    "Horatio Gates",
+    "Robert Armour",
+    "John Richardson"
+   ],
+   "ceo": [],
+   "hq": [
+    "First Canadian Place"
+   ],
+   "popularity": 33,
+   "level": "сложный",
+   "source": "https://www.wikidata.org/wiki/Q806693",
+   "employees": 46778,
+   "employees_date": "2015-01-01",
+   "employees_old": true,
+   "sector_group": "Финансы",
+   "problems": [
+    "возможно, не компания: central bank"
    ]
   },
   {
@@ -1199,9 +1913,86 @@
    "popularity": 31,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q1197548",
+   "employees": 48000,
+   "employees_date": "2024-08-29",
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
+   ]
+  },
+  {
+   "id": "Q353494",
+   "name": "Adecco",
+   "name_ru": "Adecco",
+   "aliases": [
+    "ADEN",
+    "Adecco Germany Holding S.A. & Co KG",
+    "Adecco Group",
+    "Adecco Group AG",
+    "Adecco S.A.",
+    "The Adecco Group"
+   ],
+   "country": "Швейцария",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "human resource management",
+    "employment services industry"
+   ],
+   "founded": 1997,
+   "exchange": "Цюрих",
+   "ticker": "ADEN",
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Цюрих"
+   ],
+   "popularity": 31,
+   "level": "сложный",
+   "source": "https://www.wikidata.org/wiki/Q353494",
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: human resource management, employment services industry"
+   ]
+  },
+  {
+   "id": "Q685918",
+   "name": "National Bank of Belgium",
+   "name_ru": "Национальный банк Бельгии",
+   "aliases": [
+    "BNB",
+    "Banque nationale de Belgique",
+    "Belgische Nationalbank",
+    "NBB",
+    "Nationale Bank van België",
+    "Национальный банк Бельгии"
+   ],
+   "country": "Бельгия",
+   "region": "Европа",
+   "sector": "Банки",
+   "sectors": [
+    "Банки"
+   ],
+   "industries": [
+    "financial service activities, except insurance and pension funding",
+    "central banking"
+   ],
+   "founded": 1850,
+   "exchange": "Брюссель",
+   "ticker": "BNB",
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "National Bank of Belgium"
+   ],
+   "popularity": 31,
+   "level": "сложный",
+   "source": "https://www.wikidata.org/wiki/Q685918",
+   "sector_group": "Финансы",
+   "problems": [
+    "возможно, не компания: central bank"
    ]
   },
   {
@@ -1241,6 +2032,8 @@
    "popularity": 31,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q8774",
+   "employees": 74378,
+   "employees_date": "2024-12-31",
    "sector_group": "Транспорт",
    "problems": [
     "несколько стран: Испания, Великобритания"
@@ -1385,9 +2178,40 @@
    "popularity": 29,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q1074666",
+   "employees": 20000,
+   "employees_date": null,
+   "employees_old": true,
    "sector_group": "Потребительские товары",
    "problems": [
     "несколько стран: США, Швейцария"
+   ]
+  },
+  {
+   "id": "Q424846",
+   "name": "Hang Seng Index",
+   "name_ru": "Индекс Hang Seng",
+   "aliases": [
+    "HSI",
+    "Индекс Hang Seng"
+   ],
+   "country": "Гонконг",
+   "region": "Азия",
+   "sector": null,
+   "sectors": [],
+   "industries": [],
+   "founded": 1969,
+   "exchange": "Гонконг",
+   "ticker": null,
+   "founders": [],
+   "ceo": [],
+   "hq": [],
+   "popularity": 29,
+   "level": "сложный",
+   "source": "https://www.wikidata.org/wiki/Q424846",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: stock market index",
+    "сектор не определён: отрасль не указана"
    ]
   },
   {
@@ -1497,6 +2321,9 @@
    "popularity": 28,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q1322045",
+   "employees": 618260,
+   "employees_date": null,
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: private security company"
@@ -1531,12 +2358,58 @@
    "popularity": 28,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q1974503",
+   "employees": 66000,
+   "employees_date": "2015-01-01",
+   "employees_old": true,
    "sector_group": null,
    "notes": [
     "в Wikidata есть только внебиржевой рынок США (OTC) — биржа взята по стране компании, проверить"
    ],
    "problems": [
     "сектор не определён: activities of head offices"
+   ]
+  },
+  {
+   "id": "Q267840",
+   "name": "Randstad",
+   "name_ru": null,
+   "aliases": [
+    "RAND",
+    "Randstad Holding",
+    "Randstad Holding NV",
+    "Randstad N.V."
+   ],
+   "country": "Нидерланды",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "human resource management",
+    "employment services industry"
+   ],
+   "founded": 1960,
+   "exchange": "Амстердам",
+   "ticker": "RAND",
+   "founders": [
+    "Frits Goldschmeding"
+   ],
+   "ceo": [],
+   "hq": [
+    "Димен"
+   ],
+   "popularity": 28,
+   "level": "сложный",
+   "source": "https://www.wikidata.org/wiki/Q267840",
+   "market_cap_usd": 10350742000,
+   "market_cap_date": "2016-12-31",
+   "market_cap_currency": "EUR",
+   "market_cap_stale": true,
+   "employees": 658580,
+   "employees_date": "2016-01-01",
+   "employees_old": true,
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: human resource management, employment services industry"
    ]
   },
   {
@@ -1572,6 +2445,9 @@
    "popularity": 28,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q682759",
+   "employees": 66323,
+   "employees_date": "2023-12-31",
+   "employees_old": true,
    "sector_group": "Энергетика и сырьё",
    "problems": [
     "несколько стран: Ирландия, Великобритания",
@@ -1608,6 +2484,9 @@
    "popularity": 28,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q74877",
+   "employees": 10200,
+   "employees_date": "2021-12-31",
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: Q112166061"
@@ -1675,6 +2554,9 @@
    "popularity": 27,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q1318049",
+   "employees": 109000,
+   "employees_date": "2022-01-01",
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: marketing"
@@ -1715,6 +2597,40 @@
    ]
   },
   {
+   "id": "Q30504331",
+   "name": "IOTA",
+   "name_ru": "IOTA",
+   "aliases": [
+    "IOTA (cryptocurrency)",
+    "iotafoundation.eth"
+   ],
+   "country": null,
+   "region": null,
+   "sector": "Программы и облачные сервисы",
+   "sectors": [
+    "Программы и облачные сервисы"
+   ],
+   "industries": [],
+   "founded": 2016,
+   "exchange": null,
+   "ticker": null,
+   "founders": [],
+   "ceo": [],
+   "hq": [],
+   "popularity": 27,
+   "level": "сложный",
+   "source": "https://www.wikidata.org/wiki/Q30504331",
+   "sector_group": "Технологии",
+   "notes": [
+    "сектор определён по типу объекта в Wikidata: free and open-source software, digital currency, cryptocurrency, directed acyclic graph ledger"
+   ],
+   "problems": [
+    "возможно, не компания: cryptocurrency, торгуется только на криптобиржах",
+    "нет страны",
+    "нет биржи"
+   ]
+  },
+  {
    "id": "Q727883",
    "name": "NetApp",
    "name_ru": "NetApp",
@@ -1742,8 +2658,41 @@
    "popularity": 27,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q727883",
+   "employees": 12000,
+   "employees_date": "2022-01-01",
+   "employees_old": true,
    "sector_group": null,
    "problems": [
+    "сектор не определён: отрасль не указана"
+   ]
+  },
+  {
+   "id": "Q938032",
+   "name": "IBEX 35",
+   "name_ru": "IBEX 35",
+   "aliases": [
+    "IBEX",
+    "IBEX35"
+   ],
+   "country": "Испания",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [],
+   "founded": 1992,
+   "exchange": "Мадрид",
+   "ticker": "IBEX",
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Мадрид"
+   ],
+   "popularity": 27,
+   "level": "сложный",
+   "source": "https://www.wikidata.org/wiki/Q938032",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: stock market index",
     "сектор не определён: отрасль не указана"
    ]
   },
@@ -1800,6 +2749,78 @@
    ]
   },
   {
+   "id": "Q1472539",
+   "name": "ManpowerGroup",
+   "name_ru": "ManpowerGroup",
+   "aliases": [
+    "MAN",
+    "Manpower",
+    "Manpower CIS",
+    "ManpowerGroup Inc.",
+    "Мэнпауэр",
+    "Мэнпауэр СиАйЭс"
+   ],
+   "country": "США",
+   "region": "Северная Америка",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "staffing industry"
+   ],
+   "founded": 1948,
+   "exchange": "NYSE",
+   "ticker": "MAN",
+   "founders": [
+    "Эльмер Винтер",
+    "Aaron Scheinfeld"
+   ],
+   "ceo": [],
+   "hq": [
+    "Милуоки"
+   ],
+   "popularity": 26,
+   "level": "сложный",
+   "source": "https://www.wikidata.org/wiki/Q1472539",
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: staffing industry"
+   ]
+  },
+  {
+   "id": "Q152517",
+   "name": "Hyundai Rotem",
+   "name_ru": "Hyundai Rotem",
+   "aliases": [
+    "064350",
+    "HRC",
+    "Rotem"
+   ],
+   "country": "Республика Корея",
+   "region": "Азия",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "industry"
+   ],
+   "founded": 1999,
+   "exchange": "Сеул",
+   "ticker": "064350",
+   "founders": [],
+   "ceo": [
+    "Lee Yong-bae"
+   ],
+   "hq": [
+    "Ыйван"
+   ],
+   "popularity": 26,
+   "level": "сложный",
+   "source": "https://www.wikidata.org/wiki/Q152517",
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: industry"
+   ]
+  },
+  {
    "id": "Q141644",
    "name": "Nexans",
    "name_ru": "Nexans",
@@ -1826,9 +2847,85 @@
    "popularity": 25,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q141644",
+   "employees": 25843,
+   "employees_date": null,
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: activities of head offices"
+   ]
+  },
+  {
+   "id": "Q1676554",
+   "name": "JBS",
+   "name_ru": "JBS S.A.",
+   "aliases": [
+    "JBS S.A.",
+    "JBS S/A",
+    "JBS S/A.",
+    "JBSS3"
+   ],
+   "country": "Бразилия",
+   "region": "Южная Америка",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "meatpacking industry"
+   ],
+   "founded": 1953,
+   "exchange": "Сан-Паулу",
+   "ticker": "JBSS3",
+   "founders": [
+    "José Batista Sobrinho"
+   ],
+   "ceo": [],
+   "hq": [
+    "Сан-Паулу"
+   ],
+   "popularity": 25,
+   "level": "сложный",
+   "source": "https://www.wikidata.org/wiki/Q1676554",
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: meatpacking industry"
+   ]
+  },
+  {
+   "id": "Q634815",
+   "name": "Motorola Solutions",
+   "name_ru": "Motorola Solutions",
+   "aliases": [
+    "MSI",
+    "Motorola",
+    "Motorola Solutions Incorporated",
+    "Motorola Solutions, Inc."
+   ],
+   "country": "США",
+   "region": "Северная Америка",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "public security industry"
+   ],
+   "founded": 2011,
+   "exchange": "NYSE",
+   "ticker": "MSI",
+   "founders": [],
+   "ceo": [
+    "Грег Браун"
+   ],
+   "hq": [
+    "Чикаго"
+   ],
+   "popularity": 25,
+   "level": "сложный",
+   "source": "https://www.wikidata.org/wiki/Q634815",
+   "employees": 18000,
+   "employees_date": "2020-01-01",
+   "employees_old": true,
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: public security industry"
    ]
   },
   {
@@ -1860,11 +2957,47 @@
    "popularity": 25,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q689240",
+   "employees": 19137,
+   "employees_date": null,
+   "employees_old": true,
    "sector_group": null,
    "notes": [
     "в Wikidata несколько годов основания (1979, 1987, 1988) — взят ранний"
    ],
    "problems": [
+    "сектор не определён: отрасль не указана"
+   ]
+  },
+  {
+   "id": "Q796994",
+   "name": "S&P BSE Sensex",
+   "name_ru": null,
+   "aliases": [
+    "BSE 30",
+    "BSE Sensex",
+    "BSE30",
+    "S&P Bombay Stock Exchange Sensitive Index",
+    "Sensex"
+   ],
+   "country": "Индия",
+   "region": "Азия",
+   "sector": null,
+   "sectors": [],
+   "industries": [],
+   "founded": 1979,
+   "exchange": "Мумбаи (BSE)",
+   "ticker": null,
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Мумбаи"
+   ],
+   "popularity": 25,
+   "level": "сложный",
+   "source": "https://www.wikidata.org/wiki/Q796994",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: stock market index",
     "сектор не определён: отрасль не указана"
    ]
   },
@@ -1901,6 +3034,13 @@
    "popularity": 25,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q868587",
+   "market_cap_usd": 53600000000,
+   "market_cap_date": "2019-05-24",
+   "market_cap_currency": "USD",
+   "market_cap_stale": true,
+   "employees": 35000,
+   "employees_date": "2022-01-01",
+   "employees_old": true,
    "sector_group": "Финансы",
    "problems": [
     "нет года основания"
@@ -2007,9 +3147,44 @@
    "popularity": 24,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q2412906",
+   "market_cap_usd": 1694540000,
+   "market_cap_date": "2024-12-31",
+   "market_cap_currency": "EUR",
+   "market_cap_stale": true,
+   "employees": 3115,
+   "employees_date": "2024-12-31",
    "sector_group": null,
    "problems": [
     "сектор не определён: édition de chaînes généralistes"
+   ]
+  },
+  {
+   "id": "Q291539",
+   "name": "AEX index",
+   "name_ru": "AEX index",
+   "aliases": [
+    "AEX",
+    "Amsterdam Exchange Index",
+    "Amsterdam Exchange index"
+   ],
+   "country": "Королевство Нидерландов",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [],
+   "founded": 1983,
+   "exchange": "Амстердам",
+   "ticker": "AEX",
+   "founders": [],
+   "ceo": [],
+   "hq": [],
+   "popularity": 24,
+   "level": "сложный",
+   "source": "https://www.wikidata.org/wiki/Q291539",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: stock market index",
+    "сектор не определён: отрасль не указана"
    ]
   },
   {
@@ -2046,12 +3221,113 @@
    "popularity": 24,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q528468",
+   "employees": 5724,
+   "employees_date": "2023-01-01",
+   "employees_old": true,
    "sector_group": "Здоровье",
    "notes": [
     "возможен второй сектор: Химия и удобрения"
    ],
    "problems": [
     "несколько стран: Швейцария, Германия"
+   ]
+  },
+  {
+   "id": "Q666714",
+   "name": "Swiss Market Index",
+   "name_ru": "Swiss Market Index",
+   "aliases": [
+    "SMI"
+   ],
+   "country": "Швейцария",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [],
+   "founded": 1988,
+   "exchange": "Цюрих",
+   "ticker": null,
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Цюрих"
+   ],
+   "popularity": 24,
+   "level": "сложный",
+   "source": "https://www.wikidata.org/wiki/Q666714",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: stock market index",
+    "сектор не определён: отрасль не указана"
+   ]
+  },
+  {
+   "id": "Q703557",
+   "name": "Giant Bicycles",
+   "name_ru": "Giant",
+   "aliases": [
+    "9921",
+    "Giant",
+    "Giant Manufacturing Co. Ltd."
+   ],
+   "country": "Китайская Республика",
+   "region": "Азия",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "bicycle industry"
+   ],
+   "founded": 1972,
+   "exchange": "Тайбэй",
+   "ticker": "9921",
+   "founders": [
+    "King Liu"
+   ],
+   "ceo": [],
+   "hq": [
+    "Дацзя"
+   ],
+   "popularity": 24,
+   "level": "сложный",
+   "source": "https://www.wikidata.org/wiki/Q703557",
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: bicycle industry"
+   ]
+  },
+  {
+   "id": "Q152695",
+   "name": "Amer Sports",
+   "name_ru": "Amer Sports",
+   "aliases": [
+    "AMEAS",
+    "AS",
+    "Amer Sports Oyj",
+    "Amer-Yhtymä Oyj"
+   ],
+   "country": "Финляндия",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "sporting goods industry"
+   ],
+   "founded": 1950,
+   "exchange": "Хельсинки",
+   "ticker": "AMEAS",
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Хельсинки"
+   ],
+   "popularity": 23,
+   "level": "сложный",
+   "source": "https://www.wikidata.org/wiki/Q152695",
+   "employees": 15400,
+   "employees_date": "2025-01-01",
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: sporting goods industry"
    ]
   },
   {
@@ -2081,6 +3357,35 @@
    "source": "https://www.wikidata.org/wiki/Q17224985",
    "sector_group": null,
    "problems": [
+    "сектор не определён: отрасль не указана"
+   ]
+  },
+  {
+   "id": "Q238974",
+   "name": "TOPIX",
+   "name_ru": "TOPIX",
+   "aliases": [
+    "Tokyo Stock Price Index"
+   ],
+   "country": "Япония",
+   "region": "Азия",
+   "sector": null,
+   "sectors": [],
+   "industries": [],
+   "founded": 1969,
+   "exchange": "Токио",
+   "ticker": null,
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Токио"
+   ],
+   "popularity": 23,
+   "level": "сложный",
+   "source": "https://www.wikidata.org/wiki/Q238974",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: stock market index",
     "сектор не определён: отрасль не указана"
    ]
   },
@@ -2115,6 +3420,45 @@
    ]
   },
   {
+   "id": "Q47134419",
+   "name": "Tron",
+   "name_ru": "TRON",
+   "aliases": [
+    "TRON",
+    "TRX",
+    "TRX/BUSD",
+    "TRX/USDT",
+    "Tronix"
+   ],
+   "country": null,
+   "region": null,
+   "sector": "Программы и облачные сервисы",
+   "sectors": [
+    "Программы и облачные сервисы"
+   ],
+   "industries": [],
+   "founded": 2017,
+   "exchange": null,
+   "ticker": null,
+   "founders": [
+    "Джастин Сан"
+   ],
+   "ceo": [],
+   "hq": [],
+   "popularity": 23,
+   "level": "сложный",
+   "source": "https://www.wikidata.org/wiki/Q47134419",
+   "sector_group": "Технологии",
+   "notes": [
+    "сектор определён по типу объекта в Wikidata: software, cryptocurrency"
+   ],
+   "problems": [
+    "возможно, не компания: cryptocurrency, торгуется только на криптобиржах",
+    "нет страны",
+    "нет биржи"
+   ]
+  },
+  {
    "id": "Q669620",
    "name": "SGS",
    "name_ru": "SGS",
@@ -2143,6 +3487,38 @@
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
+   ]
+  },
+  {
+   "id": "Q767273",
+   "name": "OMX Stockholm 30",
+   "name_ru": "OMX Stockholm 30",
+   "aliases": [
+    "OMXS30"
+   ],
+   "country": "Швеция",
+   "region": "Европа",
+   "sector": "Инвестиции и биржи",
+   "sectors": [
+    "Инвестиции и биржи"
+   ],
+   "industries": [
+    "investment"
+   ],
+   "founded": 1986,
+   "exchange": "Стокгольм",
+   "ticker": null,
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Стокгольм"
+   ],
+   "popularity": 23,
+   "level": "сложный",
+   "source": "https://www.wikidata.org/wiki/Q767273",
+   "sector_group": "Финансы",
+   "problems": [
+    "возможно, не компания: stock market index"
    ]
   },
   {
@@ -2247,6 +3623,70 @@
    ]
   },
   {
+   "id": "Q1359526",
+   "name": "OMX Helsinki 25",
+   "name_ru": "OMX Helsinki 25",
+   "aliases": [
+    "OMXH25"
+   ],
+   "country": "Финляндия",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "stock market index"
+   ],
+   "founded": 1988,
+   "exchange": "Хельсинки",
+   "ticker": null,
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Хельсинки"
+   ],
+   "popularity": 22,
+   "level": "сложный",
+   "source": "https://www.wikidata.org/wiki/Q1359526",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: stock market index",
+    "сектор не определён: stock market index"
+   ]
+  },
+  {
+   "id": "Q2020649",
+   "name": "Nordic Investment Bank",
+   "name_ru": "Северный инвестиционный банк",
+   "aliases": [
+    "NIB",
+    "Северный инвестиционный банк"
+   ],
+   "country": "Финляндия",
+   "region": "Европа",
+   "sector": "Банки",
+   "sectors": [
+    "Банки"
+   ],
+   "industries": [
+    "financial services"
+   ],
+   "founded": 1976,
+   "exchange": "Сидней",
+   "ticker": "NIB",
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Хельсинки"
+   ],
+   "popularity": 22,
+   "level": "сложный",
+   "source": "https://www.wikidata.org/wiki/Q2020649",
+   "sector_group": "Финансы",
+   "problems": [
+    "возможно, не компания: international financial institution"
+   ]
+  },
+  {
    "id": "Q3047407",
    "name": "Edenred",
    "name_ru": null,
@@ -2310,9 +3750,46 @@
    "popularity": 22,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q474690",
+   "employees": 6690,
+   "employees_date": null,
+   "employees_old": true,
    "sector_group": "Энергетика и сырьё",
    "problems": [
     "нет года основания"
+   ]
+  },
+  {
+   "id": "Q60760151",
+   "name": "Intuitive Machines",
+   "name_ru": "Intuitive Machines",
+   "aliases": [
+    "Intuitive Machines, Inc.",
+    "LUNR"
+   ],
+   "country": "США",
+   "region": "Северная Америка",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "space industry",
+    "space-based economy"
+   ],
+   "founded": 2013,
+   "exchange": "NASDAQ",
+   "ticker": "LUNR",
+   "founders": [
+    "Кам Гаффарян"
+   ],
+   "ceo": [],
+   "hq": [
+    "Хьюстон"
+   ],
+   "popularity": 22,
+   "level": "сложный",
+   "source": "https://www.wikidata.org/wiki/Q60760151",
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: space industry, space-based economy"
    ]
   },
   {
@@ -2344,9 +3821,192 @@
    "popularity": 22,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q739518",
+   "employees": 65000,
+   "employees_date": "2012-01-01",
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: professional service"
+   ]
+  },
+  {
+   "id": "Q1120899",
+   "name": "Krasnoyarsk Dam",
+   "name_ru": "Красноярская ГЭС",
+   "aliases": [
+    "Krasnoyarsk Dam ship lift",
+    "Красноярская ГЭС"
+   ],
+   "country": "Россия",
+   "region": "Европа",
+   "sector": "Нефть и газ",
+   "sectors": [
+    "Нефть и газ"
+   ],
+   "industries": [
+    "energy industry"
+   ],
+   "founded": 1956,
+   "exchange": "Мосбиржа",
+   "ticker": null,
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Дивногорск"
+   ],
+   "popularity": 21,
+   "level": "сложный",
+   "source": "https://www.wikidata.org/wiki/Q1120899",
+   "employees": 553,
+   "employees_date": "2013-01-01",
+   "employees_old": true,
+   "sector_group": "Энергетика и сырьё",
+   "problems": [
+    "возможно, не компания: dam, hydroelectric power station"
+   ]
+  },
+  {
+   "id": "Q1335585",
+   "name": "Emerson Electric",
+   "name_ru": "Emerson Electric",
+   "aliases": [
+    "EMR",
+    "EMRSN",
+    "Emerson",
+    "Emerson Electric Co",
+    "Emerson Electric Co.",
+    "Emerson Electric Company",
+    "Emerson Group",
+    "Emerson Industrial Automation",
+    "Эмерсон"
+   ],
+   "country": "США",
+   "region": "Северная Америка",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "electrical industry"
+   ],
+   "founded": 1890,
+   "exchange": "NYSE",
+   "ticker": "EMR",
+   "founders": [
+    "Джон Уэсли Эмерсон"
+   ],
+   "ceo": [],
+   "hq": [
+    "Сент-Луис"
+   ],
+   "popularity": 21,
+   "level": "сложный",
+   "source": "https://www.wikidata.org/wiki/Q1335585",
+   "employees": 134900,
+   "employees_date": "2012-01-01",
+   "employees_old": true,
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: electrical industry"
+   ]
+  },
+  {
+   "id": "Q174453",
+   "name": "SSE Composite Index",
+   "name_ru": "SSE Composite",
+   "aliases": [
+    "000001",
+    "SSE Composite",
+    "Shanghai Composite"
+   ],
+   "country": "Китай",
+   "region": "Азия",
+   "sector": null,
+   "sectors": [],
+   "industries": [],
+   "founded": 1991,
+   "exchange": "Шанхай",
+   "ticker": "000001",
+   "founders": [],
+   "ceo": [],
+   "hq": [],
+   "popularity": 21,
+   "level": "сложный",
+   "source": "https://www.wikidata.org/wiki/Q174453",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: stock market index",
+    "сектор не определён: отрасль не указана"
+   ]
+  },
+  {
+   "id": "Q1890664",
+   "name": "UPM",
+   "name_ru": "UPM",
+   "aliases": [
+    "UPM-Kymmene",
+    "UPM-Kymmene Corporation",
+    "UPM-Kymmene Oy",
+    "UPM-Kymmene Oyj"
+   ],
+   "country": "Финляндия",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "forestry",
+    "pulp and paper industry"
+   ],
+   "founded": 1996,
+   "exchange": "Хельсинки",
+   "ticker": "UPM",
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Хельсинки",
+    "Каартинкаупунки"
+   ],
+   "popularity": 21,
+   "level": "сложный",
+   "source": "https://www.wikidata.org/wiki/Q1890664",
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: forestry, pulp and paper industry"
+   ]
+  },
+  {
+   "id": "Q202972",
+   "name": "International Paper",
+   "name_ru": "International Paper",
+   "aliases": [
+    "IP",
+    "International Paper Company"
+   ],
+   "country": "США",
+   "region": "Северная Америка",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "pulp and paper industry"
+   ],
+   "founded": 1898,
+   "exchange": "NYSE",
+   "ticker": "IP",
+   "founders": [
+    "Хью Джозеф Шизем"
+   ],
+   "ceo": [],
+   "hq": [
+    "Бостон",
+    "Мемфис"
+   ],
+   "popularity": 21,
+   "level": "сложный",
+   "source": "https://www.wikidata.org/wiki/Q202972",
+   "employees": 58000,
+   "employees_date": null,
+   "employees_old": true,
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: pulp and paper industry"
    ]
   },
   {
@@ -2447,6 +4107,9 @@
    "popularity": 21,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q324846",
+   "employees": 62000,
+   "employees_date": "2023-01-01",
+   "employees_old": true,
    "sector_group": null,
    "notes": [
     "страна компании (Франция) не совпадает со страной штаб-квартиры (Люксембург) — взята страна штаб-квартиры"
@@ -2550,6 +4213,9 @@
    "popularity": 21,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q667865",
+   "employees": 120000,
+   "employees_date": null,
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
@@ -2648,6 +4314,9 @@
    "popularity": 20,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q137803",
+   "employees": 30745,
+   "employees_date": null,
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
@@ -2752,6 +4421,8 @@
    "popularity": 20,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q28228137",
+   "employees": 105000,
+   "employees_date": "2024-12-31",
    "sector_group": "Транспорт",
    "problems": [
     "нет года основания"
@@ -2780,9 +4451,122 @@
    "popularity": 20,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q304962",
+   "employees": 772,
+   "employees_date": null,
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
+   ]
+  },
+  {
+   "id": "Q385426",
+   "name": "Babcock International",
+   "name_ru": "Babcock International",
+   "aliases": [
+    "BAB",
+    "Babcock International Group plc"
+   ],
+   "country": "Великобритания",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "electrical industry"
+   ],
+   "founded": 1891,
+   "exchange": "Лондон",
+   "ticker": "BAB",
+   "founders": [
+    "George Herman Babcock"
+   ],
+   "ceo": [
+    "Archie Bethel"
+   ],
+   "hq": [
+    "Лондон"
+   ],
+   "popularity": 20,
+   "level": "сложный",
+   "source": "https://www.wikidata.org/wiki/Q385426",
+   "employees": 25000,
+   "employees_date": null,
+   "employees_old": true,
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: electrical industry"
+   ]
+  },
+  {
+   "id": "Q4653060",
+   "name": "Anta",
+   "name_ru": "Anta Sports",
+   "aliases": [
+    "2020",
+    "Anta Sports",
+    "Anta Sports Products Limited"
+   ],
+   "country": "Каймановы Острова",
+   "region": "Северная Америка",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "sporting goods industry"
+   ],
+   "founded": 1994,
+   "exchange": "Гонконг",
+   "ticker": "2020",
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Цзиньцзян",
+    "Джорджтаун"
+   ],
+   "popularity": 20,
+   "level": "сложный",
+   "source": "https://www.wikidata.org/wiki/Q4653060",
+   "sector_group": null,
+   "notes": [
+    "страна компании (Каймановы Острова, Китай) не совпадает со страной штаб-квартиры (Китай) — взята страна штаб-квартиры"
+   ],
+   "problems": [
+    "сектор не определён: sporting goods industry"
+   ]
+  },
+  {
+   "id": "Q52601",
+   "name": "SCA",
+   "name_ru": "Svenska Cellulosa Aktiebolaget",
+   "aliases": [
+    "SCA-B",
+    "Svenska Cellulosa Aktiebolaget",
+    "Swedish Cellulose Company"
+   ],
+   "country": "Швеция",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "forestry",
+    "pulp and paper industry"
+   ],
+   "founded": 1929,
+   "exchange": "Стокгольм",
+   "ticker": "SCA-B",
+   "founders": [
+    "Ивар Крюгер"
+   ],
+   "ceo": [],
+   "hq": [
+    "Стокгольм",
+    "Сундсвалль"
+   ],
+   "popularity": 20,
+   "level": "сложный",
+   "source": "https://www.wikidata.org/wiki/Q52601",
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: forestry, pulp and paper industry"
    ]
   },
   {
@@ -2846,6 +4630,10 @@
    "popularity": 20,
    "level": "сложный",
    "source": "https://www.wikidata.org/wiki/Q672170",
+   "market_cap_usd": 15441720000,
+   "market_cap_date": "2019-05-24",
+   "market_cap_currency": "USD",
+   "market_cap_stale": true,
    "sector_group": "Торговля",
    "problems": [
     "незнакомая биржа: OTCBB"
@@ -2888,6 +4676,9 @@
    "popularity": 19,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1004175",
+   "employees": 8600,
+   "employees_date": null,
+   "employees_old": true,
    "sector_group": "Технологии",
    "problems": [
     "незнакомая биржа: NYSE Euronext Liffe"
@@ -2955,6 +4746,9 @@
    "popularity": 19,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1157511",
+   "employees": 37740,
+   "employees_date": null,
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
@@ -2994,6 +4788,35 @@
    ]
   },
   {
+   "id": "Q1389807",
+   "name": "FTSE MIB",
+   "name_ru": "FTSE MIB",
+   "aliases": [
+    "FTSEMIB"
+   ],
+   "country": "Италия",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [],
+   "founded": 2009,
+   "exchange": "Милан",
+   "ticker": "FTSEMIB",
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Милан"
+   ],
+   "popularity": 19,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q1389807",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: stock market index",
+    "сектор не определён: отрасль не указана"
+   ]
+  },
+  {
    "id": "Q1450805",
    "name": "Française des jeux",
    "name_ru": "Française des Jeux (компания)",
@@ -3022,6 +4845,10 @@
    "popularity": 19,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1450805",
+   "market_cap_usd": 7368615000,
+   "market_cap_date": "2025-01-28",
+   "market_cap_currency": "EUR",
+   "market_cap_stale": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: Q112166179"
@@ -3052,6 +4879,9 @@
    "popularity": 19,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1808912",
+   "employees": 2832,
+   "employees_date": null,
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
@@ -3114,6 +4944,9 @@
    "popularity": 19,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q489202",
+   "employees": 47000,
+   "employees_date": null,
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
@@ -3142,6 +4975,9 @@
    "popularity": 19,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q571779",
+   "employees": 35000,
+   "employees_date": "2013-12-31",
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
@@ -3208,6 +5044,9 @@
    "popularity": 19,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q806678",
+   "employees": 4156,
+   "employees_date": "2019-01-01",
+   "employees_old": true,
    "sector_group": "Финансы",
    "problems": [
     "незнакомая биржа: Cyprus Stock Exchange"
@@ -3251,6 +5090,36 @@
    ]
   },
   {
+   "id": "Q891345",
+   "name": "Boliden AB",
+   "name_ru": null,
+   "aliases": [
+    "Boliden Group"
+   ],
+   "country": "Швеция",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "zinc industry"
+   ],
+   "founded": 1931,
+   "exchange": "Стокгольм",
+   "ticker": null,
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Стокгольм"
+   ],
+   "popularity": 19,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q891345",
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: zinc industry"
+   ]
+  },
+  {
    "id": "Q903957",
    "name": "Icl",
    "name_ru": "ICL Group",
@@ -3280,6 +5149,10 @@
    "popularity": 19,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q903957",
+   "market_cap_usd": 11003029423,
+   "market_cap_date": "2022-11-15",
+   "market_cap_currency": "ILS",
+   "market_cap_stale": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
@@ -3349,6 +5222,9 @@
    "popularity": 18,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1023876",
+   "employees": 2300,
+   "employees_date": null,
+   "employees_old": true,
    "sector_group": "Финансы",
    "problems": [
     "несколько стран: США, Великобритания"
@@ -3422,6 +5298,41 @@
    ]
   },
   {
+   "id": "Q1138888",
+   "name": "First Solar",
+   "name_ru": "First Solar",
+   "aliases": [
+    "FSLR"
+   ],
+   "country": "США",
+   "region": "Северная Америка",
+   "sector": "Электроэнергетика",
+   "sectors": [
+    "Электроэнергетика"
+   ],
+   "industries": [
+    "photovoltaics",
+    "Natur-Aktien-Index"
+   ],
+   "founded": 1999,
+   "exchange": "NASDAQ",
+   "ticker": "FSLR",
+   "founders": [
+    "Harold McMaster"
+   ],
+   "ceo": [],
+   "hq": [
+    "Темпе"
+   ],
+   "popularity": 18,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q1138888",
+   "sector_group": "Энергетика и сырьё",
+   "problems": [
+    "возможно, не компания: Natur-Aktien-Index"
+   ]
+  },
+  {
    "id": "Q1196745",
    "name": "Rambus",
    "name_ru": "Rambus",
@@ -3487,6 +5398,64 @@
    ]
   },
   {
+   "id": "Q1389790",
+   "name": "FTSE 250 Index",
+   "name_ru": null,
+   "aliases": [
+    "FTSE 250",
+    "FTSE250",
+    "footsie 250"
+   ],
+   "country": "Великобритания",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [],
+   "founded": null,
+   "exchange": "Лондон",
+   "ticker": null,
+   "founders": [],
+   "ceo": [],
+   "hq": [],
+   "popularity": 18,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q1389790",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: stock market index",
+    "сектор не определён: отрасль не указана",
+    "нет года основания"
+   ]
+  },
+  {
+   "id": "Q1546793",
+   "name": "S&P 100",
+   "name_ru": null,
+   "aliases": [
+    "OEX",
+    "S&P 100 Component"
+   ],
+   "country": "США",
+   "region": "Северная Америка",
+   "sector": null,
+   "sectors": [],
+   "industries": [],
+   "founded": 1976,
+   "exchange": "NYSE",
+   "ticker": "OEX",
+   "founders": [],
+   "ceo": [],
+   "hq": [],
+   "popularity": 18,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q1546793",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: stock market index",
+    "сектор не определён: отрасль не указана"
+   ]
+  },
+  {
    "id": "Q2036530",
    "name": "Allison Transmission",
    "name_ru": null,
@@ -3513,6 +5482,97 @@
    "source": "https://www.wikidata.org/wiki/Q2036530",
    "sector_group": null,
    "problems": [
+    "сектор не определён: отрасль не указана"
+   ]
+  },
+  {
+   "id": "Q29583124",
+   "name": "Ethereum Classic",
+   "name_ru": "Ethereum Classic",
+   "aliases": [
+    "ETC"
+   ],
+   "country": null,
+   "region": null,
+   "sector": "Программы и облачные сервисы",
+   "sectors": [
+    "Программы и облачные сервисы"
+   ],
+   "industries": [],
+   "founded": 2015,
+   "exchange": null,
+   "ticker": null,
+   "founders": [],
+   "ceo": [],
+   "hq": [],
+   "popularity": 18,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q29583124",
+   "sector_group": "Технологии",
+   "notes": [
+    "сектор определён по типу объекта в Wikidata: free software, digital currency, cryptocurrency, blockchain"
+   ],
+   "problems": [
+    "возможно, не компания: cryptocurrency, торгуется только на криптобиржах",
+    "нет страны",
+    "нет биржи"
+   ]
+  },
+  {
+   "id": "Q384302",
+   "name": "OMX Copenhagen 25",
+   "name_ru": "OMX Copenhagen 20",
+   "aliases": [
+    "OMX Copenhagen 20",
+    "OMXC20"
+   ],
+   "country": "Дания",
+   "region": "Европа",
+   "sector": "Банки",
+   "sectors": [
+    "Банки"
+   ],
+   "industries": [
+    "financial economics"
+   ],
+   "founded": 1922,
+   "exchange": "Копенгаген",
+   "ticker": null,
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Копенгаген"
+   ],
+   "popularity": 18,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q384302",
+   "sector_group": "Финансы",
+   "problems": [
+    "возможно, не компания: stock market index"
+   ]
+  },
+  {
+   "id": "Q561968",
+   "name": "KOSPI",
+   "name_ru": "KOSPI",
+   "aliases": [],
+   "country": "Республика Корея",
+   "region": "Азия",
+   "sector": null,
+   "sectors": [],
+   "industries": [],
+   "founded": 1983,
+   "exchange": "Сеул",
+   "ticker": null,
+   "founders": [],
+   "ceo": [],
+   "hq": [],
+   "popularity": 18,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q561968",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: stock market index",
     "сектор не определён: отрасль не указана"
    ]
   },
@@ -3575,6 +5635,34 @@
    ]
   },
   {
+   "id": "Q795831",
+   "name": "BEL 20",
+   "name_ru": "BEL 20",
+   "aliases": [
+    "BEL20"
+   ],
+   "country": "Бельгия",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [],
+   "founded": null,
+   "exchange": "Брюссель",
+   "ticker": "BEL20",
+   "founders": [],
+   "ceo": [],
+   "hq": [],
+   "popularity": 18,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q795831",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: stock market index",
+    "сектор не определён: отрасль не указана",
+    "нет года основания"
+   ]
+  },
+  {
    "id": "Q10854462",
    "name": "CJ ENM Entertainment Division",
    "name_ru": "CJ E&M",
@@ -3633,9 +5721,47 @@
    "popularity": 17,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1119662",
+   "employees": 900,
+   "employees_date": "2011-01-01",
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
+   ]
+  },
+  {
+   "id": "Q1224697",
+   "name": "DigitalGlobe",
+   "name_ru": "DigitalGlobe",
+   "aliases": [
+    "DGI",
+    "Digital Globe",
+    "DigitalGlobe, Inc."
+   ],
+   "country": "США",
+   "region": "Северная Америка",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "geospatial industry"
+   ],
+   "founded": 1992,
+   "exchange": "NYSE",
+   "ticker": "DGI",
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Уэстминстер"
+   ],
+   "popularity": 17,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q1224697",
+   "employees": 1200,
+   "employees_date": "2014-01-01",
+   "employees_old": true,
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: geospatial industry"
    ]
   },
   {
@@ -3742,9 +5868,9 @@
    ],
    "country": "Германия",
    "region": "Европа",
-   "sector": "Продукты питания",
+   "sector": "Электронная торговля",
    "sectors": [
-    "Продукты питания"
+    "Электронная торговля"
    ],
    "industries": [
     "meal kit",
@@ -3765,7 +5891,10 @@
    "popularity": 17,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q23014836",
-   "sector_group": "Потребительские товары",
+   "employees": 19012,
+   "employees_date": "2023-12-31",
+   "employees_old": true,
+   "sector_group": "Торговля",
    "problems": [
     "нет названия"
    ]
@@ -3799,6 +5928,43 @@
    ]
   },
   {
+   "id": "Q385101",
+   "name": "Oji",
+   "name_ru": "Oji Paper",
+   "aliases": [
+    "OJIPY",
+    "Oji Holdings",
+    "Oji Paper",
+    "Oji Paper Company",
+    "Ōji Hōrudingusu Kabushiki-kaisha"
+   ],
+   "country": "Япония",
+   "region": "Азия",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "pulp and paper industry"
+   ],
+   "founded": 1873,
+   "exchange": "Токио",
+   "ticker": null,
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Гиндза"
+   ],
+   "popularity": 17,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q385101",
+   "sector_group": null,
+   "notes": [
+    "в Wikidata есть только внебиржевой рынок США (OTC) — биржа взята по стране компании, проверить"
+   ],
+   "problems": [
+    "сектор не определён: pulp and paper industry"
+   ]
+  },
+  {
    "id": "Q5384453",
    "name": "Equifax",
    "name_ru": "Equifax",
@@ -3822,9 +5988,40 @@
    "popularity": 17,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q5384453",
+   "employees": 9500,
+   "employees_date": null,
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
+   ]
+  },
+  {
+   "id": "Q633280",
+   "name": "OBX Index",
+   "name_ru": "OBX",
+   "aliases": [
+    "OBX"
+   ],
+   "country": "Норвегия",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [],
+   "founded": null,
+   "exchange": "Осло",
+   "ticker": null,
+   "founders": [],
+   "ceo": [],
+   "hq": [],
+   "popularity": 17,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q633280",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: stock market index",
+    "сектор не определён: отрасль не указана",
+    "нет года основания"
    ]
   },
   {
@@ -3856,6 +6053,9 @@
    "popularity": 17,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q67389109",
+   "employees": 21048,
+   "employees_date": "2024-03-31",
+   "employees_old": true,
    "sector_group": "Финансы",
    "problems": [
     "нет года основания"
@@ -3894,6 +6094,40 @@
    ],
    "problems": [
     "сектор не определён: отрасль не указана"
+   ]
+  },
+  {
+   "id": "Q1433279",
+   "name": "Huhtamäki",
+   "name_ru": "Huhtamäki",
+   "aliases": [
+    "HUH1V",
+    "Huhtamäki Oyj",
+    "Huhtamäki Van Leer"
+   ],
+   "country": "Финляндия",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "product packaging industry"
+   ],
+   "founded": 1920,
+   "exchange": "Хельсинки",
+   "ticker": "HUH1V",
+   "founders": [
+    "Хейкки Хухтамяки"
+   ],
+   "ceo": [],
+   "hq": [
+    "Эспоо"
+   ],
+   "popularity": 16,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q1433279",
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: product packaging industry"
    ]
   },
   {
@@ -3958,6 +6192,9 @@
    "popularity": 16,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1815011",
+   "employees": 19424,
+   "employees_date": "2012-01-01",
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
@@ -4024,6 +6261,33 @@
    ]
   },
   {
+   "id": "Q2044697",
+   "name": "PSI-20",
+   "name_ru": "PSI-20",
+   "aliases": [
+    "PSI20"
+   ],
+   "country": "Португалия",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [],
+   "founded": 1992,
+   "exchange": "Лиссабон",
+   "ticker": "PSI20",
+   "founders": [],
+   "ceo": [],
+   "hq": [],
+   "popularity": 16,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q2044697",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: stock market index",
+    "сектор не определён: отрасль не указана"
+   ]
+  },
+  {
    "id": "Q2274089",
    "name": "Wynn Resorts",
    "name_ru": null,
@@ -4080,6 +6344,9 @@
    "popularity": 16,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q2298492",
+   "employees": 19500,
+   "employees_date": "2019-01-01",
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: activities of head offices"
@@ -4112,6 +6379,9 @@
    "popularity": 16,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q2469733",
+   "employees": 6757,
+   "employees_date": null,
+   "employees_old": true,
    "sector_group": "Финансы",
    "problems": [
     "незнакомая биржа: Georgian Stock Exchange"
@@ -4207,6 +6477,9 @@
    "popularity": 16,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q430745",
+   "employees": 8300,
+   "employees_date": null,
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
@@ -4285,6 +6558,39 @@
    "sector_group": null,
    "problems": [
     "сектор не определён: electrical device"
+   ]
+  },
+  {
+   "id": "Q5509271",
+   "name": "Funko",
+   "name_ru": "FunKo",
+   "aliases": [
+    "FNKO",
+    "FunKo",
+    "funkofunko"
+   ],
+   "country": "США",
+   "region": "Северная Америка",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "game industry"
+   ],
+   "founded": 1998,
+   "exchange": "NASDAQ",
+   "ticker": "FNKO",
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "штат Вашингтон",
+    "Эверетт"
+   ],
+   "popularity": 16,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q5509271",
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: game industry"
    ]
   },
   {
@@ -4379,9 +6685,47 @@
    "popularity": 16,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q689791",
+   "employees": 471056,
+   "employees_date": "2019-01-01",
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: facility management"
+   ]
+  },
+  {
+   "id": "Q692157",
+   "name": "Experian",
+   "name_ru": null,
+   "aliases": [
+    "EXPN"
+   ],
+   "country": "Ирландия",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "professional services industry"
+   ],
+   "founded": 1980,
+   "exchange": "Лондон",
+   "ticker": "EXPN",
+   "founders": [],
+   "ceo": [
+    "Brian Cassin"
+   ],
+   "hq": [
+    "Дублин"
+   ],
+   "popularity": 16,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q692157",
+   "employees": 17000,
+   "employees_date": "2015-01-01",
+   "employees_old": true,
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: professional services industry"
    ]
   },
   {
@@ -4557,9 +6901,49 @@
    "popularity": 15,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1119857",
+   "employees": 12500,
+   "employees_date": "2015-01-01",
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
+   ]
+  },
+  {
+   "id": "Q1131463",
+   "name": "Tech Mahindra India",
+   "name_ru": null,
+   "aliases": [
+    "TECHM",
+    "Tech Mahindra",
+    "Tech Mahindra Limited"
+   ],
+   "country": "Индия",
+   "region": "Азия",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "consulting industry"
+   ],
+   "founded": 1986,
+   "exchange": "Мумбаи (NSE)",
+   "ticker": "TECHM",
+   "founders": [
+    "Mahindra & Mahindra Limited"
+   ],
+   "ceo": [],
+   "hq": [
+    "Мумбаи"
+   ],
+   "popularity": 15,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q1131463",
+   "sector_group": null,
+   "notes": [
+    "в Wikidata несколько годов основания (1986, 1987) — взят ранний"
+   ],
+   "problems": [
+    "сектор не определён: consulting industry"
    ]
   },
   {
@@ -4588,9 +6972,44 @@
    "popularity": 15,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1501630",
+   "employees": 41000,
+   "employees_date": null,
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: marketing"
+   ]
+  },
+  {
+   "id": "Q1518607",
+   "name": "Kweichow Moutai",
+   "name_ru": "Kweichow Moutai",
+   "aliases": [
+    "600519",
+    "Kweichow Moutai Co Ltd",
+    "Kweichow Moutai Company"
+   ],
+   "country": "Китай",
+   "region": "Азия",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "alcohol industry"
+   ],
+   "founded": 1999,
+   "exchange": "Шанхай",
+   "ticker": "600519",
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Жэньхуай"
+   ],
+   "popularity": 15,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q1518607",
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: alcohol industry"
    ]
   },
   {
@@ -4681,6 +7100,9 @@
    "popularity": 15,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1703203",
+   "employees": 16701,
+   "employees_date": "2023-12-31",
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
@@ -4713,9 +7135,50 @@
    "popularity": 15,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1784671",
+   "employees": 9300,
+   "employees_date": null,
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
+   ]
+  },
+  {
+   "id": "Q180106",
+   "name": "Owens-Illinois",
+   "name_ru": null,
+   "aliases": [
+    "OI",
+    "Owens-Illinois Glass Co.",
+    "Owens-Illinois Glass Company"
+   ],
+   "country": "США",
+   "region": "Северная Америка",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "product packaging industry"
+   ],
+   "founded": 1903,
+   "exchange": "NYSE",
+   "ticker": "OI",
+   "founders": [
+    "Michael Joseph Owens"
+   ],
+   "ceo": [],
+   "hq": [
+    "Толидо",
+    "Перрисберг"
+   ],
+   "popularity": 15,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q180106",
+   "sector_group": null,
+   "notes": [
+    "в Wikidata несколько годов основания (1903, 1929) — взят ранний"
+   ],
+   "problems": [
+    "сектор не определён: product packaging industry"
    ]
   },
   {
@@ -4745,6 +7208,9 @@
    "popularity": 15,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1889100",
+   "employees": 4578,
+   "employees_date": "2022-01-01",
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
@@ -4869,9 +7335,47 @@
    "popularity": 15,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q2297063",
+   "employees": 11000,
+   "employees_date": "2026-01-01",
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
+   ]
+  },
+  {
+   "id": "Q24862548",
+   "name": "ispace",
+   "name_ru": null,
+   "aliases": [
+    "9348",
+    "ispace Inc"
+   ],
+   "country": "Япония",
+   "region": "Азия",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "space industry"
+   ],
+   "founded": 2010,
+   "exchange": "Токио",
+   "ticker": "9348",
+   "founders": [
+    "Takeshi Hakamada"
+   ],
+   "ceo": [],
+   "hq": [
+    "Токио"
+   ],
+   "popularity": 15,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q24862548",
+   "employees": 282,
+   "employees_date": "2024-03-31",
+   "employees_old": true,
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: space industry"
    ]
   },
   {
@@ -4907,6 +7411,31 @@
    ]
   },
   {
+   "id": "Q2567030",
+   "name": "PX Index",
+   "name_ru": "PX Index",
+   "aliases": [],
+   "country": "Чехия",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [],
+   "founded": 2006,
+   "exchange": "Прага",
+   "ticker": null,
+   "founders": [],
+   "ceo": [],
+   "hq": [],
+   "popularity": 15,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q2567030",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: stock market index",
+    "сектор не определён: отрасль не указана"
+   ]
+  },
+  {
    "id": "Q28782856",
    "name": "DXC Technology",
    "name_ru": "DXC Technology",
@@ -4934,6 +7463,9 @@
    "popularity": 15,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q28782856",
+   "employees": 170500,
+   "employees_date": "2017-01-01",
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: quaternary sector of the economy"
@@ -5092,6 +7624,9 @@
    "popularity": 15,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q48147014",
+   "employees": 2000,
+   "employees_date": "2024-01-01",
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: photography"
@@ -5197,6 +7732,8 @@
    "popularity": 15,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q583822",
+   "employees": 4688,
+   "employees_date": "2024-12-31",
    "sector_group": "Энергетика и сырьё",
    "problems": [
     "незнакомая биржа: Nasdaq Vilnius, AB"
@@ -5231,6 +7768,11 @@
    "popularity": 15,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q590113",
+   "market_cap_usd": 10657328625,
+   "market_cap_date": "2026-09-13",
+   "market_cap_currency": "EUR",
+   "employees": 4164,
+   "employees_date": "2025-12-31",
    "sector_group": null,
    "problems": [
     "сектор не определён: manufacture of rusks and biscuits; manufacture of preserved pastry goods and cakes"
@@ -5270,6 +7812,41 @@
    ]
   },
   {
+   "id": "Q100804984",
+   "name": "Chainlink",
+   "name_ru": null,
+   "aliases": [
+    "LINK"
+   ],
+   "country": null,
+   "region": null,
+   "sector": "Программы и облачные сервисы",
+   "sectors": [
+    "Программы и облачные сервисы"
+   ],
+   "industries": [],
+   "founded": 2017,
+   "exchange": null,
+   "ticker": null,
+   "founders": [
+    "Sergey Nazarov"
+   ],
+   "ceo": [],
+   "hq": [],
+   "popularity": 14,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q100804984",
+   "sector_group": "Технологии",
+   "notes": [
+    "сектор определён по типу объекта в Wikidata: software, cryptocurrency"
+   ],
+   "problems": [
+    "возможно, не компания: cryptocurrency, торгуется только на криптобиржах",
+    "нет страны",
+    "нет биржи"
+   ]
+  },
+  {
    "id": "Q10895089",
    "name": "Nongfu Spring",
    "name_ru": "Nongfu Spring",
@@ -5297,6 +7874,10 @@
    "popularity": 14,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q10895089",
+   "market_cap_usd": 31000000000,
+   "market_cap_date": null,
+   "market_cap_currency": "USD",
+   "market_cap_stale": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
@@ -5332,6 +7913,45 @@
    ]
   },
   {
+   "id": "Q1135278",
+   "name": "CoreCivic",
+   "name_ru": "Corrections Corporation of America",
+   "aliases": [
+    "CCA",
+    "CPA",
+    "CXW",
+    "Core Civic",
+    "Corrections Corporation of America"
+   ],
+   "country": "США",
+   "region": "Северная Америка",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "industry",
+    "private prison"
+   ],
+   "founded": 1983,
+   "exchange": "NYSE",
+   "ticker": "CXW",
+   "founders": [
+    "Thomas W. Beasley"
+   ],
+   "ceo": [
+    "Damon T. Hininger"
+   ],
+   "hq": [
+    "Нашвилл"
+   ],
+   "popularity": 14,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q1135278",
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: industry, private prison"
+   ]
+  },
+  {
    "id": "Q1391599",
    "name": "Mercer",
    "name_ru": "Mercer",
@@ -5360,6 +7980,9 @@
    "popularity": 14,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1391599",
+   "employees": 25000,
+   "employees_date": "2019-01-01",
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: risk management, professional service, consulting company"
@@ -5459,10 +8082,53 @@
    "popularity": 14,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1533296",
+   "employees": 168120,
+   "employees_date": null,
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "несколько стран: Испания, Германия",
     "сектор не определён: Cash-in-transit, Q125504123"
+   ]
+  },
+  {
+   "id": "Q1536176",
+   "name": "Smurfit Westrock",
+   "name_ru": "Smurfit Kappa Group",
+   "aliases": [
+    "SK3",
+    "SKG",
+    "SW",
+    "Smurfit Kappa",
+    "Smurfit Kappa Group",
+    "Smurfit Westrock Group"
+   ],
+   "country": "Ирландия",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "product packaging industry"
+   ],
+   "founded": 2005,
+   "exchange": "Дублин",
+   "ticker": "SK3",
+   "founders": [],
+   "ceo": [
+    "Anthony Smurfit"
+   ],
+   "hq": [
+    "Дублин"
+   ],
+   "popularity": 14,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q1536176",
+   "employees": 42000,
+   "employees_date": null,
+   "employees_old": true,
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: product packaging industry"
    ]
   },
   {
@@ -5563,6 +8229,43 @@
    ]
   },
   {
+   "id": "Q17085620",
+   "name": "Planet Labs",
+   "name_ru": "Planet Labs",
+   "aliases": [
+    "Cosmogia Inc.",
+    "PL",
+    "Planet",
+    "Planet Labs Inc.",
+    "Planet Labs PBC"
+   ],
+   "country": "США",
+   "region": "Северная Америка",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "space industry"
+   ],
+   "founded": 2010,
+   "exchange": "NYSE",
+   "ticker": "PL",
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Сан-Франциско"
+   ],
+   "popularity": 14,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q17085620",
+   "employees": 600,
+   "employees_date": "2023-01-01",
+   "employees_old": true,
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: space industry"
+   ]
+  },
+  {
    "id": "Q1742118",
    "name": "Kingdom",
    "name_ru": null,
@@ -5622,6 +8325,9 @@
    "popularity": 14,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q17551096",
+   "employees": 9500,
+   "employees_date": null,
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
@@ -5689,9 +8395,44 @@
    "popularity": 14,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q18111506",
+   "employees": 13608,
+   "employees_date": "2021-11-09",
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: video surveillance"
+   ]
+  },
+  {
+   "id": "Q1961495",
+   "name": "NSK",
+   "name_ru": null,
+   "aliases": [
+    "6471",
+    "NSK Ltd.",
+    "Nippon Seikō Kabushiki-gaisha"
+   ],
+   "country": "Япония",
+   "region": "Азия",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "heavy industry"
+   ],
+   "founded": 1916,
+   "exchange": "Токио",
+   "ticker": "6471",
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Токио"
+   ],
+   "popularity": 14,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q1961495",
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: heavy industry"
    ]
   },
   {
@@ -5722,6 +8463,9 @@
    "popularity": 14,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q19826726",
+   "employees": 8771,
+   "employees_date": "2020-01-01",
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: airport authority"
@@ -5794,6 +8538,9 @@
    "popularity": 14,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q2620239",
+   "employees": 10383,
+   "employees_date": null,
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
@@ -5926,6 +8673,12 @@
    "popularity": 14,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q341828",
+   "market_cap_usd": 10000145625,
+   "market_cap_date": "2026-09-07",
+   "market_cap_currency": "EUR",
+   "employees": 22749,
+   "employees_date": null,
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: activities of holding companies"
@@ -5966,6 +8719,70 @@
    ]
   },
   {
+   "id": "Q366943",
+   "name": "MSCI Merval",
+   "name_ru": null,
+   "aliases": [
+    "MERVAL",
+    "S&P Merval"
+   ],
+   "country": "Аргентина",
+   "region": "Южная Америка",
+   "sector": null,
+   "sectors": [],
+   "industries": [],
+   "founded": 1986,
+   "exchange": "Buenos Aires Stock Exchange",
+   "ticker": "MERVAL",
+   "founders": [],
+   "ceo": [],
+   "hq": [],
+   "popularity": 14,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q366943",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: stock market index",
+    "сектор не определён: отрасль не указана",
+    "незнакомая биржа: Buenos Aires Stock Exchange"
+   ]
+  },
+  {
+   "id": "Q444971",
+   "name": "Altri",
+   "name_ru": null,
+   "aliases": [
+    "ALTR",
+    "ALTRI, SGPS, S.A.",
+    "Altri SGPS SA"
+   ],
+   "country": "Португалия",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "pulp and paper industry"
+   ],
+   "founded": 2005,
+   "exchange": "Лиссабон",
+   "ticker": "ALTR",
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Порту"
+   ],
+   "popularity": 14,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q444971",
+   "employees": 710,
+   "employees_date": null,
+   "employees_old": true,
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: pulp and paper industry"
+   ]
+  },
+  {
    "id": "Q4499024",
    "name": "Rosseti",
    "name_ru": "Россети",
@@ -5994,8 +8811,38 @@
    "popularity": 14,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q4499024",
+   "employees": 188800,
+   "employees_date": null,
+   "employees_old": true,
    "sector_group": null,
    "problems": [
+    "сектор не определён: отрасль не указана"
+   ]
+  },
+  {
+   "id": "Q608856",
+   "name": "WIG20",
+   "name_ru": "WIG 20",
+   "aliases": [
+    "WIG 20"
+   ],
+   "country": "Польша",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [],
+   "founded": 1994,
+   "exchange": "Варшава",
+   "ticker": null,
+   "founders": [],
+   "ceo": [],
+   "hq": [],
+   "popularity": 14,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q608856",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: stock market index",
     "сектор не определён: отрасль не указана"
    ]
   },
@@ -6057,6 +8904,9 @@
    "popularity": 14,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q695693",
+   "employees": 8702,
+   "employees_date": "2020-01-01",
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: crane"
@@ -6101,6 +8951,8 @@
    "popularity": 14,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q815266",
+   "employees": 16000,
+   "employees_date": "2025-01-01",
    "sector_group": "Энергетика и сырьё",
    "problems": [
     "незнакомая биржа: Belarus Currency And Stock Exchange"
@@ -6134,6 +8986,9 @@
    "popularity": 14,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q972966",
+   "market_cap_usd": 11084750000,
+   "market_cap_date": "2025-12-31",
+   "market_cap_currency": "EUR",
    "sector_group": null,
    "problems": [
     "сектор не определён: holding company"
@@ -6214,6 +9069,41 @@
    ]
   },
   {
+   "id": "Q120371",
+   "name": "Rapala",
+   "name_ru": "Rapala VMC Corporation",
+   "aliases": [
+    "Flash",
+    "RAP1V",
+    "Rapala VMC Corporation",
+    "Rapala VMC Oyj"
+   ],
+   "country": "Финляндия",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "fishing industry"
+   ],
+   "founded": 1936,
+   "exchange": "Хельсинки",
+   "ticker": "RAP1V",
+   "founders": [
+    "Лаури Рапала"
+   ],
+   "ceo": [],
+   "hq": [
+    "Хельсинки"
+   ],
+   "popularity": 13,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q120371",
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: fishing industry"
+   ]
+  },
+  {
    "id": "Q1328252",
    "name": "Axia Energia",
    "name_ru": null,
@@ -6239,6 +9129,9 @@
    "popularity": 13,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1328252",
+   "employees": 12018,
+   "employees_date": "2021-01-01",
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
@@ -6339,6 +9232,9 @@
    "popularity": 13,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q2612238",
+   "employees": 3000,
+   "employees_date": "2006-01-01",
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
@@ -6376,6 +9272,38 @@
    ]
   },
   {
+   "id": "Q324029",
+   "name": "Hays",
+   "name_ru": "Hays",
+   "aliases": [
+    "HAS",
+    "Hays plc",
+    "hays.com"
+   ],
+   "country": "Великобритания",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "employment services industry"
+   ],
+   "founded": 1867,
+   "exchange": "Лондон",
+   "ticker": "HAS",
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Лондон"
+   ],
+   "popularity": 13,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q324029",
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: employment services industry"
+   ]
+  },
+  {
    "id": "Q385775",
    "name": "Osaka Gas",
    "name_ru": "Osaka Gas",
@@ -6400,6 +9328,9 @@
    "popularity": 13,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q385775",
+   "employees": 21250,
+   "employees_date": null,
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
@@ -6435,6 +9366,48 @@
    ]
   },
   {
+   "id": "Q460307",
+   "name": "Amcor",
+   "name_ru": "Amcor",
+   "aliases": [
+    "AMC",
+    "AMCOR PLC",
+    "AMCR",
+    "Amcor PLC",
+    "Amcor Pty Ltd",
+    "Australian Paper Manufacturers"
+   ],
+   "country": "Швейцария",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "product packaging industry"
+   ],
+   "founded": 1860,
+   "exchange": "NYSE",
+   "ticker": "AMCR",
+   "founders": [],
+   "ceo": [
+    "Ron Delia",
+    "Peter Konieczny"
+   ],
+   "hq": [
+    "Цюрих"
+   ],
+   "popularity": 13,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q460307",
+   "market_cap_usd": 17060513032,
+   "market_cap_date": "2021-11-18",
+   "market_cap_currency": "AUD",
+   "market_cap_stale": true,
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: product packaging industry"
+   ]
+  },
+  {
    "id": "Q4687934",
    "name": "AerCap",
    "name_ru": "AerCap",
@@ -6463,12 +9436,79 @@
    "popularity": 13,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q4687934",
+   "employees": 390,
+   "employees_date": "2019-01-01",
+   "employees_old": true,
    "sector_group": "Промышленность",
    "notes": [
     "возможен второй сектор: Банки"
    ],
    "problems": [
     "несколько стран: Ирландия, Нидерланды"
+   ]
+  },
+  {
+   "id": "Q5275969",
+   "name": "Digital Realty Trust",
+   "name_ru": "Digital Realty",
+   "aliases": [
+    "DLR",
+    "Digital Realty",
+    "digitalrealty.com"
+   ],
+   "country": "США",
+   "region": "Северная Америка",
+   "sector": "Инвестиции и биржи",
+   "sectors": [
+    "Инвестиции и биржи"
+   ],
+   "industries": [
+    "real estate investment trust"
+   ],
+   "founded": 2004,
+   "exchange": "NYSE",
+   "ticker": "DLR",
+   "founders": [],
+   "ceo": [
+    "Andrew P. Power"
+   ],
+   "hq": [
+    "Остин"
+   ],
+   "popularity": 13,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q5275969",
+   "sector_group": "Финансы",
+   "problems": [
+    "возможно, не компания: real estate investment trust"
+   ]
+  },
+  {
+   "id": "Q595622",
+   "name": "MDAX",
+   "name_ru": null,
+   "aliases": [
+    "Mid-Cap DAX"
+   ],
+   "country": "Германия",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [],
+   "founded": null,
+   "exchange": "Франкфурт",
+   "ticker": null,
+   "founders": [],
+   "ceo": [],
+   "hq": [],
+   "popularity": 13,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q595622",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: stock market index",
+    "сектор не определён: отрасль не указана",
+    "нет года основания"
    ]
   },
   {
@@ -6501,6 +9541,9 @@
    "popularity": 13,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q599791",
+   "employees": 4200,
+   "employees_date": null,
+   "employees_old": true,
    "sector_group": null,
    "notes": [
     "в Wikidata несколько годов основания (1953, 1957) — взят ранний"
@@ -6569,6 +9612,38 @@
    ],
    "problems": [
     "сектор не определён: отрасль не указана"
+   ]
+  },
+  {
+   "id": "Q686182",
+   "name": "Navigator",
+   "name_ru": "The Navigator Company",
+   "aliases": [
+    "NVG",
+    "Portucel Soporcel",
+    "The Navigator Company"
+   ],
+   "country": "Португалия",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "pulp and paper industry"
+   ],
+   "founded": 2001,
+   "exchange": "Лиссабон",
+   "ticker": "NVG",
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Сетубал"
+   ],
+   "popularity": 13,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q686182",
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: pulp and paper industry"
    ]
   },
   {
@@ -6674,6 +9749,34 @@
    ]
   },
   {
+   "id": "Q895360",
+   "name": "Índice Bovespa",
+   "name_ru": null,
+   "aliases": [
+    "Indice Bovespa"
+   ],
+   "country": "Бразилия",
+   "region": "Южная Америка",
+   "sector": null,
+   "sectors": [],
+   "industries": [],
+   "founded": null,
+   "exchange": "Сан-Паулу",
+   "ticker": null,
+   "founders": [],
+   "ceo": [],
+   "hq": [],
+   "popularity": 13,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q895360",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: stock market index",
+    "сектор не определён: отрасль не указана",
+    "нет года основания"
+   ]
+  },
+  {
    "id": "Q902908",
    "name": "Potash Corporation of Saskatchewan",
    "name_ru": "Potash Corporation of Saskatchewan",
@@ -6704,6 +9807,38 @@
    "source": "https://www.wikidata.org/wiki/Q902908",
    "sector_group": null,
    "problems": [
+    "сектор не определён: отрасль не указана"
+   ]
+  },
+  {
+   "id": "Q10366645",
+   "name": "Stoxx Europe 600 Index",
+   "name_ru": "STOXX Europe 600",
+   "aliases": [
+    "STOXX Europe 600",
+    "STOXX600",
+    "STXE 600 PR.EUR",
+    "SXXP"
+   ],
+   "country": "Швейцария",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [],
+   "founded": 1998,
+   "exchange": "Цюрих",
+   "ticker": null,
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Цуг"
+   ],
+   "popularity": 12,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q10366645",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: stock market index",
     "сектор не определён: отрасль не указана"
    ]
   },
@@ -6923,6 +10058,9 @@
    "popularity": 12,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1584130",
+   "employees": 3931,
+   "employees_date": "2022-01-01",
+   "employees_old": true,
    "sector_group": "Технологии",
    "problems": [
     "незнакомая биржа: Damascus Securities Exchange"
@@ -6965,6 +10103,43 @@
    ]
   },
   {
+   "id": "Q1780382",
+   "name": "Weyerhaeuser",
+   "name_ru": null,
+   "aliases": [
+    "WY",
+    "Weyerhaeuser Company"
+   ],
+   "country": "США",
+   "region": "Северная Америка",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "pulp and paper industry"
+   ],
+   "founded": 1900,
+   "exchange": "NYSE",
+   "ticker": "WY",
+   "founders": [
+    "Friedrich Weyerhäuser"
+   ],
+   "ceo": [],
+   "hq": [
+    "Сиэтл",
+    "Федерал-Уэй"
+   ],
+   "popularity": 12,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q1780382",
+   "employees": 13200,
+   "employees_date": null,
+   "employees_old": true,
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: pulp and paper industry"
+   ]
+  },
+  {
    "id": "Q1929466",
    "name": "WW International",
    "name_ru": null,
@@ -6994,6 +10169,9 @@
    "popularity": 12,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1929466",
+   "employees": 25000,
+   "employees_date": "2013-01-01",
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
@@ -7069,6 +10247,9 @@
    "popularity": 12,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q2104551",
+   "employees": 41,
+   "employees_date": "2023-12-31",
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: holding company"
@@ -7133,6 +10314,35 @@
    ]
   },
   {
+   "id": "Q2502048",
+   "name": "ISEQ 20",
+   "name_ru": "ISEQ 20",
+   "aliases": [],
+   "country": "Ирландия",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "stock market"
+   ],
+   "founded": 2004,
+   "exchange": "Дублин",
+   "ticker": null,
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Дублин"
+   ],
+   "popularity": 12,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q2502048",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: stock market index",
+    "сектор не определён: stock market"
+   ]
+  },
+  {
    "id": "Q26311",
    "name": "Aflac",
    "name_ru": "AFLAC",
@@ -7158,6 +10368,13 @@
    "popularity": 12,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q26311",
+   "market_cap_usd": 37700000000,
+   "market_cap_date": "2021-11-14",
+   "market_cap_currency": "USD",
+   "market_cap_stale": true,
+   "employees": 12003,
+   "employees_date": "2020-01-01",
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
@@ -7284,6 +10501,10 @@
    "popularity": 12,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q2874395",
+   "market_cap_usd": 7018650000,
+   "market_cap_date": "2023-04-14",
+   "market_cap_currency": "USD",
+   "market_cap_stale": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: car rental company"
@@ -7444,6 +10665,8 @@
    "popularity": 12,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q469732",
+   "employees": 408,
+   "employees_date": "2026-05-12",
    "sector_group": null,
    "problems": [
     "сектор не определён: reverse vending machine"
@@ -7510,6 +10733,43 @@
    "sector_group": null,
    "problems": [
     "сектор не определён: service"
+   ]
+  },
+  {
+   "id": "Q55290870",
+   "name": "Tezos",
+   "name_ru": "Tezos",
+   "aliases": [
+    "XTZ"
+   ],
+   "country": null,
+   "region": null,
+   "sector": "Платежи и финтех",
+   "sectors": [
+    "Платежи и финтех"
+   ],
+   "industries": [],
+   "founded": 2014,
+   "exchange": "CEX.io",
+   "ticker": "XTZ",
+   "founders": [
+    "Артур Брейтман",
+    "Кейтлин Брейтман"
+   ],
+   "ceo": [],
+   "hq": [],
+   "popularity": 12,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q55290870",
+   "sector_group": "Финансы",
+   "notes": [
+    "сектор определён по типу объекта в Wikidata: free software, project, web service, virtual community, public company, payment system, cryptocurrency, blockchain, smart contract platform",
+    "возможен второй сектор: Интернет-сервисы"
+   ],
+   "problems": [
+    "возможно, не компания: cryptocurrency",
+    "нет страны",
+    "незнакомая биржа: CEX.io"
    ]
   },
   {
@@ -7654,9 +10914,46 @@
    "popularity": 12,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q750619",
+   "employees": 6872,
+   "employees_date": null,
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: Q112165285"
+   ]
+  },
+  {
+   "id": "Q7577375",
+   "name": "Spin Master",
+   "name_ru": "Спин Мастер",
+   "aliases": [
+    "SPIN MASTER",
+    "TOY",
+    "Спин Мастер"
+   ],
+   "country": "Канада",
+   "region": "Северная Америка",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "game industry"
+   ],
+   "founded": 1994,
+   "exchange": "Торонто",
+   "ticker": "TOY",
+   "founders": [
+    "Ronnen Harary"
+   ],
+   "ceo": [],
+   "hq": [
+    "Торонто"
+   ],
+   "popularity": 12,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q7577375",
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: game industry"
    ]
   },
   {
@@ -7725,9 +11022,53 @@
    "popularity": 12,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q779252",
+   "employees": 26300,
+   "employees_date": "2017-01-01",
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: papermaking"
+   ]
+  },
+  {
+   "id": "Q790650",
+   "name": "Avery Dennison",
+   "name_ru": null,
+   "aliases": [
+    "AVY",
+    "Avery Adhesive Label Corp",
+    "Avery Adhesive Products, Inc.",
+    "Avery Adhesives",
+    "Avery Dennison Corporation",
+    "Avery Products Corporation",
+    "Kum-Kleen Adhesive Products"
+   ],
+   "country": "США",
+   "region": "Северная Америка",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "product packaging industry"
+   ],
+   "founded": 1935,
+   "exchange": "NYSE",
+   "ticker": "AVY",
+   "founders": [
+    "R. Stanton Avery"
+   ],
+   "ceo": [],
+   "hq": [
+    "Глендейл"
+   ],
+   "popularity": 12,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q790650",
+   "employees": 36000,
+   "employees_date": null,
+   "employees_old": true,
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: product packaging industry"
    ]
   },
   {
@@ -7756,6 +11097,9 @@
    "popularity": 12,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q820239",
+   "employees": 54768,
+   "employees_date": null,
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
@@ -7854,6 +11198,72 @@
    "sector_group": null,
    "problems": [
     "сектор не определён: professional service"
+   ]
+  },
+  {
+   "id": "Q1024301",
+   "name": "CROBEX",
+   "name_ru": "CROBEX",
+   "aliases": [
+    "CBX"
+   ],
+   "country": "Хорватия",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [],
+   "founded": 1997,
+   "exchange": "Загреб",
+   "ticker": "CBX",
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Загреб"
+   ],
+   "popularity": 11,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q1024301",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: stock market index",
+    "сектор не определён: отрасль не указана"
+   ]
+  },
+  {
+   "id": "Q1052186",
+   "name": "CeWe",
+   "name_ru": null,
+   "aliases": [
+    "CEWE Stiftung & Co. KGaA",
+    "CWC",
+    "Cewe",
+    "Cewe Group",
+    "Cewe Stiftung & Co. KGaA"
+   ],
+   "country": "Германия",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "printing industry"
+   ],
+   "founded": 1961,
+   "exchange": "Франкфурт",
+   "ticker": "CWC",
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Ольденбург"
+   ],
+   "popularity": 11,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q1052186",
+   "employees": 3731,
+   "employees_date": "2023-12-31",
+   "employees_old": true,
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: printing industry"
    ]
   },
   {
@@ -8043,6 +11453,35 @@
    ]
   },
   {
+   "id": "Q1329524",
+   "name": "Russell 2000",
+   "name_ru": null,
+   "aliases": [
+    "RUT",
+    "Russell 2000 index"
+   ],
+   "country": "США",
+   "region": "Северная Америка",
+   "sector": null,
+   "sectors": [],
+   "industries": [],
+   "founded": null,
+   "exchange": "NYSE",
+   "ticker": null,
+   "founders": [],
+   "ceo": [],
+   "hq": [],
+   "popularity": 11,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q1329524",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: stock market index",
+    "сектор не определён: отрасль не указана",
+    "нет года основания"
+   ]
+  },
+  {
    "id": "Q13479653",
    "name": "Okuma",
    "name_ru": null,
@@ -8133,6 +11572,8 @@
    "popularity": 11,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1476386",
+   "employees": 50,
+   "employees_date": "2026-04-13",
    "sector_group": null,
    "problems": [
     "сектор не определён: mineral exploration"
@@ -8165,6 +11606,9 @@
    "popularity": 11,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q1579151",
+   "employees": 126800,
+   "employees_date": null,
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: holding company"
@@ -8244,6 +11688,71 @@
    ]
   },
   {
+   "id": "Q1754476",
+   "name": "PSE Composite Index",
+   "name_ru": null,
+   "aliases": [
+    "PSEi"
+   ],
+   "country": "Филиппины",
+   "region": "Азия",
+   "sector": "Инвестиции и биржи",
+   "sectors": [
+    "Инвестиции и биржи"
+   ],
+   "industries": [
+    "financial market"
+   ],
+   "founded": 1990,
+   "exchange": "Манила",
+   "ticker": "PSEi",
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Манила"
+   ],
+   "popularity": 11,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q1754476",
+   "sector_group": "Финансы",
+   "problems": [
+    "возможно, не компания: stock market index"
+   ]
+  },
+  {
+   "id": "Q18394878",
+   "name": "Canopy Growth",
+   "name_ru": "Canopy Growth Corporation",
+   "aliases": [
+    "Canopy Growth Corp",
+    "Canopy Growth Corporation",
+    "Tweed Marijuana Inc",
+    "WEED"
+   ],
+   "country": "Канада",
+   "region": "Северная Америка",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "cannabis industry"
+   ],
+   "founded": 2013,
+   "exchange": "Торонто",
+   "ticker": "WEED",
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Смитс-Фолс"
+   ],
+   "popularity": 11,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q18394878",
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: cannabis industry"
+   ]
+  },
+  {
    "id": "Q1977666",
    "name": "Paysafe",
    "name_ru": null,
@@ -8302,6 +11811,35 @@
    "sector_group": null,
    "problems": [
     "сектор не определён: integrated device manufacturer"
+   ]
+  },
+  {
+   "id": "Q2204387",
+   "name": "S&P/ASX 50",
+   "name_ru": "S&P/ASX 50",
+   "aliases": [
+    "ASX50",
+    "XFL"
+   ],
+   "country": "Австралия",
+   "region": "Австралия и Океания",
+   "sector": null,
+   "sectors": [],
+   "industries": [],
+   "founded": null,
+   "exchange": "Сидней",
+   "ticker": "XFL",
+   "founders": [],
+   "ceo": [],
+   "hq": [],
+   "popularity": 11,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q2204387",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: stock market index",
+    "сектор не определён: отрасль не указана",
+    "нет года основания"
    ]
   },
   {
@@ -8426,6 +11964,9 @@
    "popularity": 11,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q3038414",
+   "employees": 16467,
+   "employees_date": null,
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
@@ -8461,6 +12002,9 @@
    "popularity": 11,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q3347694",
+   "employees": 49185,
+   "employees_date": "2016-12-31",
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: Q112166151"
@@ -8530,6 +12074,33 @@
    ]
   },
   {
+   "id": "Q477139",
+   "name": "CAC Next 20",
+   "name_ru": null,
+   "aliases": [
+    "CN20"
+   ],
+   "country": "Франция",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [],
+   "founded": 2005,
+   "exchange": "Париж",
+   "ticker": "CN20",
+   "founders": [],
+   "ceo": [],
+   "hq": [],
+   "popularity": 11,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q477139",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: stock market index",
+    "сектор не определён: отрасль не указана"
+   ]
+  },
+  {
    "id": "Q4900880",
    "name": "MNC",
    "name_ru": "MNC Group",
@@ -8568,6 +12139,36 @@
    ],
    "problems": [
     "нет года основания"
+   ]
+  },
+  {
+   "id": "Q503065",
+   "name": "S&P/TSX 60",
+   "name_ru": "S&P/TSX 60",
+   "aliases": [
+    "S&P/TSX 60 Index",
+    "S&P/TSX 60 component"
+   ],
+   "country": "Канада",
+   "region": "Северная Америка",
+   "sector": null,
+   "sectors": [],
+   "industries": [],
+   "founded": 1998,
+   "exchange": "Торонто",
+   "ticker": null,
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Торонто"
+   ],
+   "popularity": 11,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q503065",
+   "sector_group": null,
+   "problems": [
+    "возможно, не компания: stock market index",
+    "сектор не определён: отрасль не указана"
    ]
   },
   {
@@ -8631,6 +12232,10 @@
    "popularity": 11,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q5500950",
+   "market_cap_usd": 232704765,
+   "market_cap_date": "2021-11-18",
+   "market_cap_currency": "AUD",
+   "market_cap_stale": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
@@ -8759,6 +12364,9 @@
    "popularity": 11,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q631507",
+   "employees": 21943,
+   "employees_date": null,
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: business and other management consultancy activities"
@@ -8799,6 +12407,39 @@
    ]
   },
   {
+   "id": "Q689404",
+   "name": "Mayr-Melnhof",
+   "name_ru": null,
+   "aliases": [
+    "MNHFY"
+   ],
+   "country": "Австрия",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "pulp and paper industry"
+   ],
+   "founded": 1888,
+   "exchange": "Вена",
+   "ticker": null,
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Вена"
+   ],
+   "popularity": 11,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q689404",
+   "sector_group": null,
+   "notes": [
+    "в Wikidata есть только внебиржевой рынок США (OTC) — биржа взята по стране компании, проверить"
+   ],
+   "problems": [
+    "сектор не определён: pulp and paper industry"
+   ]
+  },
+  {
    "id": "Q693594",
    "name": "EVS Broadcast Equipment",
    "name_ru": null,
@@ -8825,6 +12466,11 @@
    "popularity": 11,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q693594",
+   "market_cap_usd": 579480000,
+   "market_cap_date": "2025-12-31",
+   "market_cap_currency": "EUR",
+   "employees": 793,
+   "employees_date": "2025-12-31",
    "sector_group": null,
    "problems": [
     "сектор не определён: manufacture of communication equipment"
@@ -8964,6 +12610,9 @@
    "popularity": 11,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q944760",
+   "employees": 1773,
+   "employees_date": "2019-01-01",
+   "employees_old": true,
    "sector_group": "Здоровье",
    "problems": [
     "незнакомая биржа: Barcelona Stock Exchange"
@@ -9290,6 +12939,43 @@
    ]
   },
   {
+   "id": "Q1128160",
+   "name": "Constellation Brands",
+   "name_ru": "Констеллейшн Брэндс",
+   "aliases": [
+    "Constellation",
+    "Constellation Beers & Spirits",
+    "Constellation Brands Inc.",
+    "Constellation Wines",
+    "STZ",
+    "Констеллейшн Брэндс"
+   ],
+   "country": "США",
+   "region": "Северная Америка",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "alcohol industry"
+   ],
+   "founded": 1945,
+   "exchange": "NYSE",
+   "ticker": "STZ",
+   "founders": [
+    "Marvin Sands"
+   ],
+   "ceo": [],
+   "hq": [
+    "Victor"
+   ],
+   "popularity": 10,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q1128160",
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: alcohol industry"
+   ]
+  },
+  {
    "id": "Q1137879",
    "name": "JEOL",
    "name_ru": "JEOL",
@@ -9387,6 +13073,37 @@
    ]
   },
   {
+   "id": "Q1328247",
+   "name": "Enel Distribuição São Paulo",
+   "name_ru": null,
+   "aliases": [
+    "Enel Distribution São Paulo",
+    "Enel São Paulo"
+   ],
+   "country": "Бразилия",
+   "region": "Южная Америка",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "electrical industry"
+   ],
+   "founded": 1999,
+   "exchange": "Сан-Паулу",
+   "ticker": null,
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Баруэри"
+   ],
+   "popularity": 10,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q1328247",
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: electrical industry"
+   ]
+  },
+  {
    "id": "Q142246158",
    "name": null,
    "name_ru": null,
@@ -9444,6 +13161,42 @@
    ]
   },
   {
+   "id": "Q1474718",
+   "name": "Klabin",
+   "name_ru": null,
+   "aliases": [
+    "KLABIN SA",
+    "KLBN11",
+    "KLBN3",
+    "KLBN4",
+    "Klabin S.A."
+   ],
+   "country": "Бразилия",
+   "region": "Южная Америка",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "pulp and paper industry"
+   ],
+   "founded": 1899,
+   "exchange": "Сан-Паулу",
+   "ticker": "KLBN11",
+   "founders": [
+    "Maurício Freeman Klabin"
+   ],
+   "ceo": [],
+   "hq": [
+    "Сан-Паулу"
+   ],
+   "popularity": 10,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q1474718",
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: pulp and paper industry"
+   ]
+  },
+  {
    "id": "Q1646597",
    "name": "Össur",
    "name_ru": null,
@@ -9473,6 +13226,45 @@
    "sector_group": null,
    "problems": [
     "сектор не определён: prosthesis"
+   ]
+  },
+  {
+   "id": "Q1728446",
+   "name": "Korn Ferry",
+   "name_ru": "Korn Ferry",
+   "aliases": [
+    "KFY",
+    "Korn/Ferry International"
+   ],
+   "country": "Германия",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "professional service",
+    "employment services industry"
+   ],
+   "founded": 1969,
+   "exchange": "NYSE",
+   "ticker": "KFY",
+   "founders": [
+    "Lester Korn",
+    "Richard Ferry"
+   ],
+   "ceo": [],
+   "hq": [
+    "Лос-Анджелес",
+    "Франкфурт-на-Майне"
+   ],
+   "popularity": 10,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q1728446",
+   "sector_group": null,
+   "notes": [
+    "страна компании (Германия) не совпадает со страной штаб-квартиры (США) — взята страна штаб-квартиры"
+   ],
+   "problems": [
+    "сектор не определён: professional service, employment services industry"
    ]
   },
   {
@@ -9780,6 +13572,10 @@
    "popularity": 10,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q2742556",
+   "market_cap_usd": 678851401,
+   "market_cap_date": "2022-11-15",
+   "market_cap_currency": "ILS",
+   "market_cap_stale": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
@@ -9995,6 +13791,9 @@
    "popularity": 10,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q3560575",
+   "employees": 4350,
+   "employees_date": null,
+   "employees_old": true,
    "sector_group": null,
    "notes": [
     "в Wikidata есть только внебиржевой рынок США (OTC) — биржа взята по стране компании, проверить"
@@ -10034,6 +13833,8 @@
    "popularity": 10,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q4041705",
+   "employees": 33646,
+   "employees_date": "2024-12-31",
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
@@ -10124,9 +13925,45 @@
    "popularity": 10,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q4391720",
+   "employees": 6450,
+   "employees_date": "2015-01-01",
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
+   ]
+  },
+  {
+   "id": "Q445858",
+   "name": "Michael Page",
+   "name_ru": null,
+   "aliases": [
+    "MPGPF",
+    "Michael Page International",
+    "PAGE",
+    "PageGroup"
+   ],
+   "country": "Великобритания",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "employment services industry"
+   ],
+   "founded": 1976,
+   "exchange": "Лондон",
+   "ticker": "PAGE",
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Уэйбридж"
+   ],
+   "popularity": 10,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q445858",
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: employment services industry"
    ]
   },
   {
@@ -10194,6 +14031,38 @@
    ]
   },
   {
+   "id": "Q481472",
+   "name": "Sappi",
+   "name_ru": null,
+   "aliases": [
+    "SAP",
+    "SPP",
+    "South African Pulp and Paper Industries"
+   ],
+   "country": "ЮАР",
+   "region": "Африка",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "pulp and paper industry"
+   ],
+   "founded": 1936,
+   "exchange": "Йоханнесбург",
+   "ticker": "SAP",
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Йоханнесбург"
+   ],
+   "popularity": 10,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q481472",
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: pulp and paper industry"
+   ]
+  },
+  {
    "id": "Q5270580",
    "name": "Dialog",
    "name_ru": null,
@@ -10204,9 +14073,9 @@
    ],
    "country": "Шри-Ланка",
    "region": "Азия",
-   "sector": "Электроника и компьютеры",
+   "sector": "Телеком",
    "sectors": [
-    "Электроника и компьютеры"
+    "Телеком"
    ],
    "industries": [
     "telecommunications industry",
@@ -10223,9 +14092,9 @@
    "popularity": 10,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q5270580",
-   "sector_group": "Технологии",
+   "sector_group": "Связь и медиа",
    "notes": [
-    "возможен второй сектор: Телеком"
+    "возможен второй сектор: Электроника и компьютеры"
    ],
    "problems": [
     "незнакомая биржа: Colombo Stock Exchange"
@@ -10351,6 +14220,9 @@
    "popularity": 10,
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q61740994",
+   "employees": 1586,
+   "employees_date": "2024-01-01",
+   "employees_old": true,
    "sector_group": null,
    "problems": [
     "сектор не определён: отрасль не указана"
@@ -10481,6 +14353,39 @@
    ]
   },
   {
+   "id": "Q823010",
+   "name": "Nyrstar",
+   "name_ru": null,
+   "aliases": [
+    "NYR",
+    "NYRSY"
+   ],
+   "country": "Бельгия",
+   "region": "Европа",
+   "sector": null,
+   "sectors": [],
+   "industries": [
+    "zinc industry"
+   ],
+   "founded": 2007,
+   "exchange": "Брюссель",
+   "ticker": "NYR",
+   "founders": [],
+   "ceo": [
+    "Hilmar Rode"
+   ],
+   "hq": [
+    "Бален"
+   ],
+   "popularity": 10,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q823010",
+   "sector_group": null,
+   "problems": [
+    "сектор не определён: zinc industry"
+   ]
+  },
+  {
    "id": "Q830608",
    "name": "Elekta",
    "name_ru": null,
@@ -10514,6 +14419,42 @@
    ],
    "problems": [
     "сектор не определён: neuroscience"
+   ]
+  },
+  {
+   "id": "Q837533",
+   "name": "Link REIT",
+   "name_ru": "Link Real Estate Investment Trust",
+   "aliases": [
+    "0823",
+    "Link Real Estate Investment Trust"
+   ],
+   "country": "Китай",
+   "region": "Азия",
+   "sector": "Инвестиции и биржи",
+   "sectors": [
+    "Инвестиции и биржи"
+   ],
+   "industries": [],
+   "founded": 2005,
+   "exchange": "Гонконг",
+   "ticker": "0823",
+   "founders": [
+    "Hong Kong Housing Authority"
+   ],
+   "ceo": [],
+   "hq": [
+    "Куньтхон"
+   ],
+   "popularity": 10,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q837533",
+   "sector_group": "Финансы",
+   "notes": [
+    "сектор определён по типу объекта в Wikidata: real estate investment trust, public company, business"
+   ],
+   "problems": [
+    "возможно, не компания: real estate investment trust"
    ]
   },
   {
