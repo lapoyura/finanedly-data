@@ -1,13 +1,780 @@
 # Изменения базы компаний — 2026-11-27
 
-В игре: **1415** компаний. На ручной проверке: **1242** (data/review.json).
+В игре: **2290** компаний. На ручной проверке: **314** (data/review.json).
 
-## Добавлены (0)
+## Добавлены (881)
+- Nintendo — Япония, Видеоигры, Токио
+- Samsung — Республика Корея, Промышленное оборудование, Сеул
+- SpaceX — США, Промышленное оборудование, NASDAQ
+- Adidas — Германия, Одежда и обувь, Франкфурт
+- Lufthansa — Германия, Перевозки и логистика, Франкфурт
+- PayPal — США, Платежи и финтех, NASDAQ
+- Nestlé — Швейцария, Продукты питания, Цюрих
+- WWE — США, Медиа и стриминг, NYSE
+- eBay — США, Электронная торговля, NASDAQ
+- Turkish Airlines — Турция, Перевозки и логистика, Стамбул
+- TV Azteca — Мексика, Медиа и стриминг, Мехико
+- Walmart — США, Розничные сети, NASDAQ
+- British Airways — Великобритания, Перевозки и логистика, Лондон
+- Kia — Республика Корея, Автомобили и автодетали, Сеул
+- LG — Республика Корея, Промышленное оборудование, Сеул
+- GMA Network — Филиппины, Медиа и стриминг, Манила
+- Ryanair — Ирландия, Перевозки и логистика, Дублин
+- Norwegian Air Shuttle — Норвегия, Перевозки и логистика, Осло
+- AB Volvo — Швеция, Автомобили и автодетали, Стокгольм
+- American Airlines — США, Перевозки и логистика, NASDAQ
+- Puma — Германия, Одежда и обувь, Франкфурт
+- H&M — Швеция, Одежда и обувь, Стокгольм
+- Cisco — США, Электроника и компьютеры, NASDAQ
+- Seoul Broadcasting System — Республика Корея, Медиа и стриминг, Сеул
+- Malaysia Airlines — Малайзия, Перевозки и логистика, Куала-Лумпур
+- Nikon — Япония, Электроника и компьютеры, Токио
+- GMM Grammy — Таиланд, Медиа и стриминг, Бангкок
+- Saudi Aramco — Саудовская Аравия, Нефть и газ, Эр-Рияд
+- Singapore Airlines — Сингапур, Перевозки и логистика, Сингапур
+- Universal Music — США, Медиа и стриминг, Амстердам
+- Ubisoft — Франция, Видеоигры, Париж
+- Mastercard — США, Страхование, NYSE
+- Thai Airways — Таиланд, Перевозки и логистика, Бангкок
+- Japan Airlines — Япония, Перевозки и логистика, Токио
+- easyJet — Великобритания, Перевозки и логистика, Лондон
+- Acer — Китайская Республика, Электроника и компьютеры, Тайбэй
+- JPMorgan Chase — США, Банки, NYSE
+- Finnair — Финляндия, Перевозки и логистика, Хельсинки
+- Korean Air — Республика Корея, Перевозки и логистика, Сеул
+- Air China — Китай, Перевозки и логистика, Гонконг
+- All Nippon Airways — Япония, Перевозки и логистика, Токио
+- Cathay Pacific — Китай, Перевозки и логистика, Гонконг
+- Belgrade Nikola Tesla Airport — Сербия, Перевозки и логистика, Белград
+- UBS — Швейцария, Банки, Цюрих
+- Foxconn — Китайская Республика, Электроника и компьютеры, Тайбэй
+- China Eastern Airlines — Китай, Перевозки и логистика, Гонконг
+- Carlsberg — Дания, Напитки, Копенгаген
+- Volvo Cars — Швеция, Автомобили и автодетали, Стокгольм
+- Pirelli — Италия, Химия и удобрения, Милан
+- Wizz Air — Венгрия, Перевозки и логистика, Лондон
+- Heineken International — Нидерланды, Напитки, Амстердам
+- Ajinomoto — Япония, Продукты питания, Токио
+- China Airlines — Китайская Республика, Перевозки и логистика, Тайбэй
+- Bulgari — Италия, Роскошь, Дублин
+- Saab — Швеция, Авиация, космос и оборона, Стокгольм
+- China Southern Airlines — Китай, Перевозки и логистика, Гонконг
+- Iveco — Италия, Автомобили и автодетали, Милан
+- Orange — Франция, Телеком, Париж
+- Air Berlin — Германия, Перевозки и логистика, Франкфурт
+- Square Enix — Япония, Медиа и стриминг, Токио
+- Asiana Airlines — Республика Корея, Перевозки и логистика, Сеул
+- Citigroup — США, Банки, NYSE
+- Verizon — США, Телеком, NYSE
+- Maersk — Дания, Перевозки и логистика, Копенгаген
+- EL AL Israel Airlines — Израиль, Перевозки и логистика, Тель-Авив
+- Morgan Stanley — США, Банки, NYSE
+- AirAsia — Малайзия, Перевозки и логистика, Куала-Лумпур
+- Allianz — Германия, Страхование, Франкфурт
+- Colgate-Palmolive — США, Бытовая химия и косметика, NYSE
+- Alaska Airlines — США, Перевозки и логистика, NYSE
+- IndiGo — Индия, Перевозки и логистика, Мумбаи (NSE)
+- Alstom — Франция, Промышленное оборудование, Париж
+- Dassault Aviation — Франция, Авиация, космос и оборона, Париж
+- Hugo Boss — Германия, Одежда и обувь, Франкфурт
+- YG Entertainment — Республика Корея, Медиа и стриминг, Сеул
+- Mattel — США, Промышленное оборудование, NASDAQ
+- Western Union — США, Банки, NYSE
+- Fujifilm — Япония, Медтехника и клиники, Токио
+- SM Entertainment — Республика Корея, Медиа и стриминг, Сеул
+- Garuda Indonesia — Индонезия, Авиация, космос и оборона, Джакарта
+- Vueling — Испания, Перевозки и логистика, Мадрид
+- Moderna — США, Биотехнологии, NASDAQ
+- Zoom Communications — США, Программы и облачные сервисы, NASDAQ
+- Deere — США, Промышленное оборудование, NYSE
+- Electrolux — Швеция, Промышленное оборудование, Стокгольм
+- Paradox Interactive — Швеция, Видеоигры, Стокгольм
+- Petronas — Малайзия, Нефть и газ, Куала-Лумпур
+- Bombay Stock Exchange — Индия, Инвестиции и биржи, Мумбаи (NSE)
+- Kawasaki Heavy Industries — Япония, Авиация, космос и оборона, Токио
+- thyssenkrupp — Германия, Металлы и добыча, Франкфурт
+- JetBlue Airways — США, Перевозки и логистика, NASDAQ
+- Infosys limited — Индия, Программы и облачные сервисы, Мумбаи (BSE)
+- Inditex — Испания, Одежда и обувь, Мадрид
+- Schneider Electric — Франция, Промышленное оборудование, Париж
+- Starz Entertainment — США, Медиа и стриминг, NYSE
+- Gen Digital — США, Программы и облачные сервисы, NASDAQ
+- EVA Air — Китайская Республика, Перевозки и логистика, Тайбэй
+- Commerzbank — Германия, Страхование, Франкфурт
+- DuPont — США, Химия и удобрения, NYSE
+- Hasbro — США, Промышленное оборудование, NASDAQ
+- Capgemini — Франция, Программы и облачные сервисы, Париж
+- State Bank of India — Индия, Банки, Мумбаи (BSE)
+- Iran Air — Иран, Перевозки и логистика, Тегеран
+- Piaggio — Италия, Промышленное оборудование, Милан
+- Target — США, Розничные сети, NYSE
+- Merck KGaA — Германия, Фармацевтика, Франкфурт
+- Seiko — Япония, Роскошь, Токио
+- Tokyo Electric Power — Япония, Электроэнергетика, Токио
+- Oricon — Япония, Медиа и стриминг, Токио
+- Fila — Республика Корея, Одежда и обувь, Сеул
+- JYP Entertainment — Республика Корея, Медиа и стриминг, Сеул
+- GUM — Россия, Розничные сети, Мосбиржа
+- Enel — Италия, Нефть и газ, Милан
+- GoPro — США, Промышленное оборудование, NASDAQ
+- Copa Airlines — Панама, Перевозки и логистика, NYSE
+- Frontier Airlines — США, Перевозки и логистика, NASDAQ
+- Spirit Airlines — США, Перевозки и логистика, NYSE
+- eToro — Израиль, Программы и облачные сервисы, NASDAQ
+- Discovery — США, Медиа и стриминг, NASDAQ
+- Eli Lilly — США, Фармацевтика, NYSE
+- Motorola Mobility — США, Телеком, NYSE
+- WestJet — Канада, Перевозки и логистика, Торонто
+- United Aircraft — Россия, Авиация, космос и оборона, Мосбиржа
+- Veolia — Франция, Электроэнергетика, Париж
+- Rolls-Royce — Великобритания, Авиация, космос и оборона, Лондон
+- Hawaiian Airlines — США, Перевозки и логистика, NASDAQ
+- LATAM Airlines — Чили, Перевозки и логистика, Сантьяго
+- DHL — Германия, Перевозки и логистика, Франкфурт
+- Repsol — Испания, Нефть и газ, Мадрид
+- Flybe — Великобритания, Перевозки и логистика, Лондон
+- Smith & Wesson — США, Авиация, космос и оборона, NASDAQ
+- Aérospatiale — Франция, Авиация, космос и оборона, Париж
+- CD Projekt — Польша, Видеоигры, Варшава
+- Bic — Франция, Бытовая химия и косметика, Париж
+- SpiceJet — Индия, Перевозки и логистика, Мумбаи (NSE)
+- Whirlpool — США, Электроника и компьютеры, NYSE
+- Publicis — Франция, Медиа и стриминг, Париж
+- Accor — Франция, Туризм и отели, Париж
+- Hainan Airlines — Китай, Перевозки и логистика, Шанхай
+- Tele2 — Швеция, Телеком, Стокгольм
+- SK Hynix — Республика Корея, Полупроводники, Сеул
+- Banca Monte dei Paschi di Siena — Италия, Банки, Милан
+- Stadler Rail — Швейцария, Промышленное оборудование, Цюрих
+- Leonardo — Италия, Авиация, космос и оборона, Милан
+- Teleperformance — Франция, Медиа и стриминг, Париж
+- Sinovac Biotech — Китай, Фармацевтика, NASDAQ
+- SABMiller — Великобритания, Напитки, Лондон
+- Bangkok Airways — Таиланд, Перевозки и логистика, Бангкок
+- Telia — Швеция, Электроника и компьютеры, Стокгольм
+- Israel Aerospace Industries — Израиль, Авиация, космос и оборона, Тель-Авив
+- Nordea — Финляндия, Банки, Хельсинки
+- Tupperware — США, Розничные сети, NYSE
+- Allegiant Air — США, Перевозки и логистика, NASDAQ
+- Wiley — США, Медиа и стриминг, NYSE
+- Dolby — США, Электроника и компьютеры, NYSE
+- Moscow Exchange — Россия, Инвестиции и биржи, Мосбиржа
+- Commonwealth Bank — Австралия, Банки, Сидней
+- Worldline — Франция, Программы и облачные сервисы, Париж
+- ABN AMRO — Нидерланды, Банки, Амстердам
+- Mediaset — Италия, Медиа и стриминг, Милан
+- SKF — Швеция, Металлы и добыча, Стокгольм
+- Evergrande — Китай, Недвижимость, Гонконг
+- Mitsubishi Heavy Industries — Япония, Промышленное оборудование, Токио
+- Sears — США, Розничные сети, NASDAQ
+- Assicurazioni Generali — Италия, Страхование, Милан
+- Grupo Bimbo — Мексика, Продукты питания, Мехико
+- Inmarsat — Великобритания, Электроника и компьютеры, Лондон
+- Vestas — Дания, Электроэнергетика, Копенгаген
+- Rovio Entertainment — Финляндия, Видеоигры, Хельсинки
+- Teva Pharmaceutical Industries — Израиль, Фармацевтика, Тель-Авив
+- Nok Air — Таиланд, Перевозки и логистика, Бангкок
+- Kone — Финляндия, Промышленное оборудование, Хельсинки
+- Citizen Watch — Япония, Роскошь, Токио
+- Beiersdorf — Германия, Фармацевтика, Франкфурт
+- Ülker — Турция, Продукты питания, Стамбул
+- Swisscom — Швейцария, Электроника и компьютеры, Цюрих
+- Asahi Breweries — Япония, Напитки, Токио
+- Azul Linhas Aéreas — Бразилия, Перевозки и логистика, Сан-Паулу
+- Construcciones y Auxiliar de Ferrocarriles — Испания, Промышленное оборудование, Мадрид
+- Brill — Нидерланды, Медиа и стриминг, Амстердам
+- Shimano — Япония, Промышленное оборудование, Токио
+- Cebu Pacific — Филиппины, Перевозки и логистика, Манила
+- UTair Aviation — Россия, Перевозки и логистика, Мосбиржа
+- Elbit Systems — Израиль, Авиация, космос и оборона, Тель-Авив
+- Gruppo Intesa Sanpaolo — Италия, Банки, Милан
+- Alcoa — США, Металлы и добыча, NYSE
+- OMV — Австрия, Нефть и газ, Вена
+- Uralvagonzavod — Россия, Авиация, космос и оборона, Мосбиржа
+- Adecco — Швейцария, Промышленное оборудование, Цюрих
+- Nong Shim — Республика Корея, Продукты питания, Сеул
+- Swiss Re — Швейцария, Страхование, Цюрих
+- Indonesia AirAsia — Индонезия, Перевозки и логистика, Джакарта
+- Barnes & Noble — США, Розничные сети, NYSE
+- Freescale Semiconductor — США, Полупроводники, NYSE
+- Crocs — США, Розничные сети, NASDAQ
+- Skandinaviska Enskilda Banken — Швеция, Банки, Стокгольм
+- Brother Industries — Япония, Электроника и компьютеры, Токио
+- Swedbank — Швеция, Банки, Стокгольм
+- Krispy Kreme — США, Рестораны, NASDAQ
+- Hybe — Республика Корея, Медиа и стриминг, Сеул
+- … и ещё 681
+
+## Убраны (6)
+- Bank of Montreal
+- National Bank of Belgium
+- Nordic Investment Bank
+- Krasnoyarsk Dam
+- Transocean
+- Digital Realty Trust
+
+## Изменились (1276)
+- Apple: sector: Технологии → Электроника и компьютеры
+- Microsoft: sector: Технологии → Программы и облачные сервисы
+- Toyota: sector: Автомобили → Автомобили и автодетали; exchange: NYSE → Токио; ticker: TM → 7203
+- Walt Disney: sector: Медиа и развлечения → Медиа и стриминг
+- McDonald's: sector: Напитки и продукты → Продукты питания
+- BMW: sector: Автомобили → Автомобили и автодетали
+- Ford Motor: sector: Автомобили → Автомобили и автодетали
+- Audi: sector: Автомобили → Автомобили и автодетали
+- Sony: sector: Медиа и развлечения → Электроника и компьютеры; exchange: NYSE → Токио; ticker: SONY → 6758
+- IBM: sector: Технологии → Программы и облачные сервисы
+- Nokia: exchange: NYSE → Хельсинки; ticker: NOK → None
+- Tesla: sector: Автомобили → Электроника и компьютеры
+- Renault: sector: Автомобили → Автомобили и автодетали
+- Boeing: sector: Промышленность → Авиация, космос и оборона
+- Grupo Televisa: sector: Медиа и развлечения → Медиа и стриминг; exchange: NYSE → Мехико; ticker: TV → TLEVISA
+- Honda: sector: Автомобили → Автомобили и автодетали; exchange: NYSE → Токио; ticker: HMC → 7267
+- Yamaha Motor: sector: Промышленность → Автомобили и автодетали
+- Starbucks: sector: Рестораны → Промышленное оборудование
+- Porsche: sector: Автомобили → Автомобили и автодетали; ceo: ['Q138002629'] → ['Michael Leiters']
+- Nissan: sector: Автомобили → Автомобили и автодетали; exchange: NASDAQ → Токио; ticker: NSANY → 7201
+- General Motors: sector: Автомобили → Автомобили и автодетали
+- Nike: sector: Одежда и роскошь → Одежда и обувь
+- Xiaomi: sector: Электроника → Электроника и компьютеры
+- Meta Platforms: sector: Технологии → Программы и облачные сервисы
+- Adobe: sector: Технологии → Программы и облачные сервисы
+- Hewlett-Packard: sector: Технологии → Программы и облачные сервисы
+- Lenovo: sector: Электроника → Электроника и компьютеры
+- Suzuki Motor: sector: Автомобили → Автомобили и автодетали
+- Mazda: sector: Автомобили → Автомобили и автодетали
+- Dell: sector: Технологии → Электроника и компьютеры
+- United Airlines: sector: Транспорт → Перевозки и логистика
+- Panasonic: sector: Электроника → Электроника и компьютеры
+- Siemens: sector: Фармацевтика и здоровье → Промышленное оборудование
+- Gazprom: sector: Энергетика → Нефть и газ
+- Oracle: sector: Технологии → Программы и облачные сервисы
+- Motorola: sector: Электроника → Электроника и компьютеры
+- Koninklijke Philips: sector: Электроника → Электроника и компьютеры; exchange: NYSE → Амстердам; ticker: PHG → PHIA
+- Shell: sector: Энергетика → Нефть и газ; exchange: NYSE → Лондон
+- Pfizer: sector: Фармацевтика и здоровье → Фармацевтика
+- Alphabet: sector: Технологии → Программы и облачные сервисы
+- Hyundai Motor: sector: Автомобили → Автомобили и автодетали; exchange: NASDAQ → Сеул; ticker: HYMTF → 005380
+- Delta Air Lines: sector: Транспорт → Перевозки и логистика
+- Aeroflot: sector: Транспорт → Перевозки и логистика
+- Sun Microsystems: sector: Технологии → Программы и облачные сервисы
+- Yandex: sector: Технологии → Интернет-сервисы
+- Mercedes-Benz: sector: Автомобили → Автомобили и автодетали; founded: 1998 → 1926; exchange: NYSE → Франкфурт; ticker: None → DAI
+- Coca-Cola: sector: Напитки и продукты → Напитки; founded: 1886 → 1892
+- Uber: sector: Технологии → Программы и облачные сервисы
+- Baidu: sector: Технологии → Интернет-сервисы; exchange: NASDAQ → Гонконг; ticker: BIDU → 9888
+- ASUS: sector: Электроника → Электроника и компьютеры; exchange: Лондон → Тайбэй; ticker: ASKD → 2357
+- ExxonMobil: sector: Энергетика → Нефть и газ
+- Electronic Arts: sector: Медиа и развлечения → Видеоигры
+- Canon: sector: Электроника → Электроника и компьютеры
+- Alibaba: exchange: NYSE → Гонконг; ticker: BABA → 9988
+- Tata Motors: sector: Автомобили → Автомобили и автодетали
+- Qantas Airways: sector: Транспорт → Перевозки и логистика
+- Deutsche Bank: sector: Финансы → Банки; exchange: NYSE → Франкфурт; ticker: DB → DBK
+- Lockheed Martin: sector: Электроника → Авиация, космос и оборона
+- Volkswagen: sector: Автомобили → Автомобили и автодетали
+- Air Canada: sector: Транспорт → Перевозки и логистика
+- TotalEnergies: sector: Энергетика → Нефть и газ; exchange: NYSE → Париж
+- HTC: sector: Электроника → Электроника и компьютеры
+- Prada: sector: Одежда и роскошь → Одежда и обувь
+- Coursera: sector: Технологии → Программы и облачные сервисы
+- Bayer: sector: Фармацевтика и здоровье → Химия и удобрения
+- BP: sector: Энергетика → Нефть и газ; exchange: NYSE → Лондон
+- Visa: sector: Финансы → Банки
+- PepsiCo: sector: Напитки и продукты → Напитки
+- Anthropic: sector: Технологии → Программы и облачные сервисы
+- Unilever: sector: Энергетика → Бытовая химия и косметика; exchange: NYSE → Лондон; ticker: UL → ULVR
+- Kodak: sector: Промышленность → Промышленное оборудование
+- Procter & Gamble: sector: Фармацевтика и здоровье → Фармацевтика
+- SAP: sector: Технологии → Программы и облачные сервисы; exchange: NYSE → Франкфурт
+- Embraer: sector: Промышленность → Авиация, космос и оборона; exchange: NYSE → Сан-Паулу; ticker: ERJ → EMBR3
+- Michelin: sector: Автомобили → Автомобили и автодетали
+- HSBC: sector: Финансы → Банки; exchange: NYSE → Лондон; ticker: HSBC → HSBA; ceo: ['Stuart Gulliver'] → ['Stuart T. Gulliver']
+- Vodafone: exchange: NYSE → Лондон; ticker: None → VOD
+- Samsung Electronics: sector: Электроника → Электроника и компьютеры; exchange: Лондон → Сеул; ticker: SMSN → 005930
+- Mitsubishi Motors: sector: Автомобили → Автомобили и автодетали
+- Bank of America: sector: Финансы → Банки
+- Ericsson: sector: Технологии → Программы и облачные сервисы; exchange: NASDAQ → Стокгольм; ticker: ERIC → ERIC B
+- Goldman Sachs: sector: Финансы → Банки
+- Hitachi: sector: Электроника → Электроника и компьютеры
+- L'Oréal: sector: Потребительские товары → Бытовая химия и косметика
+- Victoria’s Secret: sector: Одежда и роскошь → Одежда и обувь
+- Konami: sector: Медиа и развлечения → Видеоигры
+- Hermès: sector: Одежда и роскошь → Одежда и обувь
+- Tencent: sector: Медиа и развлечения → Интернет-сервисы
+- BASF: sector: Энергетика → Нефть и газ
+- Warner Bros. Discovery: sector: Медиа и развлечения → Медиа и стриминг
+- Capcom: sector: Медиа и развлечения → Видеоигры
+- Yamaha: sector: Автомобили → Электроника и компьютеры
+- DreamWorks Animation: sector: Медиа и развлечения → Медиа и стриминг
+- Casio: sector: Электроника → Электроника и компьютеры
+- BlackRock: sector: Финансы → Инвестиции и биржи
+- Tesco: sector: Ритейл → Розничные сети
+- LVMH: sector: Ритейл → Розничные сети
+- American Express: sector: Финансы → Платежи и финтех
+- Air New Zealand: sector: Транспорт → Перевозки и логистика; exchange: Сидней → Окленд; ticker: AIZ → AIR
+- GSK: sector: Фармацевтика и здоровье → Биотехнологии; exchange: NYSE → Лондон
+- Berkshire Hathaway: sector: Финансы → Страхование
+- Air Liquide: sector: Промышленность → Химия и удобрения
+- TSMC: exchange: NYSE → Тайбэй; ticker: TSM → 2330
+- AstraZeneca: sector: Фармацевтика и здоровье → Фармацевтика; exchange: NYSE → Лондон
+- Xerox: sector: Технологии → Программы и облачные сервисы
+- LG Electronics: sector: Ритейл → Бытовая химия и косметика; exchange: Лондон → Сеул; ticker: LGLD → 066570
+- Barclays: sector: Финансы → Банки; exchange: NYSE → Лондон; ticker: BCS → BARC
+- Southwest Airlines: sector: Транспорт → Перевозки и логистика
+- S&P Global Ratings: sector: Финансы → Банки
+- Harley-Davidson: sector: Автомобили → Автомобили и автодетали
+- Industrial and Commercial Bank of China: sector: Финансы → Банки
+- Isuzu: sector: Автомобили → Автомобили и автодетали
+- MAN: sector: Автомобили → Автомобили и автодетали
+- Airbnb: sector: Туризм → Туризм и отели
+- Aer Lingus: sector: Транспорт → Перевозки и логистика; exchange: Лондон → Дублин; ticker: AERL → EIL1
+- Bridgestone: sector: Промышленность → Промышленное оборудование
+- Fujitsu: sector: Электроника → Электроника и компьютеры
+- Viacom: sector: Медиа и развлечения → Медиа и стриминг
+- NEC: sector: Медиа и развлечения → Видеоигры
+- Société Générale: sector: Медиа и развлечения → Страхование
+- Lukoil: sector: Энергетика → Нефть и газ; exchange: Лондон → Мосбиржа; ticker: None → LKOH
+- Johnson & Johnson: sector: Фармацевтика и здоровье → Медтехника и клиники; ceo: ['Joaquin Duato'] → ['Joaquín Duato']
+- Credit Suisse: sector: Финансы → Банки; exchange: NYSE → Цюрих; ticker: CS → CSGN
+- Burberry: sector: Одежда и роскошь → Одежда и обувь
+- Levi Strauss: sector: Одежда и роскошь → Одежда и обувь
+- Sanofi: sector: Фармацевтика и здоровье → Фармацевтика; exchange: NYSE → Париж; ticker: SNY → SAN
+- Monsanto: sector: Фармацевтика и здоровье → Продукты питания
+- Petrobras: sector: Энергетика → Нефть и газ; exchange: NYSE → Сан-Паулу; ticker: PBR → PETR3
+- Accenture: sector: Технологии → Промышленное оборудование
+- Aegean Airlines: sector: Транспорт → Перевозки и логистика; exchange: Лондон → Афины; ticker: 0OHY → AEGN
+- Caterpillar: sector: Промышленность → Промышленное оборудование
+- Warner Music: sector: Медиа и развлечения → Медиа и стриминг
+- Lehman Brothers: sector: Финансы → Страхование
+- Danone: sector: Напитки и продукты → Продукты питания
+- Deutsche Telekom: sector: Телеком → Электроника и компьютеры; exchange: NYSE → Франкфурт; ticker: None → DTE
+- Sberbank: sector: Финансы → Банки
+- Airbus: sector: Промышленность → Авиация, космос и оборона
+- Kamaz: sector: Автомобили → Автомобили и автодетали
+- FedEx: sector: Транспорт → Перевозки и логистика
+- ABB: sector: Промышленность → Промышленное оборудование; exchange: NYSE → Цюрих; ticker: ABB → ABBN; ceo: ['Jürgen Dormann', 'Fred Kindle', 'Перси Барневик', 'Jörgen Centerman', 'Göran Lindahl', 'Q15821808', 'Ulrich Spiesshofer', 'Björn Rosengren', 'Michel Demaré', 'Morten Wierod'] → ['Jürgen Dormann', 'Fred Kindle', 'Перси Барневик', 'Jörgen Centerman', 'Göran Lindahl', 'Joseph M. Hogan', 'Ulrich Spiesshofer', 'Björn Rosengren', 'Michel Demaré', 'Morten Wierod']
+- Wells Fargo: sector: Финансы → Банки
+- Stellantis: sector: Автомобили → Автомобили и автодетали
+- Engie: sector: Энергетика → Нефть и газ
+- ArcelorMittal: exchange: NYSE → Люксембург
+- Northrop Grumman: sector: Электроника → Авиация, космос и оборона
+- 21st Century Fox: sector: Медиа и развлечения → Медиа и стриминг
+- Wendy's: sector: Напитки и продукты → Рестораны
+- Tiffany: sector: Одежда и роскошь → Роскошь
+- Euronext: sector: Финансы → Банки
+- Vinci: sector: Промышленность → Строительство и материалы
+- United Parcel Service: sector: Транспорт → Перевозки и логистика
+- Telefónica: exchange: NYSE → Мадрид
+- BNP Paribas: sector: Медиа и развлечения → Банки; exchange: Лондон → Париж; ticker: 0HB5 → BNP
+- Novartis: sector: Фармацевтика и здоровье → Фармацевтика; exchange: NYSE → Цюрих; ticker: NVS → NOVN
+- Goodyear Tire and Rubber: sector: Промышленность → Химия и удобрения
+- Rosneft: sector: Энергетика → Нефть и газ
+- AXA: sector: Финансы → Страхование
+- Safran: sector: Промышленность → Авиация, космос и оборона
+- BioNTech: sector: Фармацевтика и здоровье → Фармацевтика
+- ING: sector: Финансы → Банки; exchange: NYSE → Амстердам; ticker: ING → INGA
+- Western Digital: sector: Медиа и развлечения → Медиа и стриминг
+- VMware: sector: Технологии → Программы и облачные сервисы
+- ASML: exchange: NASDAQ → Амстердам
+- ASICS: sector: Одежда и роскошь → Одежда и обувь
+- BlackBerry: sector: Технологии → Интернет-сервисы; exchange: NYSE → Торонто
+- Costco: sector: Ритейл → Розничные сети
+- Paramount Global: sector: Медиа и развлечения → Медиа и стриминг
+- RTL: sector: Медиа и развлечения → Медиа и стриминг
+- Thales: sector: Технологии → Программы и облачные сервисы
+- ZiL: sector: Автомобили → Автомобили и автодетали
+- Saint-Gobain: sector: Химия → Химия и удобрения
+- Olympus: sector: Электроника → Электроника и компьютеры
+- Toei Animation: sector: Медиа и развлечения → Видеоигры
+- Continental: sector: Автомобили → Автомобили и автодетали
+- Palantir Technologies: sector: Технологии → Программы и облачные сервисы
+- Virgin: sector: Медиа и развлечения → Медиа и стриминг
+- Eni: sector: Энергетика → Нефть и газ; exchange: NYSE → Милан; ticker: E → ENI
+- Autodesk: sector: Технологии → Программы и облачные сервисы
+- Toho: sector: Медиа и развлечения → Медиа и стриминг
+- Diageo: sector: Напитки и продукты → Напитки; exchange: NYSE → Лондон; ticker: DEO → DGE
+- Rheinmetall: sector: Промышленность → Авиация, космос и оборона
+- Merck: sector: Фармацевтика и здоровье → Фармацевтика
+- Bombardier: sector: Промышленность → Авиация, космос и оборона
+- East Japan Railway: sector: Транспорт → Перевозки и логистика
+- General Dynamics: sector: Промышленность → Авиация, космос и оборона
+- PetroChina: sector: Энергетика → Нефть и газ; exchange: NYSE → Гонконг; ticker: PTR → 0857
+- Credit Agricole: sector: Медиа и развлечения → Банки
+- Seagate Technology: sector: Медиа и развлечения → Медиа и стриминг
+- BAE Systems: sector: Промышленность → Авиация, космос и оборона
+- Bank of China: sector: Финансы → Банки
+- Sinopec: sector: Энергетика → Нефть и газ; exchange: NYSE → Гонконг; ticker: SNP → 0386
+- Mahindra & Mahindra: sector: Автомобили → Автомобили и автодетали
+- Reliance Industries: sector: Энергетика → Нефть и газ; exchange: Лондон → Мумбаи (BSE); ticker: RIGD → 500325
+- Anheuser-Busch InBev: sector: Напитки и продукты → Напитки; exchange: NYSE → Брюссель; ticker: BUD → ABI
+- Fiat Chrysler Automobiles: sector: Автомобили → Автомобили и автодетали
+- Glencore: sector: Металлы и добыча → Инвестиции и биржи
+- Equinor ASA: sector: Энергетика → Нефть и газ; exchange: NYSE → Осло
+- Under Armour: sector: Одежда и роскошь → Одежда и обувь
+- McAfee, LLC: sector: Технологии → Программы и облачные сервисы
+- Gap: sector: Одежда и роскошь → Одежда и обувь
+- … и ещё 1076
+
+## Ручные правки (overrides.json): применено 13
+
+## Правки не применены: ID и название не совпали (0)
 —
 
-## Убраны (0)
+## Правки для компаний, которых нет в Wikidata-выборке (0)
 —
 
-## Изменились (2)
-- Ozon: ceo: [] → ['Александр Александрович Шульгин']
-- Sun Life Financial: name: Sunlife → Sun Life Financial; founded: 1865 → 1999
+## Убраны автором (статус no) (0)
+—
+
+## Отсеяны как «не компания» (56)
+- Chainlink (Q100804984) — cryptocurrency, торгуется только на криптобиржах
+- CROBEX (Q1024301) — stock market index
+- Stoxx Europe 600 Index (Q10366645) — stock market index
+- Krasnoyarsk Dam (Q1120899) — dam, hydroelectric power station
+- First Solar (Q1138888) — Natur-Aktien-Index
+- Bitcoin (Q131723) — cryptocurrency
+- Russell 2000 (Q1329524) — stock market index
+- OMX Helsinki 25 (Q1359526) — stock market index, stock market index
+- FTSE 250 Index (Q1389790) — stock market index
+- FTSE MIB (Q1389807) — stock market index
+- S&P 100 (Q1546793) — stock market index
+- DAX (Q155718) — stock market index
+- Ethereum (Q16783523) — cryptocurrency
+- Coinbase (Q16972754) — cryptocurrency exchange
+- SSE Composite Index (Q174453) — stock market index
+- PSE Composite Index (Q1754476) — stock market index
+- Dow Jones Industrial Average (Q180816) — stock market index
+- Asian Development Bank (Q188822) — international financial institution, multilateral development bank
+- Nordic Investment Bank (Q2020649) — international financial institution
+- PSI-20 (Q2044697) — stock market index
+- S&P/ASX 50 (Q2204387) — stock market index
+- TOPIX (Q238974) — stock market index
+- S&P 500 (Q242345) — stock market index
+- ISEQ 20 (Q2502048) — stock market index
+- PX Index (Q2567030) — stock market index
+- AEX index (Q291539) — stock market index
+- Ethereum Classic (Q29583124) — cryptocurrency, торгуется только на криптобиржах
+- IOTA (Q30504331) — cryptocurrency, торгуется только на криптобиржах
+- Bank of Japan (Q333101) — central bank
+- Bitcoin Cash (Q34328146) — cryptocurrency, торгуется только на криптобиржах
+- MSCI Merval (Q366943) — stock market index
+- OMX Copenhagen 25 (Q384302) — stock market index
+- Hang Seng Index (Q424846) — stock market index
+- FTSE 100 Index (Q466496) — stock market index
+- Tron (Q47134419) — cryptocurrency, торгуется только на криптобиржах
+- Tether (Q47528658) — cryptocurrency, stablecoin, торгуется только на криптобиржах
+- CAC Next 20 (Q477139) — stock market index
+- S&P/TSX 60 (Q503065) — stock market index
+- Nikkei 225 (Q507338) — stock market index
+- Digital Realty Trust (Q5275969) — real estate investment trust
+- Tezos (Q55290870) — cryptocurrency
+- KOSPI (Q561968) — stock market index
+- MDAX (Q595622) — stock market index
+- Swiss National Bank (Q597394) — central bank
+- WIG20 (Q608856) — stock market index
+- OBX Index (Q633280) — stock market index
+- CAC 40 (Q648828) — stock market index
+- Swiss Market Index (Q666714) — stock market index
+- National Bank of Belgium (Q685918) — central bank
+- OMX Stockholm 30 (Q767273) — stock market index
+- BEL 20 (Q795831) — stock market index
+- S&P BSE Sensex (Q796994) — stock market index
+- Bank of Montreal (Q806693) — central bank
+- Link REIT (Q837533) — real estate investment trust
+- Índice Bovespa (Q895360) — stock market index
+- IBEX 35 (Q938032) — stock market index
+
+## Кандидаты на второй сектор (решить в таблице) (181)
+- CACI (Q1022711) — Программы и облачные сервисы или Промышленное оборудование
+- Canadian Tire (Q1032400) — Розничные сети или Банки
+- China Unicom (Q1068485) — Электроника и компьютеры или Телеком
+- Trump Media & Technology (Q109030760) — Медиа и стриминг или Программы и облачные сервисы
+- Cognizant Technology Solutions (Q1107035) — Программы и облачные сервисы или Промышленное оборудование
+- Cooper Tire & Rubber (Q1129847) — Автомобили и автодетали или Промышленное оборудование
+- United Aircraft (Q1136226) — Авиация, космос и оборона или Перевозки и логистика
+- Thales (Q1161666) — Программы и облачные сервисы или Авиация, космос и оборона
+- Rába Járműipari Holding Nyrt. (Q1183666) — Автомобили и автодетали или Промышленное оборудование
+- Reckitt (Q1190881) — Химия и удобрения или Бытовая химия и косметика
+- Six Flags (Q127324768) — Медиа и стриминг или Туризм и отели
+- MTU Aero Engines (Q128929) — Авиация, космос и оборона или Перевозки и логистика
+- Tyson Foods (Q1325987) — Продукты питания или Промышленное оборудование
+- Tomy (Q1335998) — Видеоигры или Промышленное оборудование
+- Fantagio (Q13424955) — Медиа и стриминг или Промышленное оборудование
+- Just Eat Takeaway (Q1359435) — Продукты питания или Электронная торговля
+- Zalando (Q136570) — Одежда и обувь или Розничные сети
+- Mobile TeleSystems (Q1368919) — Электроника и компьютеры или Телеком
+- Japan Post (Q1372049) — Банки или Перевозки и логистика
+- thyssenkrupp (Q137910) — Металлы и добыча или Авиация, космос и оборона
+- Quantum (Q1413997) — Программы и облачные сервисы или Медиа и стриминг
+- IHG Hotels & Resorts (Q1424962) — Напитки или Туризм и отели
+- Vivo (Q1428656) — Электроника и компьютеры или Телеком
+- Kingsoft (Q1439934) — Видеоигры или Интернет-сервисы
+- Orange Polska (Q1465005) — Электроника и компьютеры или Телеком
+- Subsea 7 (Q1476377) — Перевозки и логистика или Нефть и газ
+- Rostelecom (Q1477012) — Электроника и компьютеры или Телеком
+- Smithfield Foods (Q1477575) — Продукты питания или Промышленное оборудование
+- MTR (Q1479375) — Недвижимость или Перевозки и логистика
+- Kroger (Q153417) — Продукты питания или Розничные сети
+- Saudi Telecom (Q1535171) — Электроника и компьютеры или Телеком
+- China North Industries (Q1538336) — Химия и удобрения или Авиация, космос и оборона
+- Oi (Q1538731) — Электроника и компьютеры или Телеком
+- Spark New Zealand (Q1549526) — Электроника и компьютеры или Телеком
+- Grupo ACS (Q1550888) — Перевозки и логистика или Строительство и материалы
+- Puma (Q157064) — Одежда и обувь или Промышленное оборудование
+- Monotype (Q1583606) — Медиа и стриминг или Строительство и материалы
+- Yamaha Motor (Q158888) — Автомобили и автодетали или Промышленное оборудование
+- Medialink (Q15903799) — Медиа и стриминг или Промышленное оборудование
+- 3M (Q159433) — Металлы и добыча или Бытовая химия и косметика
+- Rheinmetall (Q161544) — Авиация, космос и оборона или Автомобили и автодетали
+- LG Electronics (Q162345) — Бытовая химия и косметика или Розничные сети
+- Telekom Malaysia (Q1640639) — Электроника и компьютеры или Телеком
+- Valvoline (Q16531742) — Химия и удобрения или Автомобили и автодетали
+- Rogers Communications (Q165684) — Электроника и компьютеры или Телеком
+- Telus Communications (Q165858) — Электроника и компьютеры или Телеком
+- Jardine Matheson (Q1683452) — Недвижимость или Строительство и материалы
+- Jerónimo Martins (Q1688026) — Продукты питания или Розничные сети
+- Glencore (Q169339) — Инвестиции и биржи или Металлы и добыча
+- Cisco (Q173395) — Электроника и компьютеры или Телеком
+- WH (Q17499655) — Продукты питания или Промышленное оборудование
+- Kongsberg Gruppen (Q1770909) — Нефть и газ или Авиация, космос и оборона
+- SBM Offshore (Q1779056) — Нефть и газ или Строительство и материалы
+- Rexam (Q1781087) — Медиа и стриминг или Промышленное оборудование
+- Sistema (Q1781702) — Электроника и компьютеры или Телеком
+- MTN (Q1813361) — Электроника и компьютеры или Телеком
+- Fujitsu (Q186394) — Электроника и компьютеры или Телеком
+- H&M (Q188326) — Одежда и обувь или Розничные сети
+- Yamaha (Q188454) — Электроника и компьютеры или Медиа и стриминг
+- VK (Q1885456) — Инвестиции и биржи или Программы и облачные сервисы
+- Pearson (Q1916402) — Медиа и стриминг или Строительство и материалы
+- Harley-Davidson (Q192814) — Автомобили и автодетали или Промышленное оборудование
+- Beiersdorf (Q201691) — Фармацевтика или Химия и удобрения
+- Otokar (Q206228) — Автомобили и автодетали или Промышленное оборудование
+- Telekom (Greece) (Q206678) — Электроника и компьютеры или Телеком
+- DoorDash (Q20714323) — Продукты питания или Перевозки и логистика
+- Monsanto (Q207983) — Продукты питания или Биотехнологии
+- Procter & Gamble (Q212405) — Фармацевтика или Бытовая химия и косметика
+- Berkshire Hathaway (Q217583) — Страхование или Авиация, космос и оборона
+- NEC (Q219203) — Видеоигры или Электроника и компьютеры
+- Deliveroo (Q22000919) — Продукты питания или Электронная торговля
+- Pandora (Q2241604) — Роскошь или Розничные сети
+- Telkom Indonesia (Q2305438) — Телеком или Строительство и материалы
+- Indosat Ooredoo Hutchison (Q2393592) — Электроника и компьютеры или Телеком
+- Cellcom Israel (Q2450722) — Электроника и компьютеры или Телеком
+- Zyxel (Q245283) — Электроника и компьютеры или Телеком
+- U.S. Cellular (Q2466256) — Электроника и компьютеры или Телеком
+- Next (Q246655) — Одежда и обувь или Розничные сети
+- Intel (Q248) — Полупроводники или Промышленное оборудование
+- Wolters Kluwer (Q249798) — Программы и облачные сервисы или Медиа и стриминг
+- Knorr-Bremse (Q256290) — Перевозки и логистика или Строительство и материалы
+- Motorola (Q259011) — Электроника и компьютеры или Телеком
+- GAZ (Q260756) — Автомобили и автодетали или Промышленное оборудование
+- Midea (Q2609533) — Электроника и компьютеры или Промышленное оборудование
+- Maxis Communications (Q2627330) — Электроника и компьютеры или Телеком
+- Trivago (Q265286) — Электронная торговля или Туризм и отели
+- Millicom (Q276345) — Электроника и компьютеры или Телеком
+- Lucid Motors (Q28027517) — Электроника и компьютеры или Автомобили и автодетали
+- Ikegami Tsushinki (Q282090) — Видеоигры или Электроника и компьютеры
+- Turkcell (Q283852) — Электроника и компьютеры или Телеком
+- American Eagle Outfitters (Q2842931) — Одежда и обувь или Розничные сети
+- Viridien (Q2931412) — Нефть и газ или Промышленное оборудование
+- Sprint (Q301965) — Электроника и компьютеры или Телеком
+- Bilibili (Q3077586) — Видеоигры или Интернет-сервисы
+- OSRAM Licht (Q310481) — Полупроводники или Промышленное оборудование
+- Infineon Technologies (Q311394) — Полупроводники или Промышленное оборудование
+- Weir (Q3178400) — Металлы и добыча или Промышленное оборудование
+- True (Q3268422) — Электроника и компьютеры или Телеком
+- CelcomDigi (Q3268530) — Электроника и компьютеры или Телеком
+- CapitaLand (Q3272868) — Туризм и отели или Розничные сети
+- KPN (Q338633) — Электроника и компьютеры или Телеком
+- XLSmart (Q3482752) — Электроника и компьютеры или Телеком
+- T-Mobile US (Q3511885) — Электроника и компьютеры или Телеком
+- Globe Telecom (Q3543983) — Электроника и компьютеры или Телеком
+- Bharat Electronics (Q3630918) — Программы и облачные сервисы или Авиация, космос и оборона
+- Razer (Q367412) — Видеоигры или Электроника и компьютеры
+- Advanced Info Service (Q379592) — Электроника и компьютеры или Телеком
+- Amazon (Q3884) — Электронная торговля или Интернет-сервисы
+- Universal Music (Q38903) — Медиа и стриминг или Промышленное оборудование
+- Adidas (Q3895) — Одежда и обувь или Промышленное оборудование
+- Air Liquide (Q407448) — Химия и удобрения или Промышленное оборудование
+- Gap (Q420822) — Одежда и обувь или Розничные сети
+- 3D Systems (Q4636301) — Программы и облачные сервисы или Промышленное оборудование
+- AerCap (Q4687934) — Авиация, космос и оборона или Банки
+- Astra International (Q4688912) — Продукты питания или Металлы и добыча
+- Tesla (Q478214) — Электроника и компьютеры или Автомобили и автодетали
+- América Móvil (Q482267) — Электроника и компьютеры или Телеком
+- Nike (Q483915) — Одежда и обувь или Розничные сети
+- SM Entertainment (Q483938) — Медиа и стриминг или Промышленное оборудование
+- KT (Q485908) — Электроника и компьютеры или Телеком
+- MNC (Q4900880) — Медиа и стриминг или Промышленное оборудование
+- Amorepacific (Q490142) — Бытовая химия и косметика или Промышленное оборудование
+- GMM Grammy (Q4923294) — Медиа и стриминг или Промышленное оборудование
+- SK Telecom (Q493145) — Электроника и компьютеры или Телеком
+- Poste Italiane (Q495026) — Банки или Перевозки и логистика
+- DreamWorks Animation (Q500088) — Медиа и стриминг или Программы и облачные сервисы
+- Novartis (Q507154) — Фармацевтика или Химия и удобрения
+- Garuda Indonesia (Q512468) — Авиация, космос и оборона или Перевозки и логистика
+- Dialog (Q5270580) — Электроника и компьютеры или Телеком
+- SKF (Q52846) — Металлы и добыча или Промышленное оборудование
+- Sandoz (Q528468) — Фармацевтика или Химия и удобрения
+- Hitachi (Q53238) — Электроника и компьютеры или Промышленное оборудование
+- eToro (Q5324516) — Программы и облачные сервисы или Банки
+- Mitsubishi Electric (Q53257) — Электроника и компьютеры или Промышленное оборудование
+- Far EasTone (Q5434486) — Электроника и компьютеры или Телеком
+- Qualcomm (Q544847) — Полупроводники или Медиа и стриминг
+- Haidilao (Q5638920) — Рестораны или Инвестиции и биржи
+- Proximus (Q566857) — Электроника и компьютеры или Телеком
+- Corning (Q5842736) — Биотехнологии или Промышленное оборудование
+- GKN (Q597047) — Авиация, космос и оборона или Автомобили и автодетали
+- Telenet group (Q616340) — Электроника и компьютеры или Медиа и стриминг
+- Goodyear Tire and Rubber (Q620875) — Химия и удобрения или Промышленное оборудование
+- Canon (Q62621) — Электроника и компьютеры или Промышленное оборудование
+- LG Uplus (Q626409) — Электроника и компьютеры или Телеком
+- ZiL (Q638156) — Автомобили и автодетали или Промышленное оборудование
+- Mitsubishi (Q650745) — Розничные сети или Промышленное оборудование
+- Saint-Gobain (Q678565) — Химия и удобрения или Строительство и материалы
+- Spotify (Q689141) — Медиа и стриминг или Программы и облачные сервисы
+- Sika (Q691382) — Химия и удобрения или Строительство и материалы
+- VARTA (Q695251) — Электроника и компьютеры или Химия и удобрения
+- Stanley Black & Decker (Q706094) — Розничные сети или Промышленное оборудование
+- Chunghwa Telecom (Q717531) — Электроника и компьютеры или Телеком
+- Asahi Kasei (Q720489) — Фармацевтика или Химия и удобрения
+- Telstra (Q721162) — Электроника и компьютеры или Телеком
+- Symrise (Q73251) — Продукты питания или Химия и удобрения
+- Verisign (Q734338) — Интернет-сервисы или Телеком
+- China Mobile (Q741618) — Электроника и компьютеры или Телеком
+- StarHub (Q7440544) — Электроника и компьютеры или Телеком
+- Kyocera (Q745099) — Электроника и компьютеры или Промышленное оборудование
+- Indonesia AirAsia (Q745971) — Перевозки и логистика или Строительство и материалы
+- Stora Enso (Q747265) — Медиа и стриминг или Промышленное оборудование
+- Kawasaki Heavy Industries (Q748148) — Авиация, космос и оборона или Автомобили и автодетали
+- Uber (Q780442) — Программы и облачные сервисы или Перевозки и логистика
+- Avex (Q790686) — Медиа и стриминг или Промышленное оборудование
+- Brenntag (Q828445) — Химия и удобрения или Розничные сети
+- Orica (Q836984) — Металлы и добыча или Строительство и материалы
+- NTT DoCoMo (Q853958) — Электроника и компьютеры или Телеком
+- Telia (Q862303) — Электроника и компьютеры или Телеком
+- Singtel (Q864923) — Электроника и компьютеры или Телеком
+- Saizeriya (Q886564) — Продукты питания или Розничные сети
+- UCB (Q902046) — Фармацевтика или Химия и удобрения
+- Mitsui (Q904240) — Перевозки и логистика или Промышленное оборудование
+- Frutarom (Q909105) — Продукты питания или Химия и удобрения
+- Ooredoo (Q919935) — Электроника и компьютеры или Телеком
+- Sina (Q938668) — Интернет-сервисы или Медиа и стриминг
+- Deutsche Telekom (Q9396) — Электроника и компьютеры или Телеком
+- Honda (Q9584) — Автомобили и автодетали или Промышленное оборудование
+- Polycom (Q963809) — Программы и облачные сервисы или Телеком
+- Elisa (Q965268) — Электроника и компьютеры или Телеком
+- KDDI (Q971946) — Электроника и компьютеры или Телеком
+- People (Q974846) — Интернет-сервисы или Медиа и стриминг
+
+## Проверить год основания: в Wikidata годы расходятся больше чем на 10 лет, взят ранний (109)
+- Nintendo (Q8093) — взят 1889, в Wikidata: 1889, 1947
+- Adidas (Q3895) — взят 1924, в Wikidata: 1924, 1949
+- Lufthansa (Q9325) — взят 1926, в Wikidata: 1926, 1953
+- Cisco (Q173395) — взят 1984, в Wikidata: 1984, 2021
+- Saudi Aramco (Q679322) — взят 1932, в Wikidata: 1932, 1933, 1988
+- Mastercard (Q489921) — взят 1966, в Wikidata: 1966, 1979
+- JPMorgan Chase (Q192314) — взят 1968, в Wikidata: 1968, 2000
+- Christian Dior (Q542767) — взят 1946, в Wikidata: 1946, 1958
+- Volvo Cars (Q215293) — взят 1927, в Wikidata: 1927, 2010
+- Pirelli (Q207770) — взят 1872, в Wikidata: 1872, 1920
+- Citigroup (Q219508) — взят 1812, в Wikidata: 1812, 1998
+- Verizon (Q467752) — взят 1983, в Wikidata: 1983, 2000
+- Morgan Stanley (Q334204) — взят 1924, в Wikidata: 1924, 1931, 1935, 2008
+- Allianz (Q487292) — взят 1890, в Wikidata: 1890, 1999
+- Colgate-Palmolive (Q609466) — взят 1806, в Wikidata: 1806, 1953
+- Dassault Aviation (Q460487) — взят 1929, в Wikidata: 1929, 1971
+- Fujifilm (Q164740) — взят 1934, в Wikidata: 1934, 2006
+- Deere (Q496302) — взят 1837, в Wikidata: 1837, 1868
+- Kawasaki Heavy Industries (Q748148) — взят 1878, в Wikidata: 1878, 1939, 1969, 2000
+- Commerzbank (Q157617) — взят 1870, в Wikidata: 1870, 1958
+- DuPont (Q221062) — взят 1802, в Wikidata: 1802, 2015
+- State Bank of India (Q1340361) — взят 1806, в Wikidata: 1806, 1955
+- Target (Q1046951) — взят 1902, в Wikidata: 1902, 1962
+- Merck KGaA (Q156959) — взят 1668, в Wikidata: 1668, 1850
+- Discovery (Q621592) — взят 1982, в Wikidata: 1982, 1994
+- Eli Lilly (Q632240) — взят 1875, в Wikidata: 1875, 1901
+- Legrand (Q636755) — взят 1904, в Wikidata: 1904, 1953
+- Rolls-Royce (Q243278) — взят 1906, в Wikidata: 1906, 2011
+- SABMiller (Q4995) — взят 1895, в Wikidata: 1895, 2002
+- Commonwealth Bank (Q285328) — взят 1911, в Wikidata: 1911, 1991
+- Teva Pharmaceutical Industries (Q898750) — взят 1901, в Wikidata: 1901, 1944
+- Citizen Watch (Q1368019) — взят 1918, в Wikidata: 1918, 1930, 2007, 2016
+- Beiersdorf (Q201691) — взят 1880, в Wikidata: 1880, 1882, 1922
+- Alcoa (Q135325) — взят 1888, в Wikidata: 1888, 1907
+- OMV (Q168238) — взят 1956, в Wikidata: 1956, 1995
+- Barnes & Noble (Q795454) — взят 1873, в Wikidata: 1873, 1917
+- Yutong (Q2389456) — взят 1963, в Wikidata: 1963, 1997
+- Kimberly-Clark (Q1741634) — взят 1872, в Wikidata: 1872, 1928
+- Scotiabank (Q451476) — взят 1832, в Wikidata: 1832, 1997
+- NCR (Q524989) — взят 1884, в Wikidata: 1884, 1974
+- Israel Railways (Q846655) — взят 1948, в Wikidata: 1948, 2003
+- Ørsted (Q1241260) — взят 1972, в Wikidata: 1972, 2006
+- CVS Health (Q624375) — взят 1963, в Wikidata: 1963, 1996
+- Fresenius SE & Co. KGaA (Q705361) — взят 1912, в Wikidata: 1912, 1981
+- Australia and New Zealand Banking (Q714641) — взят 1835, в Wikidata: 1835, 1970
+- PNC Financial Services (Q38928) — взят 1845, в Wikidata: 1845, 1982
+- Villeroy & Boch (Q705042) — взят 1748, в Wikidata: 1748, 1836
+- Tomy (Q1335998) — взят 1924, в Wikidata: 1924, 2006
+- National Australia Bank (Q1430985) — взят 1893, в Wikidata: 1893, 1982
+- Strabag (Q681316) — взят 1923, в Wikidata: 1923, 1987
+- Carrier (Q731912) — взят 1915, в Wikidata: 1915, 1978
+- Ahold (Q795473) — взят 1887, в Wikidata: 1887, 2016
+- Bank Leumi Le- Israel B.m. (Q806641) — взят 1902, в Wikidata: 1902, 1951
+- Aeon (Q271413) — взят 1758, в Wikidata: 1758, 1969
+- Foot Locker (Q63335) — взят 1974, в Wikidata: 1974, 1989
+- NIS (Q1279721) — взят 1949, в Wikidata: 1949, 1991, 2005
+- Rockwell Automation (Q1529234) — взят 1903, в Wikidata: 1903, 2001
+- PPG Industries (Q48754) — взят 1883, в Wikidata: 1883, 1968
+- Mitsubishi (Q650745) — взят 1918, в Wikidata: 1918, 1954
+- Tod's (Q1342350) — взят 1920, в Wikidata: 1920, 1978
+- Telkom Indonesia (Q2305438) — взят 1884, в Wikidata: 1884, 1991
+- Korea Electric Power (Q486737) — взят 1898, в Wikidata: 1898, 1961
+- Norfolk Southern Railway (Q1321054) — взят 1894, в Wikidata: 1894, 1990
+- Hess (Q1615684) — взят 1919, в Wikidata: 1919, 2006
+- Phillips 66 (Q1656230) — взят 1927, в Wikidata: 1927, 2012
+- PTT Public (Q1810389) — взят 1977, в Wikidata: 1977, 2001
+- Canal+ (Q2663746) — взят 1984, в Wikidata: 1984, 2018
+- ITV (Q3140604) — взят 1955, в Wikidata: 1955, 2004
+- True (Q3268422) — взят 1990, в Wikidata: 1990, 2023
+- Storebrand (Q1783279) — взят 1767, в Wikidata: 1767, 1847
+- Ally Financial (Q2032800) — взят 1919, в Wikidata: 1919, 2005, 2010
+- Old Mutual (Q289704) — взят 1845, в Wikidata: 1845, 1885, 1999
+- Owens-Illinois (Q180106) — взят 1903, в Wikidata: 1903, 1929
+- Beijing Yanjing Brewery (Q2060769) — взят 1980, в Wikidata: 1980, 1997
+- Idemitsu Kosan (Q2216770) — взят 1911, в Wikidata: 1911, 1940
+- American Electric Power (Q464092) — взят 1906, в Wikidata: 1906, 1927, 1958
+- Shimadzu (Q517117) — взят 1875, в Wikidata: 1875, 1917
+- Elevance Health (Q677488) — взят 1940, в Wikidata: 1940, 2004
+- Millicom (Q276345) — взят 1979, в Wikidata: 1979, 2004
+- Sociedad Química y Minera de Chile (Q3067064) — взят 1926, в Wikidata: 1926, 1968
+- Airports of Thailand (Q409075) — взят 1903, в Wikidata: 1903, 1979
+- Olam (Q5950695) — взят 1989, в Wikidata: 1989, 2018
+- Consolidated Edison (Q1127536) — взят 1823, в Wikidata: 1823, 1936, 1998
+- Vicat (Q1276709) — взят 1900, в Wikidata: 1900, 1919, 1953
+- Orica (Q836984) — взят 1874, в Wikidata: 1874, 1928
+- Imerys (Q917717) — взят 1880, в Wikidata: 1880, 1956
+- Melco (Q1001931) — взят 1975, в Wikidata: 1975, 1986
+- Diebold Nixdorf (Q1220078) — взят 1859, в Wikidata: 1859, 2016
+- Mitsubishi Materials (Q1423176) — взят 1871, в Wikidata: 1871, 1950
+- Rockwool (Q255661) — взят 1909, в Wikidata: 1909, 1937
+- Mint of Poland (Q4371256) — взят 1766, в Wikidata: 1766, 1994
+- Amorepacific (Q490142) — взят 1932, в Wikidata: 1932, 1945, 2006
+- Citizens Financial (Q5122694) — взят 1828, в Wikidata: 1828, 1871, 1954
+- Fluor (Q653581) — взят 1890, в Wikidata: 1890, 1912
+- Cooper Tire & Rubber (Q1129847) — взят 1914, в Wikidata: 1914, 1926
+- Kansai Paint (Q11656239) — взят 1918, в Wikidata: 1918, 1987
+- Latécoère (Q1516576) — взят 1917, в Wikidata: 1917, 1957
+- Tryg (Q1772027) — взят 1911, в Wikidata: 1911, 2002
+- SG Automotive (Q277172) — взят 1984, в Wikidata: 1984, 1995
+- Intersil (Q1065090) — взят 1967, в Wikidata: 1967, 1999
+- Dusit International (Q1115350) — взят 1948, в Wikidata: 1948, 1966
+- Medialink (Q15903799) — взят 1994, в Wikidata: 1994, 2000, 2018
+- Capri (Q19572998) — взят 1981, в Wikidata: 1981, 2002
+- BBVA Argentina (Q2876788) — взят 1886, в Wikidata: 1886, 1996
+- HHLA (Q317513) — взят 1885, в Wikidata: 1885, 1935, 1939, 2005
+- Discover Financial (Q5281775) — взят 1960, в Wikidata: 1960, 1985
+- ICR Inbursa (Q731123) — взят 1965, в Wikidata: 1965, 1992
+- Thai Union (Q7709167) — взят 1977, в Wikidata: 1977, 1988
+- Newcrest Mining (Q836945) — взят 1921, в Wikidata: 1921, 1980
