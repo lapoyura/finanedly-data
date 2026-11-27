@@ -44,7 +44,9 @@
    "include": true,
    "exchange": "NYSE",
    "comment": "нет в выборке Wikidata — добавлена вручную",
-   "name": "Spotify"
+   "name": "Spotify",
+   "country": "Швеция",
+   "sector": "Медиа и стриминг"
   },
   "Q483959": {
    "check": "PayPal",
@@ -62,6 +64,90 @@
    "check": "Adidas",
    "founded": 1949,
    "comment": "1924 — мастерская братьев Дасслер, Adidas основана в 1949"
+  },
+  "Q328840": {
+   "check": "Visa",
+   "sector": "Платежи и финтех"
+  },
+  "Q489921": {
+   "check": "Mastercard",
+   "sector": "Платежи и финтех"
+  },
+  "Q861827": {
+   "check": "Western Union",
+   "sector": "Платежи и финтех"
+  },
+  "Q38076": {
+   "check": "McDonald",
+   "sector": "Рестораны"
+  },
+  "Q37158": {
+   "check": "Starbucks",
+   "sector": "Рестораны"
+  },
+  "Q169339": {
+   "check": "Glencore",
+   "sector": "Металлы и добыча"
+  },
+  "Q504998": {
+   "check": "LVMH",
+   "sector": "Роскошь"
+  },
+  "Q843887": {
+   "check": "Hermès",
+   "sector": "Роскошь"
+  },
+  "Q212405": {
+   "check": "Procter",
+   "sector": "Бытовая химия и косметика"
+  },
+  "Q338825": {
+   "check": "Accenture",
+   "sector": "Программы и облачные сервисы"
+  },
+  "Q651512": {
+   "check": "Enel",
+   "sector": "Электроэнергетика"
+  },
+  "Q13416": {
+   "check": "Engie",
+   "sector": "Электроэнергетика"
+  },
+  "Q477058": {
+   "check": "Euronext",
+   "sector": "Инвестиции и биржи"
+  },
+  "Q217583": {
+   "check": "Berkshire",
+   "sector": "Инвестиции и биржи"
+  },
+  "Q1161666": {
+   "check": "Thales",
+   "sector": "Авиация, космос и оборона"
+  },
+  "Q159433": {
+   "check": "3M",
+   "sector": "Промышленное оборудование"
+  },
+  "Q219203": {
+   "check": "NEC",
+   "sector": "Электроника и компьютеры"
+  },
+  "Q173395": {
+   "check": "Cisco",
+   "sector": "Электроника и компьютеры"
+  },
+  "Q478214": {
+   "check": "Tesla",
+   "sector": "Автомобили и автодетали"
+  },
+  "Q9401": {
+   "check": "BASF",
+   "sector": "Химия и удобрения"
+  },
+  "Q3884": {
+   "check": "Amazon",
+   "sector": "Электронная торговля"
   }
  }
 }
