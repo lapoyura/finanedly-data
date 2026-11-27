@@ -27,6 +27,9 @@ WIKIDATA_URL = "https://query.wikidata.org/sparql"
 USER_AGENT = "finanedly-data/1.0 (https://finanedly.com; " + os.environ.get("SEC_CONTACT", "contact not set") + ")"
 SEC_CONTACT = os.environ.get("SEC_CONTACT", "").strip()
 OUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data")
+CAP_FRESH_DAYS = 365   # капитализация старше года в игре не показывается
+EMP_OLD_DAYS = 730     # число сотрудников старше двух лет помечается как устаревшее
+ECB_URL = "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"  # курсы ЕЦБ, бесплатно, можно публиковать
 YEAR_SPREAD_OK = 10  # годы основания расходятся сильнее — компания попадает в список «проверить год» в changes.md
 
 # Уровни сложности по числу языковых версий статьи в Википедии
@@ -285,6 +288,48 @@ def fetch_prop(ids, prop, lang="ru,mul,en", literal=False):
         time.sleep(1)
     return out
 
+def fetch_quantity(ids, prop, with_unit=False):
+    """item -> список (число, дата или None, валюта-QID или None) для количественного свойства (P2226, P1128)."""
+    out = defaultdict(list)
+    for i in range(0, len(ids), BATCH):
+        chunk = ids[i:i + BATCH]
+        unit = "?v wikibase:quantityUnit ?unit ." if with_unit else ""
+        q = f"""SELECT ?item ?amount ?unit ?date WHERE {{ VALUES ?item {{ {batch_values(chunk)} }}
+                ?item p:{prop} ?st . ?st psv:{prop} ?v . ?v wikibase:quantityAmount ?amount . {unit}
+                FILTER NOT EXISTS {{ ?st wikibase:rank wikibase:DeprecatedRank . }}
+                OPTIONAL {{ ?st pq:P585 ?date . }} }}"""
+        for b in sparql(q):
+            try: amount = float(val(b, "amount"))
+            except Exception: continue
+            d = (val(b, "date") or "")[:10] or None
+            if d and d.startswith(("+", "-")): d = d[1:11]
+            out[qid(val(b, "item"))].append((amount, d, qid(val(b, "unit")) if val(b, "unit") else None))
+        time.sleep(1)
+    return out
+
+def fetch_ecb_rates():
+    """Курсы ЕЦБ: код валюты → сколько её за 1 евро. При ошибке — пустой словарь (капитализация не пересчитается)."""
+    try:
+        req = urllib.request.Request(ECB_URL, headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(req, timeout=60) as r:
+            xml = r.read().decode("utf-8")
+        rates = {m.group(1): float(m.group(2)) for m in re.finditer(r"currency='([A-Z]{3})' rate='([0-9.]+)'", xml)}
+        rates["EUR"] = 1.0
+        return rates
+    except Exception as e:
+        print(f"  ! курсы ЕЦБ не загрузились ({e}) — капитализация не в долларах будет пропущена", file=sys.stderr)
+        return {}
+
+def latest(values):
+    """Самое свежее значение с датой; если дат нет ни у одного — (последнее значение, None)."""
+    dated = [v for v in values if v[1]]
+    if dated: return max(dated, key=lambda v: v[1])
+    return values[-1] if values else None
+
+def days_since(d):
+    try: return (datetime.date.today() - datetime.date.fromisoformat(d)).days
+    except Exception: return None
+
 def fetch_names(ids):
     """Названия и синонимы на русском и английском."""
     out = defaultdict(lambda: {"ru": None, "en": None, "mul": None, "alt": set()})
@@ -332,7 +377,8 @@ def map_exchange(listings, home_country=None):
     known = [n for n in named if n[2]]
     home = [n for n in known if home_country and EXCHANGE_COUNTRY.get(n[0]) == home_country]
     pool = home or known or named
-    pool.sort(key=lambda n: EXCHANGE_PRIORITY.index(n[0]) if n[0] in EXCHANGE_PRIORITY else 99)
+    pool.sort(key=lambda n: (EXCHANGE_PRIORITY.index(n[0]) if n[0] in EXCHANGE_PRIORITY else 99, n[0],
+                             n[1] is None, len(n[1] or ""), n[1] or ""))
     if pool: return pool[0] + (None,)
     if otc and home_country in COUNTRY_HOME_EXCHANGE:
         return (COUNTRY_HOME_EXCHANGE[home_country], None, True,
@@ -389,6 +435,22 @@ def load_overrides():
     data = json.load(open(path, encoding="utf-8"))
     return {k: v for k, v in data.get("companies", {}).items() if not k.startswith("_")}
 
+def resolve_name_overrides(overrides, ids, names):
+    """Ключ вида «name:Enel» — правка по названию, если ID неизвестен. Применяется, только если название
+    однозначно (ровно одна компания с таким названием или английской подписью)."""
+    by = defaultdict(list)
+    for i in ids:
+        nm = names[i]
+        for n in {nm.get("en"), nm.get("mul"), nm.get("ru"), short_name(nm["en"]) if nm.get("en") else None}:
+            if n: by[n.casefold()].append(i)
+    out, bad = {}, []
+    for k, v in overrides.items():
+        if not k.startswith("name:"): out[k] = v; continue
+        hits = sorted(set(by.get(k[5:].strip().casefold(), [])))
+        if len(hits) == 1 and hits[0] not in out: out[hits[0]] = v
+        else: bad.append(f"{k} — " + ("не найдено" if not hits else "несколько совпадений: " + ", ".join(hits)))
+    return out, bad
+
 def split_sectors(v):
     items = v if isinstance(v, list) else re.split(r"\s*[;/]\s*", str(v))
     return [s.strip() for s in items if s and s.strip()][:2]
@@ -438,6 +500,9 @@ def enrich_sec(companies):
                     "revenue_usd": rev and rev["val"], "net_income_usd": ni and ni["val"],
                     "fiscal_year": (rev or ni or {}).get("fy"),
                     "source": f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={cik}"}
+        if rev and rev.get("val") and (not c.get("revenue_usd") or c.get("revenue_old") or (c.get("revenue_date") or "") < rev["end"]):
+            c["revenue_usd"] = rev["val"]; c["revenue_date"] = rev["end"]; c.pop("revenue_old", None)
+            c["revenue_source"] = "SEC"
         n += 1
         time.sleep(0.15)  # ≈7 запросов в секунду, лимит SEC — 10
     print(f"SEC EDGAR: обогащено {n} компаний")
@@ -456,6 +521,7 @@ def build():
     ids = sorted(listed)
     print(f"  найдено {len(ids)}")
     names = fetch_names(ids)
+    overrides, name_ov_bad = resolve_name_overrides(overrides, ids, names)
     kind = fetch_prop(ids, "P31", lang="en,mul")
     country = fetch_prop(ids, "P17")
     industry = fetch_prop(ids, "P452", lang="en,mul")
@@ -467,6 +533,13 @@ def build():
     hq_country = fetch_prop(hq_ids, "P17")
     country_ids = sorted({c[0] for v in list(country.values()) + list(hq_country.values()) for c in v})
     continent = fetch_prop(country_ids, "P30")
+    # Капитализация и сотрудники (с датами)
+    caps = fetch_quantity(ids, "P2226", with_unit=True)
+    emps = fetch_quantity(ids, "P1128")
+    revs = fetch_quantity(ids, "P2139", with_unit=True)
+    cur_ids = sorted({v[2] for vs in list(caps.values()) + list(revs.values()) for v in vs if v[2]})
+    cur_code = {k: v[0] for k, v in fetch_prop(cur_ids, "P498", literal=True).items() if v} if cur_ids else {}
+    rates = fetch_ecb_rates()
     # страна (подпись) → регион, чтобы правильно ставить регион при ручной правке страны
     region_of = {}
     for v in list(country.values()) + list(hq_country.values()):
@@ -474,7 +547,9 @@ def build():
             if cl and continent.get(cq): region_of.setdefault(cl, continent[cq][0][1])
 
     report = {"not_company": [], "removed_by_author": [], "ov_applied": 0, "ov_mismatch": [], "ov_missing": [],
-              "second_sector_candidates": [], "year_check": []}
+              "second_sector_candidates": [], "year_check": [],
+              "cap": {"fresh": 0, "stale": 0, "no_rate": 0, "none": 0}, "emp": {"fresh": 0, "old": 0, "nodate": 0, "none": 0},
+              "rev": {"fresh": 0, "old": 0, "no_rate": 0, "none": 0, "sec": 0}}
     seen_ov = set()
     companies, review = [], []
     for i in ids:
@@ -522,7 +597,7 @@ def build():
             if votes: notes.append("сектор определён по типу объекта в Wikidata: " + ", ".join(kinds))
         sectors = [votes[0][0]] if votes else []
         if not sectors: problems.append(("sector", "сектор не определён: " + (", ".join(ind_labels) or "отрасль не указана")))
-        tie = (len(votes) > 1 and votes[1][1] == votes[0][1]
+        tie = (len(votes) > 1 and votes[1][1] == votes[0][1] and votes[0][1] >= 2
                and SECTOR_INFO[votes[1][0]]["group"] != SECTOR_INFO[votes[0][0]]["group"])
 
         # Год основания
@@ -553,6 +628,48 @@ def build():
             "source": f"https://www.wikidata.org/wiki/{i}",
         }
 
+        # Капитализация: самое свежее значение, в долларах по курсу ЕЦБ; в игре — только не старше года
+        c_best = latest(caps.get(i, []))
+        if c_best:
+            amount, d, unit = c_best
+            code = cur_code.get(unit) if unit else None
+            usd = None
+            if code and code in rates and "USD" in rates:
+                usd = amount / rates[code] * rates["USD"]
+            if usd is None:
+                report["cap"]["no_rate"] += 1
+            else:
+                age = days_since(d) if d else None
+                rec["market_cap_usd"] = round(usd); rec["market_cap_date"] = d
+                rec["market_cap_currency"] = code
+                if age is not None and age <= CAP_FRESH_DAYS: report["cap"]["fresh"] += 1
+                else: report["cap"]["stale"] += 1; rec["market_cap_stale"] = True
+        else:
+            report["cap"]["none"] += 1
+        # Выручка за год: самое свежее значение, в долларах; старше двух лет — пометка
+        r_best = latest([v for v in revs.get(i, []) if v[1]])
+        if r_best:
+            code = cur_code.get(r_best[2]) if r_best[2] else None
+            if code and code in rates and "USD" in rates:
+                rec["revenue_usd"] = round(r_best[0] / rates[code] * rates["USD"]); rec["revenue_date"] = r_best[1]
+                age = days_since(r_best[1])
+                if age is not None and age > EMP_OLD_DAYS: rec["revenue_old"] = True; report["rev"]["old"] += 1
+                else: report["rev"]["fresh"] += 1
+            else:
+                report["rev"]["no_rate"] += 1
+        else:
+            report["rev"]["none"] += 1
+        # Сотрудники: самое свежее значение; старше двух лет — пометка
+        e_best = latest(emps.get(i, []))
+        if e_best:
+            rec["employees"] = int(e_best[0]); rec["employees_date"] = e_best[1]
+            age = days_since(e_best[1]) if e_best[1] else None
+            if age is None: report["emp"]["nodate"] += 1; rec["employees_old"] = True
+            elif age > EMP_OLD_DAYS: report["emp"]["old"] += 1; rec["employees_old"] = True
+            else: report["emp"]["fresh"] += 1
+        else:
+            report["emp"]["none"] += 1
+
         # Ручные правки автора
         ov = overrides.get(i)
         if ov:
@@ -580,6 +697,11 @@ def build():
                 try: rec["founded"] = int(ov["founded"])
                 except Exception: problems.append(("founded", "в правке неверный год: " + str(ov["founded"])))
             if ov.get("exchange"): rec["exchange"] = ov["exchange"]
+            if ov.get("market_cap_usd"):
+                rec["market_cap_usd"] = int(float(ov["market_cap_usd"])); rec["market_cap_date"] = ov.get("market_cap_date") or datetime.date.today().isoformat()
+                rec.pop("market_cap_stale", None)
+            if ov.get("employees"):
+                rec["employees"] = int(float(ov["employees"])); rec["employees_date"] = ov.get("employees_date"); rec.pop("employees_old", None)
             fixed = {f for f in ("name", "country", "sector", "founded", "exchange") if ov.get(f)}
             problems = [p for p in problems if p[0] not in fixed or p[1].startswith("в правке")]
             if str(ov.get("status", "")).strip().lower() == "ok":
@@ -597,10 +719,11 @@ def build():
         else:
             companies.append(rec)
 
-    report["ov_missing"] = [f"{k} ({v.get('check', '')})" for k, v in overrides.items() if k not in seen_ov]
+    report["ov_missing"] = [f"{k} ({v.get('check', '')})" for k, v in overrides.items() if k not in seen_ov] + name_ov_bad
     companies.sort(key=lambda c: -c["popularity"])
     review.sort(key=lambda c: -c["popularity"])
     enrich_sec(companies)
+    report["rev"]["sec"] = sum(1 for c in companies if c.get("revenue_source") == "SEC")
     return companies, review, report
 
 # ---------------- Изменения ----------------
@@ -635,6 +758,15 @@ def write_changes(path, added, removed, changed, total, review_count, report):
     block("Убраны автором (статус no)", ["- " + x for x in report["removed_by_author"]])
     block("Возможно, не компании — отправлены на проверку", ["- " + x for x in report["not_company"]])
     block("Кандидаты на второй сектор (решить в таблице)", ["- " + x for x in report["second_sector_candidates"]])
+    cp, em = report["cap"], report["emp"]
+    lines.extend([f"## Капитализация и сотрудники", "",
+        f"- Капитализация (Wikidata, в долларах по курсу ЕЦБ): свежая, не старше года — **{cp['fresh']}**; "
+        f"старше года (в игре не показывается) — {cp['stale']}; валюта без курса ЕЦБ — {cp['no_rate']}; нет данных — {cp['none']}.",
+        f"- Сотрудники (Wikidata): не старше двух лет — **{em['fresh']}**; старше двух лет (с пометкой) — {em['old']}; "
+        f"без даты (с пометкой) — {em['nodate']}; нет данных — {em['none']}.",
+        f"- Выручка за год (Wikidata, в долларах): не старше двух лет — **{report['rev']['fresh']}**; старше двух лет — {report['rev']['old']}; "
+        f"валюта без курса ЕЦБ — {report['rev']['no_rate']}; нет данных — {report['rev']['none']}. "
+        f"Из SEC (США): {report['rev']['sec']}" + ("" if SEC_CONTACT else " — SEC выключен: на GitHub не задан секрет SEC_CONTACT") + ".", ""])
     block("Проверить год основания: в Wikidata годы расходятся больше чем на 10 лет, взят ранний",
           ["- " + x for _, x in sorted(report["year_check"], key=lambda t: -t[0])])
     open(path, "w", encoding="utf-8").write("\n".join(lines))
@@ -665,10 +797,18 @@ def main():
     game = {"updated": meta["updated"],
             "sectors": sectors_meta,
             "fields": ["id", "name", "aliases", "country", "region", "sector", "founded", "exchange", "ticker",
-                       "popularity", "level", "sector2"],
+                       "popularity", "level", "sector2", "cap", "cap_date", "emp", "emp_date", "emp_old",
+                       "rev", "rev_date", "rev_old"],
             "companies": [[c["id"], c["name"], short_aliases(c), c["country"], c["region"], c["sector"], c["founded"],
                            c["exchange"], c["ticker"], c["popularity"], c["level"],
-                           (c.get("sectors") or [None, None])[1] if len(c.get("sectors") or []) > 1 else None]
+                           (c.get("sectors") or [None, None])[1] if len(c.get("sectors") or []) > 1 else None,
+                           # капитализация — млрд долларов, только свежая (не старше года)
+                           round(c["market_cap_usd"] / 1e9, 2) if c.get("market_cap_usd") and not c.get("market_cap_stale") else None,
+                           c.get("market_cap_date") if c.get("market_cap_usd") and not c.get("market_cap_stale") else None,
+                           c.get("employees"), c.get("employees_date"), bool(c.get("employees_old")),
+                           # выручка — млрд долларов
+                           round(c["revenue_usd"] / 1e9, 2) if c.get("revenue_usd") else None,
+                           c.get("revenue_date"), bool(c.get("revenue_old"))]
                           for c in companies]}
     json.dump(game, open(os.path.join(OUT_DIR, "game.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     print(f"Готово: {len(companies)} в игре, {len(review)} на проверке (из них «возможно, не компании»: {len(report['not_company'])}), "
