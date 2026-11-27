@@ -18978,7 +18978,7 @@
    ],
    "founded": 2016,
    "exchange": "Милан",
-   "ticker": "FNC",
+   "ticker": "LDO",
    "founders": [],
    "ceo": [
     "Роберто Чинголани"
@@ -19421,7 +19421,7 @@
    ],
    "founded": 2019,
    "exchange": "NASDAQ",
-   "ticker": "FOX",
+   "ticker": "FOXA",
    "founders": [
     "Руперт Мёрдок"
    ],
@@ -48417,7 +48417,7 @@
    ],
    "founded": 1960,
    "exchange": "Торонто",
-   "ticker": "RCI.A",
+   "ticker": "RCI.B",
    "founders": [
     "Эдвард Роджерс"
    ],
@@ -77514,6 +77514,39 @@
    "sector_group": "Энергетика и сырьё"
   },
   {
+   "id": "Q3064573",
+   "name": "Marfrig",
+   "name_ru": null,
+   "aliases": [
+    "MRFG3",
+    "Marfrig S.A."
+   ],
+   "country": "Бразилия",
+   "region": "Южная Америка",
+   "sector": "Продукты питания",
+   "sectors": [
+    "Продукты питания"
+   ],
+   "industries": [
+    "food industry"
+   ],
+   "founded": 2000,
+   "exchange": "Сан-Паулу",
+   "ticker": "MRFG3",
+   "founders": [],
+   "ceo": [],
+   "hq": [
+    "Сан-Паулу"
+   ],
+   "popularity": 11,
+   "level": "эксперт",
+   "source": "https://www.wikidata.org/wiki/Q3064573",
+   "employees": 33318,
+   "employees_date": null,
+   "employees_old": true,
+   "sector_group": "Потребительские товары"
+  },
+  {
    "id": "Q3131210",
    "name": "Natura Cosméticos",
    "name_ru": null,
@@ -83228,38 +83261,6 @@
    "level": "эксперт",
    "source": "https://www.wikidata.org/wiki/Q3064071",
    "sector_group": "Торговля"
-  },
-  {
-   "id": "Q3064573",
-   "name": "Marfrig",
-   "name_ru": null,
-   "aliases": [
-    "MRFG3"
-   ],
-   "country": "Бразилия",
-   "region": "Южная Америка",
-   "sector": "Продукты питания",
-   "sectors": [
-    "Продукты питания"
-   ],
-   "industries": [
-    "food industry"
-   ],
-   "founded": 2000,
-   "exchange": "Сан-Паулу",
-   "ticker": "MRFG3",
-   "founders": [],
-   "ceo": [],
-   "hq": [
-    "Сан-Паулу"
-   ],
-   "popularity": 10,
-   "level": "эксперт",
-   "source": "https://www.wikidata.org/wiki/Q3064573",
-   "employees": 33318,
-   "employees_date": null,
-   "employees_old": true,
-   "sector_group": "Потребительские товары"
   },
   {
    "id": "Q3079325",

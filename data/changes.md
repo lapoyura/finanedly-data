@@ -8,11 +8,10 @@
 ## Убраны (0)
 —
 
-## Изменились (4)
-- Infosys limited: exchange: Мумбаи (NSE) → Мумбаи (BSE); ticker: INFY → 500209
-- Leonardo: ticker: LDO → FNC
-- Fox: ticker: FOXA → FOX
-- Husky: ticker: HSE.PR.A → HSE
+## Изменились (3)
+- Leonardo: ticker: FNC → LDO
+- Fox: ticker: FOX → FOXA
+- Rogers Communications: ticker: RCI.A → RCI.B
 
 ## Ручные правки (overrides.json): применено 30
 
